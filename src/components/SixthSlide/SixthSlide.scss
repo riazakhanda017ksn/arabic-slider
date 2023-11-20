@@ -1,0 +1,76 @@
+.sixth-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    }
+
+    .headline-sixth-column h5 span {
+        color: red;
+    }
+
+    .headline-sixth-column img {
+        height: 28px;
+    }
+
+    .sixth-card-content {
+        background: #F5F7FD;
+        border: 1px solid rgba(128, 128, 128, 0.3294117647);
+        margin-top: 22px;
+        padding: 22px;
+        text-align: end;
+        border-radius: 6px;
+    }
+
+    .sixth-card-content h5 {
+        color: red;
+        margin-bottom: 28px;
+    }
+
+    .card___container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 26px;
+    }
+
+    .card___content___left_side {
+        display: flex;
+        gap: 5px;
+        justify-content: end;
+        width: 100%;
+    }
+
+    .card___content___left_side h6 {
+        font-size: 17px;
+        line-height: 27px;
+        position: relative;
+        top: 7px;
+    }
+
+    .sixth-card-content h5 {
+        color: red;
+        margin-bottom: 20px;
+        line-height: 32px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .flex-column-title {
+        display: flex;
+        gap: 8px;
+        justify-content: end;
+    }
+
+    .flex-column-title p {
+        font-size: 13px;
+        margin-bottom: 12px;
+        width: 95%;
+        line-height: 23px;
+        font-weight: 400;
+    }
+    .sixth-card-content {
+
+        height: 305px;
+    }

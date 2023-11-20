@@ -1,0 +1,26 @@
+.fourth-header h2{
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(189, 189, 189, 0.4784313725);
+    padding-bottom: 20px;
+}
+
+.fourth-header h2 span{
+    color: blue;
+}
+
+.headline-sixth-column {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    border: 1px solid #80808054;
+    padding: 7px 17px;
+    justify-content: end;
+    gap: 15px;
+    border-radius: 8px;
+}
+
+.headline-sixth-column h5 {
+    margin: 0;
+    font-size: 17px;
+}
