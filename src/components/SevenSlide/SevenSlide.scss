@@ -1,0 +1,133 @@
+
+
+.sevenSlide{
+    background: url(../../assets/images/sevenSlide/banner.png);
+background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom center;
+    margin-bottom: 60px;
+}
+.pest-banner-title {
+    background: #30c8f5;
+    padding: 23px;
+    text-align: end;
+    line-height: 27px;
+    color: white;
+    border-radius: 11px;
+    margin-bottom: 20px;
+}
+
+.pest-banner-title p {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.pest-bg-card-container {
+    background: #ecfbff;
+    padding: 0;
+    border: 1px solid #91e8ff85;
+    border-radius: 8px;
+    margin-bottom: 60px;
+}
+
+.big-blog-headline {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+
+.big-blog-headline h6 {
+    text-align: end;
+    font-size: 21px;
+    font-weight: 400;
+    width: 88%;
+    line-height: 28px;
+}
+
+.big-blog-headline img {
+    height: 30px;
+}
+
+.big-blog-headline {
+    padding: 17px;
+    border-bottom: 1px solid #c4f3ff;
+    padding-bottom: 10px;
+    margin-bottom: 8px;
+}
+
+.blogs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+.blogs span {
+    height: 8px;
+    background: #314fed;
+}
+
+.blog______text {
+    display: flex;
+    gap: 6px;
+}
+
+.blog______text p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.blogs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    margin: 0 16px;
+    border-bottom: 1px solid #c4f3ff;
+    margin-bottom: 7px;
+}
+
+.flex_____box___ {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.parcentaze-content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.parcentaze-content p{
+    margin: 0;
+}
+
+.parcentaze-content span {
+    padding: 6px 10px;
+    color: white;
+    border-radius: 10px;
+}
+.parcentaze-content p {
+    font-size: 14px;
+}
+.paragraph__content p {
+    margin: 0;
+    font-size: 15px;
+    text-align: end;
+    padding: 12px;
+    padding-bottom: 1px;
+    line-height: 23px;
+}
+.pest-bg-card-container {
+    background: #ecfbff;
+    padding: 0;
+    border: 1px solid rgba(145, 232, 255, 0.5215686275);
+    border-radius: 8px;
+    margin-bottom: 60px;
+    height: 900px;
+}

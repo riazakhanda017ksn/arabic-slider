@@ -8,6 +8,7 @@ import ThirdSlide from './components/ThirdSlide/ThirdSlide';
 import OtherContentSlide from './components/OtherContentSlide/OtherContentSlide';
 import FourthSlide from './components/FourthSlide/FourthSlide';
 import SixthSlide from './components/SixthSlide/SixthSlide';
+import SevenSlide from './components/SevenSlide/SevenSlide';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <OtherContentSlide/>
       {/* <FourthSlide/> */}
       <SixthSlide/>
+      <SevenSlide/>
     </div>
   );
 };

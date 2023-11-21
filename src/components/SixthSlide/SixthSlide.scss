@@ -74,3 +74,206 @@
 
         height: 305px;
     }
+
+
+    .second-section-row {
+        display: grid;
+        grid-template-columns: 1.8fr 1.2fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 25px;
+        grid-row-gap: 0px;
+        }
+
+        .green-headline-flex {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            justify-content: end;
+            margin-top: 10px;
+        }
+
+        .green-headline-flex h2 {
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .green-headline-flex h2 {
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+     
+
+        .green-headline-flex h2 {
+            text-align: end;
+            color: white;
+        }
+
+     
+
+        .green-headline-flex h2 {
+            font-size: 22px;
+            font-weight: 300;
+            line-height: 28px;
+        }
+        .green-headline-flex {
+            background: #74c23d;
+            height: 76px;
+            padding: 4px 31px;
+            border-radius: 13px;
+        }
+
+        .green-headline-flex img {
+            height: 30px;
+        }
+
+        .green-grids-rows {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 11px;
+            grid-row-gap: 0px;
+            padding: 20px;
+            border: 1px solid #74c23d61;
+            margin-top: 25px;
+            border-radius: 8px;
+        }
+
+        .blog-item small {
+            display: inline-block;
+            margin-bottom: 11px;
+            margin-top: 7px;
+        }
+
+        .blog-item p {
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .left-side-green-rows-grids {
+            padding: 20px;
+            border: 1px solid rgba(116, 194, 61, 0.3803921569);
+            margin-top: 25px;
+            border-radius: 8px;
+        }
+
+        .left-side-blog-content {
+            display: flex;
+            justify-content: end;
+            gap: 14px;
+        }
+
+        .left-side-blog-content p {
+            text-align: end;
+            font-size: 14px;
+            line-height: 26px;
+            letter-spacing: 0.2px;
+        }
+
+        .left-side-blog-content img {
+            height: 45px;
+        }
+
+        .blog-item h3 {
+            font-size: 14px;
+            color: white;
+            padding: 6px;
+            margin-top: 15px;
+            border-radius: 6px;
+        }
+
+        .max-height {
+            height: 320px;
+        }
+
+        .blog-headline___ {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            background: #74c23d;
+            padding: 8px 12px;
+            gap: 10px;
+            border-radius: 6px;
+        }
+
+        .blog-headline___ h6 {
+            margin-bottom: 0;
+            color: white;
+            font-weight: 400;
+        }
+        .content-align {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+        }
+        .single__blog___card___item___ {
+       
+            padding: 20px;
+            margin-top: 20px;
+            border: 1px solid #74C23D;
+            border-radius: 8px;
+            height: 400px
+        }
+
+        .single-card-contents {
+            text-align: center;
+        }
+
+        .single-card-contents h6 {
+            font-size: 18px;
+            margin-top: 8px;
+            line-height: 26px;
+        }
+
+        .three-grid-box{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 11px;
+            grid-row-gap: 0px;
+        }
+
+        .first-grid-box- {
+            text-align: center;
+        }
+
+        .first-grid-box- h6 {
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .first-grid-box- img {
+            height: 35px;
+            margin-bottom: 9px;
+        }
+
+        .first-grid-box- h5 {
+            font-size: 20px;
+            margin-bottom: 11px;
+        }
+
+        .first-grid-box- p {
+            font-size: 13px;
+            line-height: 23px;
+        }
+
+        .flex-blog-container___ {
+            display: flex;
+            text-align: end;
+            gap: 12px;
+        }
+
+        .post-content p {
+            text-align: end;
+            font-size: 13px;
+            line-height: 26px;
+        }
+
+
+
+        .post-content h6 {
+            font-size: 20px;
+            margin-bottom: 4px;
+        }
