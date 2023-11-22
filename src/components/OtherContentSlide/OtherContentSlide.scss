@@ -243,10 +243,41 @@ grid-row-gap: 0px;
 
 
             .OtherContentSlide{
-                background: url(../../assets/images/frame/banner.png);
+                background: url(../../assets/images/banner/banner4.png);
                 background-repeat: no-repeat;
                 background-size: cover;
                 height: 100vh;
                 background-position: bottom center;
                 margin-bottom: 60px;
+            }
+          
+            .boottom-side-banner{
+                position: relative;
+            }
+            .boottom-side-banner h1 {
+                position: absolute;
+                left: 50%;
+                top: 48px;
+                font-size: 70px;
+            }
+
+
+            .other___slide___image img {
+                width: 750px;
+                position: relative;
+                bottom: 40px;
+            }
+
+            .other-slide-hero-section-content {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+            }
+            .other-slide-hero-section-content h2 {
+                font-size: 75px;
+                font-weight: 700;
+                z-index: 99;
+                text-align: end;
+                width: 100%;
             }

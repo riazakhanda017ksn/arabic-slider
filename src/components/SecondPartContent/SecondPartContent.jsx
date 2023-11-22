@@ -1,20 +1,22 @@
 import React from 'react';
 import './SecondPartContent.scss'
-import { data, dataContent } from '../../Data/Data';
+import {  dataContent } from '../../Data/Data';
+import img from '../../assets/images/banner/banner3.jpg'
 const SecondPartContent = () => {
     return (
+        <>
         <div className='container pb-5 mb-3'>
             <div className="content">
-                <div className="text-end">
+                <div className="text-end" data-aos="fade-right" data-aos-duration="1200">
                     <h3>ملخص أبرز التحديات والحلول لمحطات تجربة العميل</h3>
                 </div>
 
-                <div className="flex_content_container">
-                    <div className="flex__content">
+                <div className="flex_content_container" >
+                    <div className="flex__content" data-aos="fade-right" data-aos-duration="1400">
                      <h4>مستوى تقدم</h4>
                      <h4>الحلول</h4>
                     </div>
-                    <div className="flex__content">
+                    <div className="flex__content" data-aos="fade-left" data-aos-duration="1400">
                        <h4>المحطات</h4>
                        <h4>أبرز التحديات</h4>
                     </div>
@@ -29,7 +31,7 @@ const SecondPartContent = () => {
                 dataContent.map(item=>{
                     return(
                         <div className="col-lg-12" key={item.id}>
-                        <div className="contents__description">
+                        <div className="contents__description" data-aos={item.dataAos} data-aos-duration={item.time}>
                            <div className="parcantaze">
                             <p className="text-end">
                              {
@@ -89,7 +91,15 @@ const SecondPartContent = () => {
             </div>
 
             {/*  */}
+           
+
+            {/*  */}
         </div>
+        <div className="boottom-side-banner text-center" >
+            <img data-aos='zoom-in-down' data-aos-duration="2000" src={img} alt="" />
+            <h2>مؤشرات الاداء</h2>
+        </div>
+        </>
     );
 };
 

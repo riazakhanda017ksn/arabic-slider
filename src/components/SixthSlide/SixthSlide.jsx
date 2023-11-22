@@ -74,7 +74,8 @@ const SixthSlide = () => {
     return (
         <div className="container mt-2 mb-5">
         <div className='SixthSlide'>
-                 <div className="fourth-header">
+                 <div className="fourth-header" data-aos="fade-up"
+                  data-aos-duration="1200">
                 <h2 className='text-end'> أفضل الممارسات <span style={{color:"red"}}> 
                      (الحلول)
                </span>
@@ -84,12 +85,14 @@ const SixthSlide = () => {
         {/*  */}
         <div className="sixth-row">
             <div className="sixth-right-side-column">
-                <div className="headline-sixth-column">
+                <div className="headline-sixth-column" data-aos="zoom-in-right"
+                 data-aos-duration="1200">
                     <h5>نطاق التحدي</h5>
                     <img src={img} alt="" />
                 </div>
-                <div className="sixth-card-content">
-                    <h5>يتم تطبيق اشتراطات كافة منتجات البنك لكافة فئات العملاء المستهدفين، وتشمل ذلك</h5>
+                <div className="sixth-card-content" data-aos="zoom-in-right"
+                 data-aos-duration="1200">
+                    <h5 >يتم تطبيق اشتراطات كافة منتجات البنك لكافة فئات العملاء المستهدفين، وتشمل ذلك</h5>
                     <div className="card___container">
                         <div className="card___content___left_side">
                             <h6>منتجات البنك لقطاع الاعمال</h6>
@@ -112,11 +115,13 @@ const SixthSlide = () => {
                     </div>
                 </div>
                {/*  */}
-               <div className="headline-sixth-column">
+               <div className="headline-sixth-column" data-aos="zoom-in-left"
+                 data-aos-duration="1400">
                     <h5>نطاق التحدي</h5>
                     <img src={img} alt="" />
                 </div>
-                <div className="sixth-card-content">
+                <div className="sixth-card-content" data-aos="zoom-in"
+                 data-aos-duration="1200">
                     <h5>يتم تطبيق اشتراطات كافة منتجات البنك لكافة فئات العملاء المستهدفين، وتشمل ذلك</h5>
                     <div className="card___container">
                         <div className="card___content___left_side">
@@ -154,13 +159,15 @@ const SixthSlide = () => {
             </div>
 
             <div className="sixth-right-side-column">
-            <div className="headline-sixth-column">
+            <div className="headline-sixth-column" data-aos="zoom-in-left"
+                 data-aos-duration="1200">
                      <h5><span> تحديات</span> إطلاق منتج جديد
                      </h5>
                     <img src={img2} alt="" />
                 </div>
 
-                <div className="sixth-card-content">
+                <div className="sixth-card-content" data-aos="zoom-in-left"
+                 data-aos-duration="1400">
                    <div className="flex-column-title">
                     <p>عملية إطلاق المنتج الجديد غير واضحة وغير منظمة، مما يؤدي إلى تأخيرات ومشاكل</p>
                     <span>.1</span>
@@ -179,13 +186,15 @@ const SixthSlide = () => {
                    </div>
                 </div>
 
-                <div className="headline-sixth-column">
+                <div className="headline-sixth-column" data-aos="fade-down"
+                 data-aos-duration="1200">
                      <h5><span> تحديات</span> سد فجوات رحلة العميل
                      </h5>
                     <img src={img2} alt="" />
                 </div>
 
-                <div className="sixth-card-content">
+                <div className="sixth-card-content" data-aos="fade-down"
+                 data-aos-duration="1200">
                    <div className="flex-column-title">
                     <p>رحلة العميل مع البنك غير سلسة أو فعالة، مما قد يؤدي إلى عدم رضا العملاء أو فقدانهم</p>
                     <span>.1</span>
@@ -210,7 +219,7 @@ const SixthSlide = () => {
         {/*  */}
          
          {/* second section start here */}
-         <div className="fourth-header mt-5">
+         <div className="fourth-header mt-5" data-aos="zoom-out-right" data-aos-duration="1000">
                 <h2 className='text-end'>سياسات إدارة المنتجات <span style={{color:"red"}}> 
                 (الحلول)
                </span>
@@ -218,16 +227,16 @@ const SixthSlide = () => {
             </div>
          <div className="second-section-row">
              <div className="green-headline-column">
-                <div className="green-headline-flex">
+                <div className="green-headline-flex" data-aos="fade-right" data-aos-duration="1200">
                 <h2>مراحل إطلاق منتج جديد</h2>
                 <img src={logo1} alt="" />
                 </div>
                 {/*  */}
-                     <div className="green-grids-rows max-height">
+                     <div className="green-grids-rows max-height" data-aos="fade-right" data-aos-duration="1300">
                        {
                         blogData.map(item=>{
                             return(
-                                <div className='blog-item text-center' key={item.id}>
+                                <div className='blog-item text-center' key={item.id}  data-aos="fade-right" data-aos-duration="1400">
                                    <img src={item.img} alt="" />
                                    <h3 style={{background:`${item.id}`}}>{item.name}</h3>
                                    <small style={{color:`${item.smallColor}`}}>{item.smallTitle}</small> <br />
@@ -240,11 +249,11 @@ const SixthSlide = () => {
                 {/*  */}
              </div>
              <div className="green-headline-column ">
-             <div className="green-headline-flex">
+             <div className="green-headline-flex"  data-aos="fade-left" data-aos-duration="1200">
                   <h2>دور إدارة تجربة العميل في سياسة إطلاق منتج جديد</h2>
                   <img src={logo2} alt="" />
              </div>
-               <div className="left-side-green-rows-grids max-height">
+               <div className="left-side-green-rows-grids max-height" data-aos="fade-left" data-aos-duration="1400">
                 <div className="left-side-blog-content">
                     <p>التأكد من إتمام تصميم رحلة العميل مع القطاع/ الإدارة التنفيذية المعنية.</p>
                     <img src={g6} alt="" />
@@ -261,11 +270,11 @@ const SixthSlide = () => {
         
           <div className="row">
             <div className="col-lg-4">
-                <div className="blog-headline___">
+                <div className="blog-headline___" data-aos="fade-right" data-aos-duration="1000">
                     <h6>متطلبات إغلاق الفجوات</h6>
                     <img src={logo1} alt="" />
                 </div>
-                <div className="single__blog___card___item___ content-align">
+                <div className="single__blog___card___item___ content-align" data-aos="fade-right" data-aos-duration="1200">
                    <div className="single-card-contents">
                     <img src={g8} alt="" />
                     <h6>التكامل والدقة واختيار الوقت المناسب</h6>
@@ -277,11 +286,11 @@ const SixthSlide = () => {
                 </div>
             </div>
             <div className="col-lg-4">
-                <div className="blog-headline___">
+                <div className="blog-headline___" data-aos="fade-up" data-aos-duration="1200">
                     <h6>خطوات إغلاق الفجوات</h6>
                     <img src={logo1} alt="" />
                 </div>
-                <div className="single__blog___card___item___ three-grid-box">
+                <div className="single__blog___card___item___ three-grid-box" data-aos="fade-down" data-aos-duration="1400">
                    <div className="first-grid-box-">
                     <h6>الخطوة الثالثة</h6>
                     <img src={g10} alt="" />
@@ -307,11 +316,14 @@ const SixthSlide = () => {
                 
             </div>
             <div className="col-lg-4">
-                <div className="blog-headline___">
+                <div className="blog-headline___" data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="1000">
                     <h6>الأدوار والمسؤوليات في سياسة سد </h6>
                     <img src={logo2} alt="" />
                 </div>
-                <div className="single__blog___card___item___ ">
+                <div className="single__blog___card___item___ " data-aos="fade-left"
+     data-aos-duration="1200">
                  <div className="flex-blog-container___">
                    <div className="post-content">
                       <h6>إدارة تجربة العميل</h6>

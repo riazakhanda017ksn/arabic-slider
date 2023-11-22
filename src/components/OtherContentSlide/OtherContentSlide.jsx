@@ -11,19 +11,34 @@ import banner from '../../assets/images/frame/card-banner.svg'
 import svgbanner from '../../assets/images/frame/svg-banner.svg'
 import close from '../../assets/images/frame/close.svg'
 import emoji from '../../assets/images/frame/emoji.svg'
+import imgs from '../../assets/images/banner/banner4.svg'
 const OtherContentSlide = () => {
     return (
         // 
         <>
-        <div className='OtherContentSlide'> </div>
+        <div className='other___slide___image text-center'> 
+         <div className="container">
+            <div className="row">
+                <div className="col-lg-6">
+                <img src={imgs} data-aos="fade-up-right" data-aos-duration="1200" alt=""  />
+         
+                </div>
+                <div className="col-lg-6">
+                 <div className="other-slide-hero-section-content" data-aos="fade-up-left" data-aos-duration="1400">
+                 <h2>صوت العميل</h2>
+                 </div>
+                </div>
+            </div>
+         </div>
+        </div>
         <div className='container'>
-            <div className="headline-of-other-slide text-end">
+            <div className="headline-of-other-slide text-end" data-aos="fade-left" data-aos-duration="1200">
                 <h2>الممارسة الحالية <span>(التحديات)</span></h2>
             </div>
             <div >
             <div className="row">
                 <div className="col-lg-8">
-                <div className="bottom-side-spacing-adding">
+                <div className="bottom-side-spacing-adding" data-aos="fade-up-right" data-aos-duration="1400">
                 <div className="right-slide-background bottom-side-spacing ">
                         <h3><span> عناصر صوت العميل </span></h3>
                         <div className="parent___">
@@ -209,7 +224,7 @@ const OtherContentSlide = () => {
 
                 </div>
                 <div className="col-lg-4">
-                    <div className="right-slide-background bottom-side-spacing-adding" style={{padding:'20px'}}>
+                    <div className="right-slide-background bottom-side-spacing-adding" style={{padding:'20px'}} data-aos="fade-up-left" data-aos-duration="1500">
                     <h3><span> عناصر صوت العميل </span></h3>
                     <div className="right__side__navlink">
                            <div className="left__side___column______ font-size-small">

@@ -26,19 +26,21 @@ const ThirdSlide = () => {
         <div className='py-5 my-3'>
             <div className="container">
             <div className="third-navbar">
-                <div className="navlink___">
+                <div className="navlink___" data-aos="fade-right"
+                 data-aos-duration="1100">
                     <a href="">إدارة العمليات</a>
                     <a href="">بيئة تحليلية – مكعب طلبات</a>
                     <a href="">نظام رضى العميل</a>
                     <a href="" className='active'>المصادر:</a>
                 </div>
-                <div className="nav___logo">
+                <div className="nav___logo" data-aos="fade-left"
+                 data-aos-duration="1400">
                <h2> ملخص مؤشرات تجربة العملاء – <span>(التحديات)</span></h2>
                 </div>
             </div>
              <div className="row mt-5 pt-4">
                 <div className="col-lg-4">
-                    <div className="box">
+                    <div className="box" data-aos="zoom-in-right" data-aos-duration="12000">
                         <div className="box-caption">
                             <h6>رفض طلبات التمويل بعد التقديم</h6>
                         </div>
@@ -74,7 +76,7 @@ const ThirdSlide = () => {
                     </div>
                 </div>
                 <div className="col-lg-4">
-                    <div className="box">
+                    <div className="box" data-aos='zoom-in-up' data-aos-duration="1300">
                         <div className="box-caption">
                             <h6>المتقدمين للقروض من البوابة</h6>
                         </div>
@@ -100,7 +102,7 @@ const ThirdSlide = () => {
                     </div>
                 </div>
                 <div className="col-lg-4">
-                    <div className="box">
+                    <div className="box" data-aos='zoom-in-left' data-aos-duration="1400">
                         <div className="box-caption">
                             <h6>الخدمات الذاتية </h6>
                         </div>
@@ -138,23 +140,23 @@ const ThirdSlide = () => {
                     </div>
                 </div>
                 <div className="col-lg-4">
-                  <div className="custom__card">
+                  <div className="custom__card" data-aos='zoom-in-right' data-aos-duration="1400">
                      <img src={customImg} alt="" />
                   </div>
                 </div>
                 <div className="col-lg-4">
-                  <div className="custom__card">
+                  <div className="custom__card" data-aos='zoom-in' data-aos-duration="1400">
                      <img src={customImg2} alt="" />
                   </div>
                 </div>
                 <div className="col-lg-4">
-                  <div className="custom__card">
+                  <div className="custom__card" data-aos='zoom-in-left' data-aos-duration="1400">
                      <img src={svg3} alt="" />
                   </div>
                 </div>
 
                 <div className="col-lg-4">
-                    <div className="box spacing need-more-height">
+                    <div className="box spacing need-more-height" data-aos='fade-up-right' data-aos-duration="1100">
                         <div className="box-caption">
                             <h6>برنامج صوت العميل</h6>
                         </div>
@@ -203,7 +205,7 @@ const ThirdSlide = () => {
                 </div>
 
                 <div className="col-lg-4">
-                    <div className="box spacing need-more-height">
+                    <div className="box spacing need-more-height" data-aos='zoom-in' data-aos-duration="1300">
                         <div className="box-caption">
                             <h6>أبرز الصعوبات وتصنيفها</h6>
                         </div>
@@ -250,7 +252,7 @@ const ThirdSlide = () => {
                 </div>
                    
                 <div className="col-lg-4">
-                    <div className="box spacing need-more-height">
+                    <div className="box spacing need-more-height" data-aos='fade-left' data-aos-duration="1400">
                         <div className="box-caption">
                            <h6>إحصائيات مراكز الدعم</h6>
                         </div>
@@ -298,15 +300,17 @@ const ThirdSlide = () => {
 
              </div>
              {/* other rows */}
-             <div className="other-headline-text">
+             <div className="other-headline-text" data-aos="fade-right"
+                 data-aos-duration="1100">
                <h1 className="text-end mt-5">
                ملخص المشاريع – <span>(الحلول)</span>
                </h1>
              </div>
              {/*  */}
               <div className="row mt-5">
-               <div className="col-lg-4">
-                  <div className="more-grid">
+               <div className="col-lg-4" >
+                  <div className="more-grid" data-aos="fade-right"
+                 data-aos-duration="1200">
                      <h6>الحلول</h6>
                      <p>. إضافة أدوات تتبع العميل داخل الموقع لمعرفة الخرائط الحرارية وطبيعة سلوكه داخل الموقع.</p>
                      <p>. يجري العمل على وضع سياسة تحسين رحلة العميل وسد الفجوات.</p>
@@ -318,13 +322,15 @@ const ThirdSlide = () => {
                   </div>
                </div>
                <div className="col-lg-4">
-                  <div className="more-grid">
+                  <div className="more-grid" data-aos="fade-up"
+                 data-aos-duration="1200">
                   <h6 style={{background:"red"}} >نقاط الألم</h6>
                   <p>. صعوبات تقنية في النظام تعيق تجربة العملاء.</p>
                   <p>. تحديات في التعامل مع استفسارات العملاء.</p>
                   <p>. التأخر في الإجراءات.</p>
                   </div>
-                  <div className="more-grid mt-3">
+                  <div className="more-grid mt-3" data-aos="fade-down"
+                 data-aos-duration="1400">
                   <h6 >الانجازات</h6>
                   <p>. إطلاق موقع البنك بحلته الجديدة وبتجربة مستخدمين مازالت تحت الرصد.</p>
                   <p>. وضوح المحتوى، مع الترجمة الكاملة للموقع.</p>
@@ -334,9 +340,10 @@ const ThirdSlide = () => {
                   <p>. رسائل إتمام الخدمة.</p>
                   </div>
                </div>
-               <div className="col-lg-4">
-                  <div className="side__bar">
-                     <div className="sidebar____text___bg">
+               <div className="col-lg-4" data-aos="fade-left"
+                 data-aos-duration="1400">
+                  <div className="side__bar" >
+                     <div className="sidebar____text___bg" >
                         <h6>المشاريع والبرامج</h6>
                      </div>
                    

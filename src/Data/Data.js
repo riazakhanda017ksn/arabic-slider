@@ -32,7 +32,9 @@ export const data =[
  
         ],
         parcentageTagline:"%نسبة التقدم 50",
-        parent:50
+        parent:50,
+        dataAos:"zoom-in",
+        time:"1200"
     },
     {
         id:"2",
@@ -83,7 +85,9 @@ export const data =[
  
         ],
         parcentageTagline:"%نسبة التقدم30 ",
-        parent:30
+        parent:30,
+        dataAos:"zoom-in-up",
+        time:"1400"
     },
     {
         id:"3",
@@ -128,7 +132,9 @@ export const data =[
  
         ],
         parcentageTagline:"%نسبة التقدم 60",
-        parent:60
+        parent:60,
+        dataAos:"fade-right",
+        time:"1000"
     },
     {
         id:"4",
@@ -169,7 +175,9 @@ export const data =[
  
         ],
         parcentageTagline:`%نسبة التقدم 50`,
-        parent:50
+        parent:50,
+        dataAos:"zoom-in-down",
+        time:"1100"
     },
     {
         id:"5",
@@ -224,7 +232,9 @@ export const data =[
  
         ],
         parcentageTagline:`%نسبة التقدم 90`,
-        parent:90
+        parent:90,
+        dataAos:"zoom-in-right",
+        time:"1400"
     },
 ]
 
@@ -264,7 +274,9 @@ export const dataContent =[
  
         ],
         parcentageTagline:`%70 نسبة التقدم `,
-        parent:70
+        parent:70,
+        dataAos:"zoom-out-up",
+        time:"1000"
     },
     {
         id:"7",
@@ -294,8 +306,11 @@ export const dataContent =[
       
         ],
         parcentageTagline:"%نسبة التقدم10",
-        parent:10
+        parent:10,
+        dataAos:"zoom-out-down",
+        time:"1400"
     },
+
     {
         id:"8",
         name:`التواصل`,
@@ -331,7 +346,9 @@ export const dataContent =[
  
         ],
         parcentageTagline:"%نسبة التقدم 10",
-        parent:10
+        parent:10,
+        dataAos:"zoom-out-right",
+        time:"1100"
     },
     {
         id:"9",
@@ -358,7 +375,9 @@ export const dataContent =[
             },
         ],
         parcentageTagline:`%نسبة التقدم 10`,
-        parent:10
+        parent:10,
+        dataAos:"fade-up",
+        time:"1400"
     },
     {
         id:"10",
@@ -399,6 +418,8 @@ export const dataContent =[
  
         ],
         parcentageTagline:`%نسبة التقدم 10`,
-        parent:10
+        parent:10,
+        dataAos:"fade-right",
+        time:"1400"
     },
 ]

@@ -1,13 +1,14 @@
 
 
-.sevenSlide{
-    background: url(../../assets/images/sevenSlide/banner.png);
-background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    background-position: bottom center;
-    margin-bottom: 60px;
-}
+// .sevenSlide{
+//     background: url(../../assets/images/banner/banner5.png);
+// background-repeat: no-repeat;
+//     background-size: contain;
+//     height: 100vh;
+//     background-position: bottom center;
+//     margin-bottom: 60px;
+
+// }
 .pest-banner-title {
     background: #30c8f5;
     padding: 23px;
@@ -130,4 +131,49 @@ background-repeat: no-repeat;
     border-radius: 8px;
     margin-bottom: 60px;
     height: 900px;
+}
+
+.seven-slide-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.seven-slide-content h2 {
+    font-size: 75px;
+    font-weight: 700;
+    z-index: 99;
+    text-align: end;
+    width: 100%;
+}
+
+.more-class span {
+    background: white;
+    margin: 6px 0;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.more-class {
+
+    grid-column-gap: 6px !important
+}
+
+.more-class span {
+    background: white;
+    margin: 6px 0;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 13px;
+    text-align: end;
+    line-height: 20px;
+}
+
+.eighth-content {
+    height: 73.8%;
 }
