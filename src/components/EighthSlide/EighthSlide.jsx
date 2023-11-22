@@ -144,7 +144,7 @@ const EighthSlide = () => {
                     <h4>طلب</h4>
                    </div>
 
-                   <div className="box-for-some-content" data-aos="zoom-in-down" data-aos-duration="left" data-aos-duration="1400">
+                   <div className="box-for-some-content" data-aos="zoom-in-down" data-aos-duration="1400" >
                     <h4>استفسار</h4>
                    </div>
                 </div>
