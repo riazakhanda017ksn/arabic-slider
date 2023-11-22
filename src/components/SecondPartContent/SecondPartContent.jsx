@@ -2,7 +2,10 @@ import React from 'react';
 import './SecondPartContent.scss'
 import {  dataContent } from '../../Data/Data';
 import img from '../../assets/images/banner/banner3.jpg'
+import Slider from '../Slider/Slider';
 const SecondPartContent = () => {
+  const  h1=`مؤشرات الاداء`
+  const h3=``
     return (
         <>
         <div className='container pb-5 mb-3'>
@@ -95,10 +98,7 @@ const SecondPartContent = () => {
 
             {/*  */}
         </div>
-        <div className="boottom-side-banner text-center" >
-            <img data-aos='zoom-in-down' data-aos-duration="2000" src={img} alt="" />
-            <h2>مؤشرات الاداء</h2>
-        </div>
+           <Slider h1={h1} h3={h3} />
         </>
     );
 };

@@ -12,26 +12,17 @@ import svgbanner from '../../assets/images/frame/svg-banner.svg'
 import close from '../../assets/images/frame/close.svg'
 import emoji from '../../assets/images/frame/emoji.svg'
 import imgs from '../../assets/images/banner/banner4.svg'
+import Slider from '../Slider/Slider';
 const OtherContentSlide = () => {
+    const h1 =`صوت العميل`
+    const h3 =``
     return (
         // 
         <>
+        <Slider h1={h1} h3={h3}/>
         <div className='other___slide___image text-center'> 
-         <div className="container">
-            <div className="row">
-                <div className="col-lg-6">
-                <img src={imgs} data-aos="fade-up-right" data-aos-duration="1200" alt=""  />
-         
-                </div>
-                <div className="col-lg-6">
-                 <div className="other-slide-hero-section-content" data-aos="fade-up-left" data-aos-duration="1400">
-                 <h2>صوت العميل</h2>
-                 </div>
-                </div>
-            </div>
-         </div>
         </div>
-        <div className='container'>
+        <div className='container mt-5'>
             <div className="headline-of-other-slide text-end" data-aos="fade-left" data-aos-duration="1200">
                 <h2>الممارسة الحالية <span>(التحديات)</span></h2>
             </div>
