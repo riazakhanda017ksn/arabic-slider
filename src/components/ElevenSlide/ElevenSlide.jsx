@@ -1,0 +1,98 @@
+import React from 'react';
+import './ElevenSlide.scss'
+import Slider from '../Slider/Slider';
+const ElevenSlide = () => {
+    const h1 = `الفروع`
+    const h3 = ``
+    return (
+        <>
+        <div className='container'>
+            <div className="fourth-header my-5" >
+                <h2 className='text-end'> أبرز الحلول المتعلقة بالفروع
+                 <span style={{color:"#74c23d"}}> 
+                 (الحلول)
+               </span>
+                </h2>
+        </div>
+        <div className="some-of-text-flex">
+            <div className="div1">
+            <p>تواصل البنك مع الجهات</p>
+            <span style={{background:"black"}}></span>
+            </div>
+            <div className="div1">
+            <p>تواصل البنك مع الجهات</p>
+            <span style={{background:"#f7752c"}}></span>
+            </div>
+            <div className="div1">
+                <p>العمليات البنكية  </p>
+            <span style={{background:"blue"}}></span>
+            </div>
+            <div className="div1">
+              <h3>المصدر</h3>
+            </div>
+        </div>
+        {/*  */}
+          <div className="row">
+            <div className="col-lg-6">
+                <div className="flex-box-column_______">
+                    <p>العمل على جدولة دفعات السداد حال التأخر بالسداد وعدم المطالبة بها دفعة واحدة.</p>
+                    <span style={{background:"blue"}}></span>
+                </div>
+                <div className="flex-box-column_______">
+                    <p>العمل على إيضاح المدة المتوقعة لاستلام السيارة.</p>
+                    <span style={{background:"black"}}></span>
+                </div>
+
+                <div className="flex-box-column_______">
+                    <p>العمل على إضافة خيارات لشركات التأمين وعدم إلزام العميل على التأمين الشامل، أو إلزامه بتحديد شركة تأمين معينة.</p>
+                    <span style={{background:"black"}}></span>
+                </div>
+
+                <div className="flex-box-column_______">
+                   <p>توضيح شروط ضمانات الوكالات.</p>
+                    <span style={{background:"black"}}></span>
+                </div>
+
+                <div className="flex-box-column_______">
+                    <p>العمل على إضافة خيارات لشركات التأمين وعدم إلزام العميل على التأمين الشامل، أو إلزامه بتحديد شركة تأمين معينة.</p>
+                    <span style={{background:"black"}}></span>
+                </div>
+                
+            </div>
+            <div className="col-lg-6">
+            <div className="flex-box-column_______">
+                    <p>توضيح الأسباب لرفض الكفيل.</p>
+                    <span style={{background:"blue"}}></span>
+                </div>
+                <div className="flex-box-column_______">
+                    <p>تسهيل الشروط الخاصة بالكفيل أو العمل على إلغاء الشرط.</p>
+                    <span style={{background:"blue"}}></span>
+                </div>
+                <div className="flex-box-column_______">
+                    <p>إعفاء العميل المؤهل من شرط الكفيل.</p>
+                    <span style={{background:"blue"}}></span>
+                </div>
+                <div className="flex-box-column_______">
+                    <p>توحيد مبلغ القسط لجميع الأشهر وعدم اختلاف المبلغ من شهر لآخر.</p>
+                    <span style={{background:"orange"}}></span>
+                </div>
+                <div className="flex-box-column_______">
+                    <p>تزويد العملاء برسائل نصية للتذكير بموعد السداد للتمويل.</p>
+                    <span style={{background:"orange"}}></span>
+                </div>
+                <div className="flex-box-column_______">
+                    <p>توضيح طريقة ورقم وتاريخ السداد من خلال رسالة نصية أو بريد بعد التقديم على التمويل،</p>
+                    <span style={{background:"orange"}}></span>
+                </div>
+            </div>
+          </div>
+        {/*  */}
+        </div>
+        <div className="my-5">
+            <Slider h1={h1} h3={h3}/>
+        </div>
+        </>
+    );
+};
+
+export default ElevenSlide;

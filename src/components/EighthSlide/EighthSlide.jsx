@@ -3,7 +3,10 @@ import './EighthSlide.scss'
 import img from '../../assets/images/banner/logo.png'
 import img2 from '../../assets/images/banner/logo2.png'
 import img11 from '../../assets/images/banner/banner6.png'
+import Slider from '../Slider/Slider';
 const EighthSlide = () => {
+    const h1 = `موقع البنك`
+    const h3 = ``
     return (
         <div className='eighth-slide'>
             <div className="container">
@@ -149,9 +152,10 @@ const EighthSlide = () => {
                    </div>
                 </div>
              </div>
-             <div className="eight_bottom_side_image text-center" data-aos="fade-up" data-aos-duration="1400">
-                <img src={img11} alt="" />
-             </div>
+           
+            </div>
+            <div className="my-5">
+            <Slider h1={h1} h3={h3}/>
             </div>
         </div>
     );

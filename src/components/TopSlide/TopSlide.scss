@@ -1,0 +1,29 @@
+.flex-container-of-parcent-test {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.parcentaze-point-div {
+    width: 77px;
+    height: 17px;
+    background: #e7eafc;
+    display: flex;
+    border-radius: 14px;
+    position: relative;
+}
+
+.child-div-for-parcentaze {
+    position: absolute;
+    background: #314fed;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.orange-bg-tagline {
+    height: 75px;
+}
+
+.arrow-text-flex img {
+    height: 37px;
+}

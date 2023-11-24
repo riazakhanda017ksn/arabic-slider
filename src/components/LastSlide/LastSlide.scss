@@ -1,0 +1,131 @@
+.last-slide{
+    border: 1px solid #13baeb;
+    padding: 16px;
+    margin-top: 13px;
+    border-radius: 7px;
+    background: #f6fdff;
+}
+
+.column-item____ {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #13baeb;
+    margin: 20px 0;
+    background: white;
+}
+
+.column-item____ h3 {
+    font-size: 15px;
+    margin: 0;
+    padding: 7px 0;
+}
+
+.column-item____ p {
+    margin: 0;
+    font-size: 13px;
+}
+.column-item____ {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #13baeb;
+    margin: 20px 0;
+    background: white;
+    height: 179px;
+    margin-bottom: 0;
+    border-radius: 7px;
+}
+
+.last-box {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.last-box h3 {
+    font-size: 15px;
+    margin: 0;
+    padding: 7px 0;
+}
+
+.last-box p{
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    margin-top: 8px;
+    border: 1px solid #10a9f5;
+    padding: 8px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.last-slide {
+    height: 480px;
+}
+
+.col-lg-12-headline{
+    background: #19e3bc;
+    padding: 8px 10px;
+    text-align: end;
+    color: white;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.col-lg-12-headline p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+}
+
+.row-refactor-again {
+    background: #eefffc;
+    border: 1px solid #a6fbec;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.col-lg-2-box {
+    background: white;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 24px;
+    border: 1px solid #a6fbec;
+}
+.col-lg-2-headline___ {
+    background: #19e3bc;
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 11px;
+    border-radius: 6px;
+}
+
+.bottom__side__arrow {
+    position: relative;
+    text-align: center;
+    bottom: 13px;
+}
+
+.last_footer{
+    background: url(../../assets/images/last/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    background-position: bottom center;
+    margin-top: 30px;
+}
+
+// .custom-min-height {
+//     border: 1px solid #ff000000;
+//     height: 1592px;
+// }
+
+// .bottom-side-spacing-adding {
+//     height: 1352px !important;
+//     overflow: hidden;
+// }
+
+.bottom-side-spacing-adding {
+    height: auto !important
+}

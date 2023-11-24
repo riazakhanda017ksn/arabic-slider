@@ -11,6 +11,16 @@ import FourthSlide from './components/FourthSlide/FourthSlide';
 import SixthSlide from './components/SixthSlide/SixthSlide';
 import SevenSlide from './components/SevenSlide/SevenSlide';
 import EighthSlide from './components/EighthSlide/EighthSlide';
+import NinthSlide from './components/NinthSlide/NinthSlide';
+import TenthSlide from './components/TenthSlide/TenthSlide';
+import ElevenSlide from './components/ElevenSlide/ElevenSlide';
+import TwelveSlide from './components/TwelveSlide/TwelveSlide';
+import ThirteenSlide from './components/ThirteenSlide/ThirteenSlide';
+import FourteenSlide from './components/FourteenSlide/FourteenSlide';
+import FifteenSlide from './components/FifteenSlide/FifteenSlide';
+import SixteenSlide from './components/SixteenSlide/SixteenSlide';
+import LastSlide from './components/LastSlide/LastSlide';
+import FiveSlide from './components/FiveSlide/FiveSlide';
 
 const App = () => {
   const h1 = `تقرير إدارة تجربة العميل`
@@ -26,10 +36,20 @@ const App = () => {
       <Slide/>
       <ThirdSlide/>
       <OtherContentSlide/>
-      {/* <FourthSlide/> */}
+      <FourthSlide/>
+      <FiveSlide/>
       <SixthSlide/>
       <SevenSlide/>
       <EighthSlide/>
+      <NinthSlide/>
+      <TenthSlide/>
+      <ElevenSlide/>
+      <TwelveSlide/>
+      <ThirteenSlide/>
+      <FourteenSlide/>
+      <FifteenSlide/>
+      <SixteenSlide/>
+      <LastSlide/>
     </div>
   );
 };

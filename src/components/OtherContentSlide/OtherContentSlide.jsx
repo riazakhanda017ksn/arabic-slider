@@ -17,19 +17,20 @@ const OtherContentSlide = () => {
     const h1 =`صوت العميل`
     const h3 =``
     return (
-        // 
         <>
         <Slider h1={h1} h3={h3}/>
         <div className='other___slide___image text-center'> 
         </div>
         <div className='container mt-5'>
-            <div className="headline-of-other-slide text-end" data-aos="fade-left" data-aos-duration="1200">
+            <div className="headline-of-other-slide text-end mb-2" data-aos="fade-left" data-aos-duration="1200">
                 <h2>الممارسة الحالية <span>(التحديات)</span></h2>
             </div>
             <div >
             <div className="row">
                 <div className="col-lg-8">
+                
                 <div className="bottom-side-spacing-adding" data-aos="fade-up-right" data-aos-duration="1400">
+                <div className="custom-min-height">
                 <div className="right-slide-background bottom-side-spacing ">
                         <h3><span> عناصر صوت العميل </span></h3>
                         <div className="parent___">
@@ -210,7 +211,7 @@ const OtherContentSlide = () => {
                    </div>
                 {/*  */}
                 </div>
-
+            </div>
 
 
                 </div>

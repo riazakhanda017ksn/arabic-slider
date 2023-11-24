@@ -1,0 +1,154 @@
+.ninth-number-box {
+    background: #ffefee;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.headline {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    gap: 10px;
+}
+
+.headline h4 {
+    font-size: 18px;
+    position: relative;
+    top: 4px;
+}
+.headline img {
+    height: 28px;
+}
+
+.headline {
+    background: white;
+    padding: 7px 11px;
+    border-radius: 6px;
+}
+
+.ninth-number-box p {
+    text-align: end;
+    margin-top: 14px;
+    font-size: 13px;
+    line-height: 24px;
+    height: 130px;
+}
+
+.numbers {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.numbers img {
+    height: 28px;
+}
+.numbers span {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 500;
+}
+.numbers h6 {
+    margin-bottom: 0;
+}
+
+.numbers {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ninth-number-box {
+    background: #ffefee;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    height: 250px;
+}
+
+.border-at-the-bottom-side {
+    border-bottom: 1px solid #80808042;
+}
+
+.ninth{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
+    }
+
+    .text__box__caption {
+        background: #24bec8;
+        padding: 20px;
+        color: white;
+        border-radius: 6px;
+        margin-bottom: 23px;
+    }
+
+    .text__box__caption h6 {
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 35px;
+    }
+    .ninth_col_6 {
+        text-align: end;
+        background: #edfafb;
+        margin-bottom: 12px;
+        padding: 15px 10px;
+        border-radius: 7px;
+    }
+
+    .ninth_col_6 p {
+        font-size: 13px;
+        margin: 0;
+        font-weight: 400;
+    }
+
+    .col-7-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 0px;
+        border: 1px solid #e6e0e0;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    .container-headline__________ {
+        background: #df40b6;
+        padding: 8px 10px;
+        text-align: end;
+        color: white;
+        border-radius: 8px;
+        text-align: center;
+        height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .white______box {
+        border: 1px solid #df40b6;
+        margin-top: 12px;
+        text-align: center;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 7px;
+    }
+
+    .new-element-with-img img {
+        height: 25px;
+    }
+    .new-element-with-img {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        position: relative;
+        left: 24px;
+        gap: 9px;
+        color: white;
+    }
