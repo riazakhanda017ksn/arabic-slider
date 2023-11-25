@@ -73,7 +73,7 @@ const FourteenSlide = () => {
     ]
     return (
         <div className="container mt-2 mb-5">
-        <div className='SixthSlide'>
+        <div className='SixthSlide' data-aos="zoom-in-right" data-aos-duration="1100">
                  <div className="fourth-header" data-aos="fade-up"
                   data-aos-duration="1200">
                 <h2 className='text-end'> أفضل الممارسات <span style={{color:"red"}}> 
@@ -84,14 +84,14 @@ const FourteenSlide = () => {
         </div>
         {/*  */}
         <div className="sixth-row">
-            <div className="sixth-right-side-column">
+            <div className="sixth-right-side-column" data-aos="zoom-in-right" data-aos-duration="1200">
                 <div className="headline-sixth-column main-class" data-aos="zoom-in-right"
                  data-aos-duration="1200">
                     <h5>نطاق التحدي</h5>
                     <img src={img} alt="" />
                 </div>
             {/*  */}
-            <div className="sixth-card-content main-bg-class" data-aos="zoom-in-left"
+            <div className="sixth-card-content main-bg-class" data-aos="zoom-in-right"
                  data-aos-duration="1400">
                    <div className="flex-column-title">
                     <p>تصميم دليل تواصل مبني على دراسات تمكن و تساعد المعنيين به على إتمام عمليات تواصل فعالة و مهنية.</p>
@@ -108,13 +108,13 @@ const FourteenSlide = () => {
                   
                 </div>
                {/*  */}
-               <div className="headline-sixth-column main-class" data-aos="zoom-in-left"
+               <div className="headline-sixth-column main-class" data-aos="zoom-in-right"
                  data-aos-duration="1400">
                     <h5>نطاق التحدي</h5>
                     <img src={img} alt="" />
                 </div>
                  {/*  */}
-                 <div className="sixth-card-content main-bg-class" data-aos="zoom-in-left"
+                 <div className="sixth-card-content main-bg-class" data-aos="zoom-in-right"
                  data-aos-duration="1400">
                    <div className="flex-column-title">
                     <p>حصر رحلات عملاء البنك و بناء رسائل فاعلية تناسب كل مرحلة و ضمان إيصالها للعميل.</p>
@@ -133,16 +133,15 @@ const FourteenSlide = () => {
                  {/*  */}
             </div>
 
-            <div className="sixth-right-side-column">
-            <div className="headline-sixth-column red-border___" data-aos="zoom-in-left"
-                 data-aos-duration="1200">
+            <div className="sixth-right-side-column" data-aos="zoom-in-right" data-aos-duration="1400">
+            <div className="headline-sixth-column red-border___" >
                      <h5><span> تحديات </span>
                      إطلاق منتج جديد      
                    </h5>
                     <img src={img2} alt="" />
                 </div>
 
-                <div className="sixth-card-content need-min-height" data-aos="zoom-in-left"
+                <div className="sixth-card-content need-min-height" data-aos="zoom-in-right"
                  data-aos-duration="1400">
                    <div className="flex-column-title">
                     <p>لا يوجد اليات استجابة موحده عبر دليل تواصل شامل مما يؤدي الى تباين في الاستجابة من موظف لاخر.</p>
@@ -159,7 +158,7 @@ const FourteenSlide = () => {
                    
                 </div>
 
-                <div className="headline-sixth-column red-border___" data-aos="fade-down"
+                <div className="headline-sixth-column red-border___" data-aos="zoom-in-right"
                  data-aos-duration="1200">
                      <h5>
                         <span>تحديات</span> سد فجوات رحلة العميل                
@@ -167,8 +166,8 @@ const FourteenSlide = () => {
                     <img src={img2} alt="" />
                 </div>
 
-                <div className="sixth-card-content need-min-height" data-aos="fade-down"
-                 data-aos-duration="1200">
+                <div className="sixth-card-content need-min-height" data-aos="zoom-in-right"
+                 data-aos-duration="1400">
                    <div className="flex-column-title">
                     <p>عدم وجود أولوية لتخصيص الموارد و ممكنات التواصل او تخصيص مخزون لسيناريوهات بعينها.</p>
                     <span>.1</span>

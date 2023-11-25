@@ -43,7 +43,7 @@ const TenthSlide = () => {
         <div>
             <Slider h1={h1} h3={h3}/>
             <div className="container">
-            <div className="fourth-header my-5" >
+            <div className="fourth-header my-5" data-aos="zoom-in-right" data-aos-duration="1200" >
                 <h2 className='text-end'> أبرز المشاكل في الفروع  <span style={{color:"red"}}> 
                 (التحديات)
                </span>
@@ -53,7 +53,7 @@ const TenthSlide = () => {
             {
                 data.map(item=>{
                     return (
-                        <div className='col-lg-3' key={item.id}>
+                        <div className='col-lg-3' key={item.id} data-aos="zoom-in-right" data-aos-duration="1400">
                           <div className="single____item">
                             <h3>{item.id}</h3>
                             <p>{item.post}</p>

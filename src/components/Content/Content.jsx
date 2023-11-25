@@ -10,7 +10,7 @@ const Content = () => {
                     <h3>ملخص أبرز التحديات والحلول لمحطات تجربة العميل</h3>
                 </div>
 
-                <div className="flex_content_container" data-aos="zoom-in-down" data-aos-duration="1200">
+                <div className="flex_content_container" data-aos="zoom-in-right" data-aos-duration="1300">
                     <div className="flex__content">
                        <h4>مستوى تقدم</h4>
                        <h4>الحلول</h4>
@@ -30,7 +30,7 @@ const Content = () => {
                 data.map(item=>{
                     return(
                         <div className="col-lg-12" key={item.id}>
-                        <div className="contents__description" data-aos={item.dataAos} data-aos-duration={item.time}>
+                        <div className="contents__description" data-aos={`zoom-in-right`} data-aos-duration={item.time}>
                            <div className="parcantaze">
                             <p className="text-end">
                              {

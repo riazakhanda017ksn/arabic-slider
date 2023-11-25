@@ -14,7 +14,7 @@ import logo11 from '../../assets/images/nineSlider/logo11.svg'
 const NinthSlide = () => {
     return (
         <div className='container'>
-            <div className="fourth-header mb-5" >
+            <div className="fourth-header mb-5"  data-aos="zoom-in-right" data-aos-duration="1300">
                 <h2 className='text-end'> الموقع الإلكتروني  <span style={{color:"red"}}> 
                  (التحديات)
                </span>
@@ -22,7 +22,7 @@ const NinthSlide = () => {
         </div>
           <div className="row">
             <div className="col-lg-2"></div>
-            <div className="col-lg-4">
+            <div className="col-lg-4" data-aos="zoom-in-right" data-aos-duration="1200">
               <div className="ninth-number-box">
                  <div className="headline">
                     <h4>تصميم الموقع الجديد</h4>
@@ -31,7 +31,7 @@ const NinthSlide = () => {
                  <p>تعارض بعض الملاحظات مع هوية وتصميم الموقع الجديد المعتمد في المراحل الأولى من تصميم الموقع</p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4" data-aos="zoom-in-right" data-aos-duration="1400">
             <div className="ninth-number-box">
                  <div className="headline">
                     <h4>معايير الأمم المتحدة- UN</h4>
@@ -41,7 +41,7 @@ const NinthSlide = () => {
               </div>
             </div>
             <div className="col-lg-2"></div>
-            <div className="col-lg-4">
+            <div className="col-lg-4" data-aos="zoom-in-right" data-aos-duration="1100">
             <div className="ninth-number-box">
                  <div className="headline">
                     <h4>Live-Beta-Staging
@@ -52,7 +52,7 @@ const NinthSlide = () => {
                  <p>تم معالجة وعكس الملاحظات في جميع البيئات مما أثر سلبا على الجهد والوقت في انجاز خطة المشروع</p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4" data-aos="zoom-in-right" data-aos-duration="1300">
             <div className="ninth-number-box">
                  <div className="headline">
                     <h4>عدم وضوح الملاحظات</h4>
@@ -61,7 +61,7 @@ const NinthSlide = () => {
                  <p>بعض الملاحظات لم تكن محددة وواضحة وتطلب ذلك جهدا إضافيا لتنسيق عدة اجتماعات مع الإدارات المعنية لتحديد المطلوب مما أثر سلبا على خطة انجاز المشروع</p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4" data-aos="zoom-in-right" data-aos-duration="1500">
             <div className="ninth-number-box">
                  <div className="headline">
                     <h4>محدودية الصلاحيات</h4>
@@ -72,14 +72,14 @@ const NinthSlide = () => {
             </div>
           </div>
 
-          <div className="fourth-header mb-4 pt-4" >
+          <div className="fourth-header mb-4 pt-4" data-aos="zoom-in-right" data-aos-duration="1200">
                 <h2 className='text-end'>
                 الملاحظات الواردة من الإدارات <span style={{color:"#24bec8"}}> (الحلول)
                </span>
                 </h2>
           </div>
           {/*  */}
-          <div className="border-at-the-bottom-side">
+          <div className="border-at-the-bottom-side" data-aos="zoom-in-right" data-aos-duration="1300">
           <div className="row mb-4">
             <div className="col-lg-3"></div>
             <div className="col-lg-3">
@@ -109,7 +109,7 @@ const NinthSlide = () => {
 
           {/*  */}
             <div className="row my-5">
-             <div className="col-lg-5">
+             <div className="col-lg-5" data-aos="zoom-in-right" data-aos-duration="1200">
                 <div className="text-box__">
                     <div className="text__box__caption">
                         <h6 className='text-end'>  الإدارات التنفيذية/الإدارات التي وثقت وشاركت 
@@ -163,7 +163,7 @@ const NinthSlide = () => {
 
                 </div>
              </div>
-             <div className="col-lg-7">
+             <div className="col-lg-7" data-aos="zoom-in-right" data-aos-duration="1500">
              <div className="col-7-container">
                 <div className="children-div-of-container">
                     <div className="container-headline__________">

@@ -82,3 +82,127 @@
         border-radius: 10px;
         font-weight: 500;
     }
+
+    .full-widthimages img {
+        width: 100%;
+    }
+
+    .dashboard-headline h5 {
+        color: red;
+    }
+    .dashboard-headline p {
+        color: #ed9718;
+    }
+
+    .dashboard__headline {
+        background: #0a9ba5;
+        padding: 13px;
+        text-align: end;
+        color: white;
+        border-radius: 6px;
+    }
+
+    .dashboard__headline h6 {
+        font-weight: 400;
+        font-size: 17px;
+    }
+
+    .dashboard_card p {
+        margin: 0;
+        padding-top: 10px;
+        font-size: 13px;
+    }
+
+    .dashboard_card p span{
+        color: #19e3bc;
+    }
+
+    .dashboard_card img {
+        width: 80%;
+        height: 80%;
+        object-fit: cover;
+        margin-top: 6px;
+    }
+
+    .table-image_____ img {
+        width: 90%;
+        margin-top: 13px;
+    }
+
+    
+    .table-image_____  {
+        text-align: center;
+    }
+
+    .dashboard_card {
+        border: 1px solid #0a9ba5;
+        padding: 19px;
+        border-radius: 12px;
+    }
+
+ 
+    .need-custom-height-for-vh {
+        height: 525px !important;
+    }
+
+    .dashboard_cards {
+        border: 1px solid #0a9ba5;
+        padding: 19px;
+        border-radius: 12px;
+    }
+
+    .dashboard_cards img {
+        width: 100%;
+    }
+    .table-image_____ img {
+        width: 124px;
+    }
+
+
+    .cards___flex___div {
+        display: flex;
+        text-align: end;
+        gap: 5px;
+        margin-top: 12px;
+    }
+
+    .cards___flex___div p {
+        font-size: 12px;
+    }
+
+    .cards___flex___div span {
+        font-size: 14px;
+    }
+
+    .grid-and-flex-box {
+        display: flex;
+        justify-content: end;
+        gap: 13px;
+    }
+
+    .dashboard_card {
+        height: 390px;
+    }
+
+    .__card_height {
+        height: 185px;
+    }
+
+    ._card-height {
+        height: 325px;
+    }
+
+    .last-fourth-image-item img {
+        width: 100%;
+        object-fit: fill;
+    }
+
+    .table-image img {
+        height: 166px;
+    }
+
+    .table-image_____ {
+        text-align: center;
+        position: relative;
+        top: 10px;
+    }

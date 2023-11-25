@@ -14,7 +14,8 @@ const SixteenSlide = () => {
         <div className='mb-5'>
         <Slider h1={h1} h3={h3} />
         <div className="container mt-5">
-        <div className='SixthSlide'>
+        <div className='SixthSlide' data-aos="zoom-in-right"
+                 data-aos-duration="1000">
                  <div className="fourth-header" >
                 <h2 className='text-end'>تحليل الوضع الراهن <span style={{color:"red"}}> 
                 (التحديات)
@@ -24,7 +25,8 @@ const SixteenSlide = () => {
         </div>
         {/*  */}
         <div className="row">
-            <div className="col-lg-7">
+            <div className="col-lg-7" data-aos="zoom-in-right"
+                 data-aos-duration="1300">
                 <div className="sixteen-headline">
                     <div className="headline_______">
                     <p>مجموعات التركيز</p>
@@ -191,7 +193,8 @@ const SixteenSlide = () => {
                     </div>
                 </div>
             </div>
-            <div className="col-lg-5">
+            <div className="col-lg-5" data-aos="zoom-in-right"
+                 data-aos-duration="1500">
                    {/*  */}
                    <div className="sixteen-headline min-hight-calcuates">
                           <div className="headline_______">

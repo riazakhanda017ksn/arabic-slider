@@ -10,8 +10,8 @@ const EighthSlide = () => {
     return (
         <div className='eighth-slide'>
             <div className="container">
-            <div className="fourth-header mb-5" data-aos="fade-down" data-aos-duration="1300">
-                <h2 className='text-end'>تحليل نظام التذاكر<span style={{color:"#13e0b8"}}> 
+            <div className="fourth-header mb-5" data-aos="zoom-in-right" data-aos-duration="1300">
+                <h2 className='text-end'> تحليل نظام التذاكر <span style={{color:"#13e0b8"}}> 
                 (الحلول)
                </span>
                 </h2>
@@ -21,14 +21,14 @@ const EighthSlide = () => {
                 </div>
              </div>
              <div className="eighth-grid-container">
-                <div className="main____height">
-                <div className="eighth-item" data-aos="zoom-in-right" data-aos-duration="1300">
-                    <h6 data-aos="zoom-in-right" data-aos-duration="1300">التصنيف الرابع</h6>
-                    <div className="eighth-headline" data-aos="zoom-in-right" data-aos-duration="1400">
+                <div className="main____height" data-aos="zoom-in-right" data-aos-duration="1000">
+                <div className="eighth-item" >
+                    <h6 >التصنيف الرابع</h6>
+                    <div className="eighth-headline" >
                         <h5>السبب الأولي/ الهدف من رفع البلاغ</h5>
                     </div>
                     {/*  */}
-                     <div className="eighth-content" data-aos="zoom-in-right" data-aos-duration="1300">
+                     <div className="eighth-content" >
                      <div className="list-style-container">
                        <span>تأخير</span>
                        <span>عطل تقني</span>
@@ -44,7 +44,7 @@ const EighthSlide = () => {
                      </div>
                      </div>
 
-                     <div className="eighth-content " data-aos="zoom-in-right" data-aos-duration="1400">
+                     <div className="eighth-content " data-aos="zoom-in-right" data-aos-duration="1200">
                         <div className="more-class">
                         <span>طلب مستندات متعلقة بـ (منتج/خدمة)</span>
                          <span>طلب تمديد (منتج/خدمة)</span>
@@ -67,67 +67,67 @@ const EighthSlide = () => {
                     {/*  */}
                 </div>
                 </div>
-                <div className="eighth-item" >
-                    <h6 data-aos="zoom-in" data-aos-duration="1500">التصنيف الثالث</h6>
-                    <div className="eighth-headline" data-aos="zoom-out" data-aos-duration="1500">
+                <div className="eighth-item" data-aos="zoom-in-right" data-aos-duration="1500" >
+                    <h6 >التصنيف الثالث</h6>
+                    <div className="eighth-headline" >
                         <h5>أين في رحلة العميل¹ / نقطة التواصل مع العميل (Touchpoint)</h5>
                     </div>
-                    <div className="eighth-content" data-aos="fade-up" data-aos-duration="1200">
-                         <div className="img-section-for-content" data-aos="fade-up" data-aos-duration="1100">
+                    <div className="eighth-content" >
+                         <div className="img-section-for-content">
                             <img src={img} alt="" />
                             <h6>نقاط التواصل</h6>
                             <h4>قبل المنتج/الخدمة</h4>
                          </div>
 
-                         <div className="img-section-for-content content-positon-changing" data-aos="fade-up" data-aos-duration="1100">
+                         <div className="img-section-for-content content-positon-changing" >
                             <img src={img2} alt="" />
                             <h4 className='mt-3'>خلال المنتج/الخدمة</h4>
                          </div>
 
-                         <div className="img-section-for-content content-positon-changing" style={{top:'170px'}} data-aos="fade-up" data-aos-duration="1100">
+                         <div className="img-section-for-content content-positon-changing" style={{top:'170px'}} >
                             <img src={img2} alt="" />
                             <h4 className='mt-3'>بعد المنتج/الخدمة</h4>
                          </div>
                     </div>
                 </div>
-                <div className="eighth-item" >
-                     <h6 data-aos="fade-up" data-aos-duration="1100">التصنيف الثاني</h6>
-                    <div className="eighth-headline" data-aos="fade-down" data-aos-duration="1100">
+                <div className="eighth-item" data-aos="zoom-in-right" data-aos-duration="1100" >
+                     <h6 >التصنيف الثاني</h6>
+                    <div className="eighth-headline">
                         <h5>ما هي مجموعة (المنتج / الخدمة) و(المنتج / الخدمة)</h5>
                     </div>
                     <div className="eighth-content" >
                        <div className="eighth-slide-third-section">
-                        <div className="flex-eight-content-item" data-aos="zoom-in-right" data-aos-duration="1200">
+                        <div className="flex-eight-content-item">
                             <h3>مجموعة (المنتج / الخدمة)</h3>
                             <h3>.1</h3>
                         </div>
-                        <div className="white-border-design" data-aos="zoom-in-left" data-aos-duration="1300">
+                        <div className="white-border-design" >
                         <h4>المنتج/الخدمة</h4>
                         <h4>.1</h4>
                     </div>
-                    <div className="white-border-design" data-aos="zoom-in-left" data-aos-duration="1400">
+                    <div className="white-border-design" >
                         <h4>المنتج/الخدمة</h4>
                         <h4>.2</h4>
                     </div>
-                    <div className="white-border-design" data-aos="zoom-in-left" data-aos-duration="1500">
+                    <div className="white-border-design" >
                         <h4>....</h4>
                         <h4>.</h4>
                     </div>
 
 
-                    <div className="flex-eight-content-item mt-4" data-aos="zoom-in-left" data-aos-duration="1300">
+                    <div className="flex-eight-content-item mt-4" >
                             <h3>مجموعة (المنتج / الخدمة) </h3>
                             <h3>.2</h3>
                         </div>
-                        <div className="white-border-design" data-aos="zoom-in-left" data-aos-duration="1400">
+                        <div className="white-border-design" >
                         <h4>المنتج/الخدمة</h4>
                         <h4>.1</h4>
                     </div>
-                    <div className="white-border-design" data-aos="zoom-in-left" data-aos-duration="1300">
+                    <div className="white-border-design" >
                         <h4>المنتج/الخدمة</h4>
                         <h4>.2</h4>
                     </div>
-                    <div className="white-border-design" data-aos="zoom-in-left" data-aos-duration="1300">
+                    <div className="white-border-design">
                         <h4>....</h4>
                         <h4>.</h4>
                     </div>

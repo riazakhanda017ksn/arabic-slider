@@ -54,7 +54,8 @@ const LastSlide = () => {
     return (
         <>
         <div className='container'>
-              <div className='SixthSlide'>
+              <div className='SixthSlide' data-aos="zoom-in-right"
+                 data-aos-duration="1000">
                  <div className="fourth-header" >
                 <h2 className='text-end'>
                 المتطلبات الأساسية <span style={{color:"#13baeb"}}> 
@@ -64,7 +65,8 @@ const LastSlide = () => {
             </div>
         </div>
              <div className="row mb-5">
-                <div className="col-lg-6">
+                <div className="col-lg-6" data-aos="zoom-in-right"
+                 data-aos-duration="1300">
                     <div className="last-slide">
                         <div className="headline_______">
                             <p>مراعاة متطلبات تقنية المعلومات</p>
@@ -86,7 +88,8 @@ const LastSlide = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-6" data-aos="zoom-in-right"
+                 data-aos-duration="1500">
                     <div className="last-slide">
                         <div className="headline_______">
                             <p>مراعاة متطلبات الأعمال</p>
@@ -126,7 +129,8 @@ const LastSlide = () => {
              </div>
 
              {/*  */}
-  <div className="row-refactor-again mb-5">
+  <div className="row-refactor-again mb-5" data-aos="zoom-in-right"
+                 data-aos-duration="2000">
              <div className="row">
                             <div className="col-lg-12">
                                 <div className="col-lg-12-headline">
@@ -201,7 +205,8 @@ const LastSlide = () => {
                         </div>
              {/*  */}
         </div>
-         <div className="last_footer">
+         <div className="last_footer" data-aos="zoom-in-right"
+                 data-aos-duration="1700">
             
          </div>
         </>

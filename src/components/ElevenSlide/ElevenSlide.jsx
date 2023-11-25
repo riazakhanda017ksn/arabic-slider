@@ -7,14 +7,14 @@ const ElevenSlide = () => {
     return (
         <>
         <div className='container'>
-            <div className="fourth-header my-5" >
+            <div className="fourth-header my-5" data-aos="zoom-in-right" data-aos-duration="1200">
                 <h2 className='text-end'> أبرز الحلول المتعلقة بالفروع
                  <span style={{color:"#74c23d"}}> 
                  (الحلول)
                </span>
                 </h2>
         </div>
-        <div className="some-of-text-flex">
+        <div className="some-of-text-flex" data-aos="zoom-in-right" data-aos-duration="1300">
             <div className="div1">
             <p>تواصل البنك مع الجهات</p>
             <span style={{background:"black"}}></span>
@@ -33,7 +33,7 @@ const ElevenSlide = () => {
         </div>
         {/*  */}
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="zoom-in-right" data-aos-duration="1400">
                 <div className="flex-box-column_______">
                     <p>العمل على جدولة دفعات السداد حال التأخر بالسداد وعدم المطالبة بها دفعة واحدة.</p>
                     <span style={{background:"blue"}}></span>
@@ -59,7 +59,7 @@ const ElevenSlide = () => {
                 </div>
                 
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="zoom-in-right" data-aos-duration="1600">
             <div className="flex-box-column_______">
                     <p>توضيح الأسباب لرفض الكفيل.</p>
                     <span style={{background:"blue"}}></span>

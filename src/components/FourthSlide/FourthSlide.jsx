@@ -59,7 +59,7 @@ const data2 =[
 
     return (
         <div className='container py-5 '>
-            <div className="fourth-header" data-aos="fade-up"
+            <div className="fourth-header" data-aos="zoom-in-right"
              data-aos-duration="1500">
                 <h2 className='text-end'> أفضل الممارسات <span> 
                      (الحلول)
@@ -67,25 +67,29 @@ const data2 =[
                 </h2>
             </div>
             <div className="row mt-4">
-               <div className="col-lg-4 mt-4">
+               <div className="col-lg-4 mt-4" data-aos="zoom-in-right"
+             data-aos-duration="1200">
                 <div className="fourth-image-slide">
                    <img src={img1} alt="" />
                 </div>
                </div>
-               <div className="col-lg-8 mt-4">
+               <div className="col-lg-8 mt-4" data-aos="zoom-in-right"
+             data-aos-duration="1500">
                 <div className="fourth-image-slide">
                    <img src={img2} alt="" />
                 </div>
                </div>
 
-               <div className="col-lg-6 mt-5">
+               <div className="col-lg-6 mt-5" data-aos="zoom-in-right"
+             data-aos-duration="1200">
                <div className="fourth-image-slide">
             
                 <img src={img3} alt="" /> 
                   </div>
                </div>
 
-               <div className="col-lg-6 mt-5">
+               <div className="col-lg-6 mt-5" data-aos="zoom-in-right"
+             data-aos-duration="1500">
                <div className="fourth-image-slide">
             
                 <img src={img4} alt="" /> 
@@ -94,8 +98,8 @@ const data2 =[
 
             </div>
             {/*  */}
-            <div className="fourth-header mt-5" data-aos="fade-up"
-             data-aos-duration="1500">
+            <div className="fourth-header mt-5" data-aos="zoom-in-right"
+             data-aos-duration="1000">
                 <h2 className='text-end'> أفضل الممارسات <span> 
                      (الحلول)
                </span>
@@ -103,10 +107,12 @@ const data2 =[
             </div>
            {/*  */}
            <div className="row mt-5">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="zoom-in-right"
+             data-aos-duration="1200">
             <div className="border-shap-for-fourth-slide">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6" data-aos="zoom-in-right"
+             data-aos-duration="1300">
                     <div className="chart-containers__">
                    <div className="chart-headline____">
                     <p>Measure & Analyze</p>
@@ -141,7 +147,8 @@ const data2 =[
                    </div>
                 </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6" data-aos="zoom-in-right"
+             data-aos-duration="1500">
                     <div className="fourth-slide-img">
                         <img src={chart1} alt="" />
                     </div>
@@ -154,7 +161,8 @@ const data2 =[
                 </div>
             </div>
            </div>
-           <div className="col-lg-6">
+           <div className="col-lg-6" data-aos="zoom-in-right"
+             data-aos-duration="1500">
             <div className="border-shap-for-fourth-slide">
                 <div className="row">
                     <div className="col-lg-12">
@@ -182,7 +190,7 @@ const data2 =[
                             )
                         })
                     }
-                    <div className="col-lg-12">
+                    <div className="col-lg-12" >
                     <div className="images text-center mt-3">
 
                         <img src={frame} alt="" />
@@ -199,15 +207,17 @@ const data2 =[
                 </div>
             </div>
            </div>
-           <div className="col-lg-6">
-            <div className="border-shap-for-fourth-slide mt-4" style={{height:'380px'}}>
+           <div className="col-lg-6" data-aos="zoom-in-right"
+             data-aos-duration="1300">
+            <div className="border-shap-for-fourth-slide mt-4" style={{height:'400px'}}>
                 <div className="row">
                     <div className="col-lg-6">
                     <div className="chart-containers__">
                       <small>* PSO : People, System and Organization</small>
                     </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6" data-aos="zoom-in-right"
+             data-aos-duration="1300">
                     <div className="chart-headline____" style={{background:"#13baeb",border:"1px solid rgb(19, 186, 235)"}}>
                         <p>Improve</p>
                      <h5> 
@@ -253,8 +263,9 @@ const data2 =[
                    </div>
             </div>
            </div>
-           <div className="col-lg-6 mt-4">
-            <div className="border-shap-for-fourth-slide" style={{height:'380px'}}>
+           <div className="col-lg-6 mt-4" data-aos="zoom-in-right"
+             data-aos-duration="1300">
+            <div className="border-shap-for-fourth-slide" style={{height:'400px'}}>
                 <div className="row">
                     <div className="col-lg-12">
                     <div className="chart-containers__">

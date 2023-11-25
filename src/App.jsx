@@ -21,16 +21,16 @@ import FifteenSlide from './components/FifteenSlide/FifteenSlide';
 import SixteenSlide from './components/SixteenSlide/SixteenSlide';
 import LastSlide from './components/LastSlide/LastSlide';
 import FiveSlide from './components/FiveSlide/FiveSlide';
+import HomeSlider from './components/HomeSlider/HomeSlider';
 
 const App = () => {
-  const h1 = `تقرير إدارة تجربة العميل`
-  const h3 =`إدارة تجربة العميل  `
+
   useEffect(() => {
     AOS.init();
   }, []);
   return (
     <div className='hero'>
-      <Slider h1={h1} h3={h3}/>
+      <HomeSlider/>
       <Content/>
       <SecondPartContent/>
       <Slide/>

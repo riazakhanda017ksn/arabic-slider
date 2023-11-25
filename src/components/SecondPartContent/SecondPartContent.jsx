@@ -10,16 +10,16 @@ const SecondPartContent = () => {
         <>
         <div className='container pb-5 mb-3'>
             <div className="content">
-                <div className="text-end" data-aos="fade-right" data-aos-duration="1200">
+                <div className="text-end" data-aos="zoom-in-right" data-aos-duration="1200">
                     <h3>ملخص أبرز التحديات والحلول لمحطات تجربة العميل</h3>
                 </div>
 
-                <div className="flex_content_container" >
-                    <div className="flex__content" data-aos="fade-right" data-aos-duration="1400">
+                <div className="flex_content_container" data-aos="zoom-in-right" data-aos-duration="1400">
+                    <div className="flex__content" >
                      <h4>مستوى تقدم</h4>
                      <h4>الحلول</h4>
                     </div>
-                    <div className="flex__content" data-aos="fade-left" data-aos-duration="1400">
+                    <div className="flex__content" >
                        <h4>المحطات</h4>
                        <h4>أبرز التحديات</h4>
                     </div>
@@ -34,7 +34,7 @@ const SecondPartContent = () => {
                 dataContent.map(item=>{
                     return(
                         <div className="col-lg-12" key={item.id}>
-                        <div className="contents__description" data-aos={item.dataAos} data-aos-duration={item.time}>
+                        <div className="contents__description" data-aos={`zoom-in-right`} data-aos-duration={item.time}>
                            <div className="parcantaze">
                             <p className="text-end">
                              {
