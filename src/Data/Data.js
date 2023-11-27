@@ -233,7 +233,7 @@ export const data =[
         ],
         parcentageTagline:`%نسبة التقدم 90`,
         parent:90,
-        dataAos:"zoom-in-right",
+        dataAos:"zoom-in-left",
         time:"1400"
     },
 ]

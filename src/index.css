@@ -6,3 +6,267 @@ body{
 div#root {
     overflow: hidden;
 }
+
+.white___box__text p {
+    font-size: 14px !important
+}
+.fourth-flex-text___ p {
+    font-size: 16px !important;
+}
+
+
+.blog-item small {
+   
+    font-size: 14px !important
+}
+
+
+.blog-item p {
+    font-size: 13px !important
+
+}
+
+.left-side-blog-content p {
+    font-size: 15px !important
+
+}
+
+.first-grid-box- p {
+    font-size: 15px !important;
+    line-height: 22px;
+}
+
+.post-content p {
+    font-size: 14px !important
+}
+
+.paragraph__content p 
+ {
+    font-size: 16px;
+    line-height: 29px;
+ }
+
+ .headline-of-eighthSlide {
+    background: #5585B5;
+}
+
+.eighth-headline {
+    background: #5585B5;
+
+}
+
+.eighth-content {
+    background: #e7e5fe59;
+
+}
+
+.eighth-content {
+    border: 1px solid #5585B5;
+}
+
+.more-class span {
+    border: 1px solid #5585B5;
+}
+
+.text-end-side__ span {
+    border: 1px solid #5585B5;
+}
+
+
+.white-border-design {
+    border: 1px solid #5585B5;
+}
+
+.box-for-some-content {
+
+    border: 1px solid #5585B5;
+ 
+}
+
+.box-for-some-content {
+    background: #e7e5fe59;
+}
+
+.ninth-number-box p {
+
+    font-size: 15px;
+  
+}
+
+.white______box p {
+    margin: 0;
+}
+
+.ninth_col_6 p {
+    font-size: 15px;
+}
+
+.new-element-with-img h6 {
+    font-size: 16px;
+}
+
+.single____item {
+    border: 1px solid #f5c3ff;
+    height: 260px;
+    background: #fcefff;
+}
+
+
+.single____item p {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.single____item h3 {
+    font-size: 26px;
+}
+
+.div1 p {
+    font-size: 16px;
+}
+
+.div1 span {
+    width: 10px;
+    height: 10px;
+ 
+}
+
+.flex-box-column_______ p {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.orange-headline__ h6 {
+    font-size: 19px;
+}
+
+.arrow-text-flex p {
+    margin: 0;
+    font-size: 15px !important;
+}
+
+.flex-column-title p {
+    font-size: 16px;
+    margin-bottom: 12px;
+    width: 95%;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.flex-column-title span {
+    font-size: 17px;
+    letter-spacing: 4px;
+}
+
+.border-bottom-left-side.aos-init.aos-animate p {
+    font-size: 21px;
+}
+
+.headline-sixth-column h5 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.classes strong {
+    font-size: 16px;
+
+}
+
+.col-lg-side-content__ p {
+    font-size: 14px;
+}
+
+.column-item____ p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.last-box p {
+    font-size: 16px;
+}
+
+.col-lg-2-box p {
+    font-size: 15px;
+}
+
+.dashboard_card p {
+
+    font-size: 15px;
+}
+
+
+.last-fourth-image-item img {
+    width: 100%;
+    object-fit: fill;
+    height: 160px;
+}
+
+.chart-headline____ h5 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.chart-headline____ p {
+    font-size: 15px;
+}
+
+.cardparent p {
+    font-size: 15px;
+    margin: 0;
+    text-align: end;
+    margin-right: 3px;
+}
+
+.cardparent {
+    border: 1px solid #36c4ee;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 56px;
+    border-radius: 8px;
+}
+
+.chart-containers__ small {
+    font-size: 15px;
+    width: 100%;
+    text-align: end;
+    display: block;
+}
+.more-grid h6 {
+    background: blue;
+    text-align: center;
+    color: white;
+    padding: 11px;
+    font-size: 19px;
+    font-weight: 400;
+    border-radius: 11px;
+    margin: 0;
+}
+
+.sidebar____text___bg h6 {
+    text-align: center;
+    background: blue;
+    color: white;
+    padding: 11px;
+    font-weight: 400;
+    font-size: 19px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.lines {
+    display: flex;
+    gap: 7px;
+    justify-content: end;
+}
+
+.headline-of-eighthSlide p {
+    font-size: 20px;
+}
+.eighth-item h6 {
+    margin-bottom: 20px;
+    font-size: 21px;
+    margin-bottom: 14px;
+}

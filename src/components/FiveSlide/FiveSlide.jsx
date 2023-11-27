@@ -23,7 +23,7 @@ const FiveSlide = () => {
     return (
         <>
         <div className='fiveSlide'>
-             <div className="navbar-container" data-aos="zoom-in-right"
+             <div className="navbar-container" data-aos="zoom-in-left"
              data-aos-duration="1100">
                 <div className="logo text-end">
                     <img src={logo} alt="" />
@@ -41,7 +41,7 @@ const FiveSlide = () => {
              </div>
 
              <div className="sidebar-and-dashboard ">
-                <div className="______sidebar" data-aos="zoom-in-right"
+                <div className="______sidebar" data-aos="zoom-in-left"
              data-aos-duration="1500">
                     <div className="position-changing-those-item">
                     <h5>التاريخ</h5>
@@ -102,13 +102,13 @@ const FiveSlide = () => {
                     </div>
                 </div>
                 <div className="dashboard___ px-3">
-                    <div className="dashboard-headline text-end mt-5 pt-4" data-aos="zoom-in-right"
+                    <div className="dashboard-headline text-end mt-5 pt-4" data-aos="zoom-in-left"
              data-aos-duration="1000">
                       <h5>توضيحي</h5>
                       <p>*سيتم استيراد جميع البيانات التاريخية وإضافتها إلى هذه لوحة المعلومات.</p>
                     </div>
                     <div className="row">
-                        <div className="col-lg-4 mt-3" data-aos="zoom-in-right"
+                        <div className="col-lg-4 mt-3" data-aos="zoom-in-left"
              data-aos-duration="1100">
                             <div className="dashboard_card">
                                 <div className="dashboard__headline">
@@ -123,7 +123,7 @@ const FiveSlide = () => {
                                  </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 mt-3" data-aos="zoom-in-right"
+                        <div className="col-lg-4 mt-3" data-aos="zoom-in-left"
              data-aos-duration="1300">
                             <div className="dashboard_card">
                                 <div className="dashboard__headline">
@@ -137,7 +137,7 @@ const FiveSlide = () => {
                                  </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 mt-3" data-aos="zoom-in-right"
+                        <div className="col-lg-4 mt-3" data-aos="zoom-in-left"
              data-aos-duration="1400">
                             <div className="dashboard_card">
                                 <div className="dashboard__headline">
@@ -151,7 +151,7 @@ const FiveSlide = () => {
                                  </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 mt-3" data-aos="zoom-in-right"
+                        <div className="col-lg-4 mt-3" data-aos="zoom-in-left"
              data-aos-duration="1300">
                             <div className="dashboard_card need-custom-height-for-vh">
                                 <div className="dashboard__headline">
@@ -159,14 +159,14 @@ const FiveSlide = () => {
                                 </div>
                                 
                                  <div className="table-image_____ mt-3" >
-                                    <img style={{width:"90%"}} src={chart} alt="" />
+                                    <img style={{width:"100%"}} src={chart} alt="" />
                                  </div>
                                  <div className="table-image_____ mt-5 pt-5 end-sid-flex">
-                                    <img style={{width:"90%"}} src={text} alt="" />
+                                    <img style={{width:"100%"}} src={text} alt="" />
                                  </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 mt-3" data-aos="zoom-in-right"
+                        <div className="col-lg-4 mt-3" data-aos="zoom-in-left"
              data-aos-duration="1400">
                             <div className="dashboard_cards __card_height">
                                <img src={charts} style={{height:"120px",objectFit:"fill"}} alt="" />
@@ -194,7 +194,7 @@ const FiveSlide = () => {
                             </div>
                             
                         </div>
-                        <div className="col-lg-4 mt-3" data-aos="zoom-in-right"
+                        <div className="col-lg-4 mt-3" data-aos="zoom-in-left"
              data-aos-duration="1500">
                             <div className="dashboard_cards __card_height">
                                <img style={{height:"120px",objectFit:"fill"}}  src={charts22} alt="" />

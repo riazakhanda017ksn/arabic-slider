@@ -11,7 +11,7 @@ const FifteenSlide = () => {
         <>
         <Slider h1={h1} h3={h3}/>
         <div className='container'>
-        <div className='SixthSlide mt-5 mb-3' data-aos="zoom-in-right"
+        <div className='SixthSlide mt-5 mb-3' data-aos="zoom-in-left"
                  data-aos-duration="1200">
                  <div className="fourth-header" >
                 <h2 className='text-end'>
@@ -19,18 +19,18 @@ const FifteenSlide = () => {
                 </h2>
             </div>
         </div>
-        <div className="fifteen-slide-headline" data-aos="zoom-in-right"
+        <div className="fifteen-slide-headline" data-aos="zoom-in-left"
                  data-aos-duration="1300">
             <h6>يحرص البنك على وصول المعلومات إلى الجمهور، والتفاعل مع آرائهم، وتعزيز مشاركتهم في اتخاذ القرار حيث تجاوزت اجمالي عدد المشاركين في منصات المشاركة الالكترونية للبنك 7000 مشارك حيث ان لها اثر بالغ في الارتقاء بجودة الخدمة المقدمة للجمهور والحرص على وصول أصواتهم وآرائهم ومقترحاتهم للبتك من أجل النظر فيها ودر​استها وتحليلها والتجاوب معها وفقاً للأنظمة واللوائح المعمول بها، من أجل تطوير الأداء وتحقيق الأهداف المرجوة</h6>
         </div>
-        <div className="border-bottom-left-side" data-aos="zoom-in-right"
+        <div className="border-bottom-left-side" data-aos="zoom-in-left"
                  data-aos-duration="1500">
         <p>من الأمثلة للآراء والمقترحات التي لها أثر وتم اتخاذ قرار فيها من قبل البنك</p>
 
         </div>
         {/*  */}
           <div className="row">
-            <div className="col-lg-6" data-aos="zoom-in-right"
+            <div className="col-lg-6" data-aos="zoom-in-left"
                  data-aos-duration="1200">
             <div className="headline-sixth-column main-class" >
                     <h5 style={{color:"#3bdbbc"}}>نتائج الرأي او الاقتراح - الحل</h5>
@@ -57,7 +57,7 @@ const FifteenSlide = () => {
                 </div>
               
             </div>
-            <div className="col-lg-5" data-aos="zoom-in-right"
+            <div className="col-lg-5" data-aos="zoom-in-left"
                  data-aos-duration="1300">
             <div className="headline-sixth-column red-border___" data-aos="zoom-in-left"
                  data-aos-duration="1200">
@@ -83,7 +83,7 @@ const FifteenSlide = () => {
 
             </div>
 
-            <div className="col-lg-1" data-aos="zoom-in-right"
+            <div className="col-lg-1" data-aos="zoom-in-left"
                  data-aos-duration="1500">
             <div className="headline-sixth-column main-class" style={{opacity:"0"}} >
                     <h5 style={{color:"#3bdbbc"}}>الحل</h5>

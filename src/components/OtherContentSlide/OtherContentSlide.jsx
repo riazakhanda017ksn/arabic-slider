@@ -22,14 +22,14 @@ const OtherContentSlide = () => {
         <div className='other___slide___image text-center'> 
         </div>
         <div className='container mt-5'>
-            <div className="headline-of-other-slide text-end mb-2" data-aos="zoom-in-right" data-aos-duration="1100">
+            <div className="headline-of-other-slide text-end mb-2" data-aos="zoom-in-left" data-aos-duration="1100">
                 <h2>الممارسة الحالية <span>(التحديات)</span></h2>
             </div>
             <div >
             <div className="row">
                 <div className="col-lg-8">
                 
-                <div className="bottom-side-spacing-adding" data-aos="zoom-in-right" data-aos-duration="1300">
+                <div className="bottom-side-spacing-adding" data-aos="zoom-in-left" data-aos-duration="1300">
                 <div className="custom-min-height">
                 <div className="right-slide-background bottom-side-spacing ">
                         <h3><span> عناصر صوت العميل </span></h3>
@@ -216,7 +216,7 @@ const OtherContentSlide = () => {
 
                 </div>
                 <div className="col-lg-4">
-                    <div className="right-slide-background bottom-side-spacing-adding" style={{padding:'20px'}} data-aos="zoom-in-right" data-aos-duration="1500">
+                    <div className="right-slide-background bottom-side-spacing-adding" style={{padding:'20px'}} data-aos="zoom-in-left" data-aos-duration="1500">
                     <h3><span> عناصر صوت العميل </span></h3>
                     <div className="right__side__navlink">
                            <div className="left__side___column______ font-size-small">

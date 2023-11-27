@@ -10,7 +10,7 @@ const EighthSlide = () => {
     return (
         <div className='eighth-slide'>
             <div className="container">
-            <div className="fourth-header mb-5" data-aos="zoom-in-right" data-aos-duration="1300">
+            <div className="fourth-header mb-5" data-aos="zoom-in-left" data-aos-duration="1300">
                 <h2 className='text-end'> تحليل نظام التذاكر <span style={{color:"#13e0b8"}}> 
                 (الحلول)
                </span>
@@ -21,7 +21,7 @@ const EighthSlide = () => {
                 </div>
              </div>
              <div className="eighth-grid-container">
-                <div className="main____height" data-aos="zoom-in-right" data-aos-duration="1000">
+                <div className="main____height" data-aos="zoom-in-left" data-aos-duration="1000">
                 <div className="eighth-item" >
                     <h6 >التصنيف الرابع</h6>
                     <div className="eighth-headline" >
@@ -44,7 +44,7 @@ const EighthSlide = () => {
                      </div>
                      </div>
 
-                     <div className="eighth-content " data-aos="zoom-in-right" data-aos-duration="1200">
+                     <div className="eighth-content " data-aos="zoom-in-left" data-aos-duration="1200">
                         <div className="more-class">
                         <span>طلب مستندات متعلقة بـ (منتج/خدمة)</span>
                          <span>طلب تمديد (منتج/خدمة)</span>
@@ -55,7 +55,7 @@ const EighthSlide = () => {
                          </div>
                      </div>
 
-                     <div className="eighth-content" data-aos="zoom-in-right" data-aos-duration="1500">
+                     <div className="eighth-content" data-aos="zoom-in-left" data-aos-duration="1500">
                      <div className="text-end-side__">
                        <span>استفسار عن آلية طلب <br />(منتج / خدمة)</span>
                      </div>
@@ -67,7 +67,7 @@ const EighthSlide = () => {
                     {/*  */}
                 </div>
                 </div>
-                <div className="eighth-item" data-aos="zoom-in-right" data-aos-duration="1500" >
+                <div className="eighth-item" data-aos="zoom-in-left" data-aos-duration="1500" >
                     <h6 >التصنيف الثالث</h6>
                     <div className="eighth-headline" >
                         <h5>أين في رحلة العميل¹ / نقطة التواصل مع العميل (Touchpoint)</h5>
@@ -90,7 +90,7 @@ const EighthSlide = () => {
                          </div>
                     </div>
                 </div>
-                <div className="eighth-item" data-aos="zoom-in-right" data-aos-duration="1100" >
+                <div className="eighth-item" data-aos="zoom-in-left" data-aos-duration="1100" >
                      <h6 >التصنيف الثاني</h6>
                     <div className="eighth-headline">
                         <h5>ما هي مجموعة (المنتج / الخدمة) و(المنتج / الخدمة)</h5>

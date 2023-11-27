@@ -11,9 +11,9 @@ const Slider = ({h1,h3}) => {
             <div className="container">
             <div className="position_____________relative">
             <div className="text_position_change">
-            <h1 className='text-end' data-aos="zoom-in-right" data-aos-duration="1200"
+            <h1 className='text-end' data-aos="zoom-in-left" data-aos-duration="1200"
          >{h1}</h1>
-            <h5 className='text-end' data-aos="zoom-in-right" data-aos-duration="1500"
+            <h5 className='text-end' data-aos="zoom-in-left" data-aos-duration="1500"
             >{h3}</h5>
             </div>
             <div className="relative">

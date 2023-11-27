@@ -26,21 +26,21 @@ const ThirdSlide = () => {
         <div className='py-5 my-3'>
             <div className="container">
             <div className="third-navbar">
-                <div className="navlink___" data-aos="zoom-in-right"
+                <div className="navlink___" data-aos="zoom-in-left"
                  data-aos-duration="1100">
                     <a href="">إدارة العمليات</a>
                     <a href="">بيئة تحليلية – مكعب طلبات</a>
                     <a href="">نظام رضى العميل</a>
                     <a href="" className='active'>المصادر:</a>
                 </div>
-                <div className="nav___logo" data-aos="zoom-in-right"
+                <div className="nav___logo" data-aos="zoom-in-left"
                  data-aos-duration="1400">
                <h2> ملخص مؤشرات تجربة العملاء – <span>(التحديات)</span></h2>
                 </div>
             </div>
              <div className="row mt-5 pt-4">
                 <div className="col-lg-4">
-                    <div className="box" data-aos="zoom-in-right" data-aos-duration="1000">
+                    <div className="box" data-aos="zoom-in-left" data-aos-duration="1000">
                         <div className="box-caption">
                             <h6>رفض طلبات التمويل بعد التقديم</h6>
                         </div>
@@ -76,7 +76,7 @@ const ThirdSlide = () => {
                     </div>
                 </div>
                 <div className="col-lg-4">
-                    <div className="box" data-aos='zoom-in-right' data-aos-duration="1100">
+                    <div className="box" data-aos='zoom-in-left' data-aos-duration="1100">
                         <div className="box-caption">
                             <h6>المتقدمين للقروض من البوابة</h6>
                         </div>
@@ -102,7 +102,7 @@ const ThirdSlide = () => {
                     </div>
                 </div>
                 <div className="col-lg-4">
-                    <div className="box" data-aos='zoom-in-right' data-aos-duration="1200">
+                    <div className="box" data-aos='zoom-in-left' data-aos-duration="1200">
                         <div className="box-caption">
                             <h6>الخدمات الذاتية </h6>
                         </div>
@@ -140,23 +140,23 @@ const ThirdSlide = () => {
                     </div>
                 </div>
                 <div className="col-lg-4">
-                  <div className="custom__card" data-aos='zoom-in-right' data-aos-duration="1100">
+                  <div className="custom__card" data-aos='zoom-in-left' data-aos-duration="1100">
                      <img src={customImg} alt="" />
                   </div>
                 </div>
                 <div className="col-lg-4">
-                  <div className="custom__card" data-aos='zoom-in-right' data-aos-duration="1200">
+                  <div className="custom__card" data-aos='zoom-in-left' data-aos-duration="1200">
                      <img src={customImg2} alt="" />
                   </div>
                 </div>
                 <div className="col-lg-4">
-                  <div className="custom__card" data-aos='zoom-in-right' data-aos-duration="1300">
+                  <div className="custom__card" data-aos='zoom-in-left' data-aos-duration="1300">
                      <img src={svg3} alt="" />
                   </div>
                 </div>
 
                 <div className="col-lg-4">
-                    <div className="box spacing need-more-height" data-aos='zoom-in-right' data-aos-duration="1100">
+                    <div className="box spacing need-more-height" data-aos='zoom-in-left' data-aos-duration="1100">
                         <div className="box-caption">
                             <h6>برنامج صوت العميل</h6>
                         </div>
@@ -205,7 +205,7 @@ const ThirdSlide = () => {
                 </div>
 
                 <div className="col-lg-4">
-                    <div className="box spacing need-more-height" data-aos='zoom-in-right' data-aos-duration="1300">
+                    <div className="box spacing need-more-height" data-aos='zoom-in-left' data-aos-duration="1300">
                         <div className="box-caption">
                             <h6>أبرز الصعوبات وتصنيفها</h6>
                         </div>
@@ -252,7 +252,7 @@ const ThirdSlide = () => {
                 </div>
                    
                 <div className="col-lg-4">
-                    <div className="box spacing need-more-height" data-aos='zoom-in-right' data-aos-duration="1400">
+                    <div className="box spacing need-more-height" data-aos='zoom-in-left' data-aos-duration="1400">
                         <div className="box-caption">
                            <h6>إحصائيات مراكز الدعم</h6>
                         </div>
@@ -300,7 +300,7 @@ const ThirdSlide = () => {
 
              </div>
              {/* other rows */}
-             <div className="other-headline-text" data-aos="zoom-in-right"
+             <div className="other-headline-text" data-aos="zoom-in-left"
                  data-aos-duration="1100">
                <h1 className="text-end mt-5">
                ملخص المشاريع – <span>(الحلول)</span>
@@ -309,7 +309,7 @@ const ThirdSlide = () => {
              {/*  */}
               <div className="row mt-5">
                <div className="col-lg-4" >
-                  <div className="more-grid" data-aos="zoom-in-right"
+                  <div className="more-grid" data-aos="zoom-in-left"
                  data-aos-duration="1200">
                      <h6>الحلول</h6>
                      <p>. إضافة أدوات تتبع العميل داخل الموقع لمعرفة الخرائط الحرارية وطبيعة سلوكه داخل الموقع.</p>
@@ -322,14 +322,14 @@ const ThirdSlide = () => {
                   </div>
                </div>
                <div className="col-lg-4">
-                  <div className="more-grid" data-aos="zoom-in-right"
+                  <div className="more-grid" data-aos="zoom-in-left"
                  data-aos-duration="1200">
                   <h6 style={{background:"red"}} >نقاط الألم</h6>
                   <p>. صعوبات تقنية في النظام تعيق تجربة العملاء.</p>
                   <p>. تحديات في التعامل مع استفسارات العملاء.</p>
                   <p>. التأخر في الإجراءات.</p>
                   </div>
-                  <div className="more-grid mt-3" data-aos="zoom-in-right"
+                  <div className="more-grid mt-3" data-aos="zoom-in-left"
                  data-aos-duration="1400">
                   <h6 >الانجازات</h6>
                   <p>. إطلاق موقع البنك بحلته الجديدة وبتجربة مستخدمين مازالت تحت الرصد.</p>

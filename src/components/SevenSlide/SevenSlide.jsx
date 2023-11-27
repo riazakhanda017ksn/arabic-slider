@@ -113,18 +113,18 @@ const SevenSlide = () => {
             </div> */}
         </div>
         <div className="container mt-5">
-        <div className="fourth-header mb-5" data-aos="zoom-in-right" data-aos-duration="1300">
+        <div className="fourth-header mb-5" data-aos="zoom-in-left" data-aos-duration="1300">
                 <h2 className='text-end'> تحليل نظام التذاكر <span style={{color:"red"}}> 
                 (التحديات)
                </span>
                 </h2>
         </div>
-        <div className="pest-banner-title" data-aos="zoom-in-right" data-aos-duration="1200">
+        <div className="pest-banner-title" data-aos="zoom-in-left" data-aos-duration="1200">
             <p>أثناء تحليلنا المبدئي، لاحظنا أن نظام تصنيف البلاغات الحالي يتضمن قائمة واحدة من العناصر أحادية البعد (one-dimensional) التي تحاول وصف الـبلاغات الأكثر شيوعًا وفي بعض الأحيان تشمل اسم المنتج المعني</p>
         </div>
         <div className="row">
             <div className="col-lg-6">
-                <div className="pest-bg-card-container" data-aos="zoom-in-right" data-aos-duration="1200">
+                <div className="pest-bg-card-container" data-aos="zoom-in-left" data-aos-duration="1200">
                     <div className="big-blog-headline">
                         <h6>حاليًا قسم خدمة العملاء في بنك التنمية الاجتماعية يستخدم لائحة تضم 154 فئة لتصنيف تفاعلات العملاء</h6>
                         <img src={logo} alt="" />
@@ -159,7 +159,7 @@ const SevenSlide = () => {
                 </div>
             </div>
             <div className="col-lg-3">
-                <div className="pest-bg-card-container" data-aos="zoom-in-right" data-aos-duration="1200">
+                <div className="pest-bg-card-container" data-aos="zoom-in-left" data-aos-duration="1200">
                     <div className="big-blog-headline">
                         <h6> تتطور مع مرور الوقت للتعامل مع تفاعلات العملاء الجديدة</h6>
                     
@@ -174,7 +174,7 @@ const SevenSlide = () => {
                 </div>
             </div>
             <div className="col-lg-3">
-                <div className="pest-bg-card-container" data-aos="zoom-in-right" data-aos-duration="1200">
+                <div className="pest-bg-card-container" data-aos="zoom-in-left" data-aos-duration="1200">
                     <div className="big-blog-headline">
                     <h6>لائحات تصنيف تفاعلات خدمة العملاء الأولية ...</h6>
                     </div>
