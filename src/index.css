@@ -11,7 +11,7 @@ div#root {
     font-size: 14px !important
 }
 .fourth-flex-text___ p {
-    font-size: 16px !important;
+    font-size: 14px !important;
 }
 
 
@@ -204,11 +204,11 @@ div#root {
 .chart-headline____ h5 {
     margin: 0;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .chart-headline____ p {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .cardparent p {
@@ -229,7 +229,7 @@ div#root {
 }
 
 .chart-containers__ small {
-    font-size: 15px;
+    font-size: 13px;
     width: 100%;
     text-align: end;
     display: block;
@@ -243,6 +243,11 @@ div#root {
     font-weight: 400;
     border-radius: 11px;
     margin: 0;
+}
+
+.table-image img {
+    width: 100%;
+    margin-top: 2px !important
 }
 
 .sidebar____text___bg h6 {

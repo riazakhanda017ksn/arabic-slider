@@ -18,7 +18,7 @@ import frame from '../../assets/images/FourthSlide/frame.svg'
 import frame2 from '../../assets/images/FourthSlide/frame2.svg'
 import f1 from '../../assets/images/FourthSlide/chart1.png'
 import f2 from '../../assets/images/FourthSlide/chart2.png'
-
+import circle from '../../assets/images/FourthSlide/circle.svg'
 
 const FourthSlide = () => {
     const data =[
@@ -106,6 +106,7 @@ const data2 =[
                 </h2>
             </div>
            {/*  */}
+           <div className="relative___part___image">
            <div className="row mt-5">
             <div className="col-lg-6" data-aos="zoom-in-left"
              data-aos-duration="1200">
@@ -292,6 +293,11 @@ const data2 =[
            </div>
            </div>
            {/*  */}
+           <div className="position-absolute-image-resize" data-aos="zoom-in"
+             data-aos-duration="1700">
+            <img src={circle} alt="" />
+           </div>
+           </div>
            
         </div>
     );
