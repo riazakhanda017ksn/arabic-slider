@@ -275,3 +275,27 @@ div#root {
     font-size: 21px;
     margin-bottom: 14px;
 }
+
+
+.number span {
+    font-size: 21px;
+
+}
+
+.ninth-number-box {
+
+    height: 250px;
+}
+
+.ninth-number-box p {
+    font-size: 17px;
+    line-height: 31px;
+}
+.headline h4 {
+    font-size: 19px;
+   
+}
+
+.right-slide-background {
+    height: 94% !important;
+}

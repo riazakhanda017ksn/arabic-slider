@@ -214,9 +214,10 @@ const LastSlide = () => {
             </div>
 
             <div className="last-slie-text-heading">
+                <div className="container text-end">
                 <h2 data-aos="zoom-in-left"
          data-aos-duration="1700">شكراً لكم</h2>
-            </div>
+            </div></div>
             
             <div className="slide-contain-bg" data-aos="zoom-in-left"
          data-aos-duration="1800">

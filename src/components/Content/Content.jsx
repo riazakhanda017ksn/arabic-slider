@@ -4,7 +4,7 @@ import { data } from '../../Data/Data';
 const Content = () => {
     return (
         <>
-        <div className='container pt-5 my-5'>
+        <div className='container my-5'>
             <div className="content" >
                 <div className="text-end" data-aos="zoom-in-left" data-aos-duration="1200">
                     <h3>ملخص أبرز التحديات والحلول لمحطات تجربة العميل</h3>
