@@ -60,7 +60,7 @@ const data2 =[
     return (
         <div className='container py-5 '>
             <div className="fourth-header" data-aos="zoom-in-left"
-             data-aos-duration="1500">
+             data-aos-duration="1200">
                 <h2 className='text-end'> أفضل الممارسات <span> 
                      (الحلول)
                </span>
@@ -68,7 +68,7 @@ const data2 =[
             </div>
             <div className="row mt-4">
                <div className="col-lg-4 mt-4" data-aos="zoom-in-left"
-             data-aos-duration="1200">
+             data-aos-duration="1300">
                 <div className="fourth-image-slide">
                    <img src={img1} alt="" />
                 </div>
@@ -81,7 +81,7 @@ const data2 =[
                </div>
 
                <div className="col-lg-6 mt-5" data-aos="zoom-in-left"
-             data-aos-duration="1200">
+             data-aos-duration="1600">
                <div className="fourth-image-slide">
             
                 <img src={img3} alt="" /> 
@@ -89,7 +89,7 @@ const data2 =[
                </div>
 
                <div className="col-lg-6 mt-5" data-aos="zoom-in-left"
-             data-aos-duration="1500">
+             data-aos-duration="1600">
                <div className="fourth-image-slide">
             
                 <img src={img4} alt="" /> 
