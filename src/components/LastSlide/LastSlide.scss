@@ -114,11 +114,17 @@
 }
 
 .slide-contain-bg{
-    background: url(../../assets/images/last/11.svg);
+    background: url(../../assets/images/last/last.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
     background-position: top left;
+}
+.last_footer {
+    height: 100vh;
+    position: relative;
+    background: #e8f2f35c;
+    margin-top: 80px;
 }
 
 // .custom-min-height {

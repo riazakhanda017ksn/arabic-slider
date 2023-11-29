@@ -50,19 +50,6 @@ div#root {
     background: #5585B5;
 }
 
-.eighth-headline {
-    background: #5585B5;
-
-}
-
-.eighth-content {
-    background: #e7e5fe59;
-
-}
-
-.eighth-content {
-    border: 1px solid #5585B5;
-}
 
 .more-class span {
     border: 1px solid #5585B5;
@@ -302,4 +289,53 @@ div#root {
 
 .single__blog___card___item___ {
     padding: 15px;
+}
+
+.headline-of-eighthSlide {
+    background: #670099 !important
+}
+
+.eighth-headline {
+    background: #670099;
+
+}
+
+.eighth-content {
+    background: #e7e5fe59;
+
+}
+
+.eighth-content {
+    border: 1px solid #670099;
+}
+
+.list-style-container span {
+    border: 1px solid #670099 !important;
+}
+
+.parent span {
+    border: 1px solid #670099 !important;
+}
+
+.text-end-side__ span {
+    border: 1px solid #670099 !important;
+}
+.more-class span {
+    border: 1px solid #670099 !important
+}
+
+.white-border-design {
+    border: 1px solid #670099 !important
+}
+
+.box-for-some-content {
+    border: 1px solid #670099 !important;
+}
+
+.eighth-content {
+    background: #fff4ff !important;
+}
+
+.box-for-some-content {
+    background: #fff4ff !important;
 }
