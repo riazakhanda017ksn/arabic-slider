@@ -208,7 +208,7 @@ const LastSlide = () => {
              {/*  */}
         </div>
          <div className="last_footer" >
-            <div className="text-end px-5 pt-5" data-aos="zoom-in-left"
+            <div className="text-end pt-5 container" data-aos="zoom-in-left"
             data-aos-duration="1200 ">
                 <img src={logo} alt="" />
             </div>
