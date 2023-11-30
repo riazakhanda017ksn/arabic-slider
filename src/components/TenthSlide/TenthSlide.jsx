@@ -42,7 +42,7 @@ const TenthSlide = () => {
     return (
         <div>
             <Slider h1={h1} h3={h3}/>
-            <div className="container">
+            <div className="container" style={{padding:"100px 0"}}>
             <div className="fourth-header my-5" data-aos="zoom-in-left" data-aos-duration="1200" >
                 <h2 className='text-end'> أبرز المشاكل في الفروع  <span style={{color:"red"}}> 
                 (التحديات)

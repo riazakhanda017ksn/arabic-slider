@@ -154,7 +154,7 @@ const EighthSlide = () => {
              </div>
            
             </div>
-            <div className="my-5">
+            <div style={{marginTop:"100px"}}>
             <Slider h1={h1} h3={h3}/>
             </div>
         </div>

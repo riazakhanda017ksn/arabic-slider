@@ -6,10 +6,9 @@ const ElevenSlide = () => {
     const h3 = ``
     return (
         <>
-        <div className='container'>
+        <div className='container' style={{paddingBottom:"100px"}}>
             <div className="fourth-header my-5" data-aos="zoom-in-left" data-aos-duration="1200">
-                <h2 className='text-end'> أبرز الحلول المتعلقة بالفروع
-                 <span style={{color:"#74c23d"}}> 
+                <h2 className='text-end'> أبرز الحلول المتعلقة بالفروع <span style={{color:"#74c23d"}}> 
                  (الحلول)
                </span>
                 </h2>

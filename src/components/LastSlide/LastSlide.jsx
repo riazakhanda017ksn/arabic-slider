@@ -55,7 +55,7 @@ const LastSlide = () => {
 
     return (
         <>
-        <div className='container'>
+        <div className='container' style={{marginBottom:"160px"}}>
               <div className='SixthSlide' data-aos="zoom-in-left"
                  data-aos-duration="1000">
                  <div className="fourth-header" >
@@ -133,7 +133,7 @@ const LastSlide = () => {
              {/*  */}
   <div className="row-refactor-again mb-5" data-aos="zoom-in-left"
                  data-aos-duration="2000">
-             <div className="row">
+             <div className="row" >
                             <div className="col-lg-12">
                                 <div className="col-lg-12-headline">
                                     <p>تحديد أهم المعايير</p>

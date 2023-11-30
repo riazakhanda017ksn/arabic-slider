@@ -13,7 +13,8 @@ import logo10 from '../../assets/images/nineSlider/logo10.svg'
 import logo11 from '../../assets/images/nineSlider/logo11.svg'
 const NinthSlide = () => {
     return (
-        <div className='container'>
+        <div style={{margin:"100px 0"}}>
+        <div className='container' >
             <div className="fourth-header mb-5"  data-aos="zoom-in-left" data-aos-duration="1300">
                 <h2 className='text-end'> الموقع الإلكتروني  <span style={{color:"red"}}> 
                  (التحديات)
@@ -72,7 +73,7 @@ const NinthSlide = () => {
             </div>
           </div>
 
-          <div className="fourth-header mb-4 pt-4" data-aos="zoom-in-left" data-aos-duration="1200">
+          <div className="fourth-header" data-aos="zoom-in-left" data-aos-duration="1200" style={{paddingTop:"100px"}}>
                 <h2 className='text-end'>
                 الملاحظات الواردة من الإدارات <span style={{color:"#24bec8"}}> (الحلول)
                </span>
@@ -80,7 +81,7 @@ const NinthSlide = () => {
           </div>
           {/*  */}
           <div className="border-at-the-bottom-side" data-aos="zoom-in-left" data-aos-duration="1300">
-          <div className="row mb-4">
+          <div className="row mb-4" style={{position:"relative",top:"6px"}}>
             <div className="col-lg-3"></div>
             <div className="col-lg-3">
                 <div className="numbers">
@@ -108,7 +109,7 @@ const NinthSlide = () => {
           {/*  */}
 
           {/*  */}
-            <div className="row my-5">
+            <div className="row " style={{marginTop:"100px",paddingBottom:"50px"}}>
              <div className="col-lg-5" data-aos="zoom-in-left" data-aos-duration="1200">
                 <div className="text-box__">
                     <div className="text__box__caption">
@@ -236,6 +237,7 @@ const NinthSlide = () => {
              </div>
             </div>
           {/*  */}
+        </div>
         </div>
     );
 };

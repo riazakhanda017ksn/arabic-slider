@@ -8,7 +8,7 @@ const SecondPartContent = () => {
   const h3=``
     return (
         <>
-        <div className='container pb-5 mb-3'>
+        <div className='container pb-5 ' style={{marginBottom:"100px"}}>
             <div className="content">
                 <div className="text-end" data-aos="zoom-in-left" data-aos-duration="1200">
                     <h3>ملخص أبرز التحديات والحلول لمحطات تجربة العميل</h3>

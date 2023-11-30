@@ -72,7 +72,7 @@ const FourteenSlide = () => {
         },
     ]
     return (
-        <div className="container mt-2 mb-5">
+        <div className="container mb-5" style={{padding:"100px 0"}}>
         <div className='SixthSlide' data-aos="zoom-in-left" data-aos-duration="1100">
                  <div className="fourth-header" data-aos="fade-up"
                   data-aos-duration="1200">
@@ -83,7 +83,7 @@ const FourteenSlide = () => {
             </div>
         </div>
         {/*  */}
-        <div className="sixth-row">
+        <div className="sixth-row mb-3">
             <div className="sixth-right-side-column" data-aos="zoom-in-left" data-aos-duration="1200">
                 <div className="headline-sixth-column main-class" data-aos="zoom-in-left"
                  data-aos-duration="1200">

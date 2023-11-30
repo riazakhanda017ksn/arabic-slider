@@ -11,9 +11,9 @@ const SixteenSlide = () => {
     const h1 = `برنامج ولاء العميل`
     const h3 = ``
     return (
-        <div className='mb-5'>
+        <div style={{marginBottom:"100px"}}>
         <Slider h1={h1} h3={h3} />
-        <div className="container mt-5">
+        <div className="container" style={{marginTop:"100px"}}>
         <div className='SixthSlide' data-aos="zoom-in-left"
                  data-aos-duration="1000">
                  <div className="fourth-header" >

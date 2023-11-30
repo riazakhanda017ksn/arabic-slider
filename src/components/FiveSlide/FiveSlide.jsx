@@ -22,7 +22,7 @@ const FiveSlide = () => {
     const h3 = ``
     return (
         <>
-        <div className='fiveSlide'>
+        <div className='fiveSlide' style={{padding:"100px 0"}}>
              <div className="navbar-container" data-aos="zoom-in-left"
              data-aos-duration="1100">
                 <div className="logo text-end">

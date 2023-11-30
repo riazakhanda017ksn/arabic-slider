@@ -72,7 +72,8 @@ const SixthSlide = () => {
         },
     ]
     return (
-        <div className="container mt-2 mb-5">
+        <div style={{margin:"100px 0"}}>
+        <div className="container ">
         <div className='SixthSlide'>
                  <div className="fourth-header" data-aos="zoom-in-left"
                   data-aos-duration="1200">
@@ -219,7 +220,7 @@ const SixthSlide = () => {
         {/*  */}
          
          {/* second section start here */}
-         <div className="fourth-header mt-5" data-aos="zoom-in-left" data-aos-duration="1000">
+         <div className="fourth-header" data-aos="zoom-in-left" data-aos-duration="1000" style={{marginTop:"120px"}}>
                 <h2 className='text-end'>سياسات إدارة المنتجات <span style={{color:"red"}}> 
                 (الحلول)
                </span>
@@ -268,7 +269,7 @@ const SixthSlide = () => {
           {/*  */}
           {/* bs grid */}
         
-          <div className="row">
+          <div className="row" style={{marginBottom:"150px"}}>
             <div className="col-lg-4">
                 <div className="blog-headline___" data-aos="zoom-in-left" data-aos-duration="1000">
                     <h6>متطلبات إغلاق الفجوات</h6>
@@ -357,7 +358,7 @@ const SixthSlide = () => {
           </div>
 
           {/*  */}
-        </div>
+        </div></div>
     );
 };
 

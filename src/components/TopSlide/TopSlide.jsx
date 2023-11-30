@@ -10,7 +10,7 @@ import arrow from '../../assets/images/tweleSlide/arrow.png'
 
 const TopSlide = () => {
     return (
-        <div className='TopSlide '>
+        <div className='TopSlide ' style={{padding:"50px 0"}}>
             <div className='container'>
                 <div className="fourth-header my-5" data-aos="zoom-in-left" data-aos-duration="1200">
                 <h2 data-aos="zoom-in-left" data-aos-duration="1600" className='text-end'> المتطلبات الأساسية <span style={{color:"red"}}> 

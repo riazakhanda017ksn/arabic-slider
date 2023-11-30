@@ -339,3 +339,10 @@ div#root {
 .box-for-some-content {
     background: #fff4ff !important;
 }
+
+.numbers {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: end;
+}

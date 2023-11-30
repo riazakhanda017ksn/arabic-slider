@@ -58,7 +58,7 @@ const data2 =[
 
 
     return (
-        <div className='container py-5 '>
+        <div className='container py-5'>
             <div className="fourth-header" data-aos="zoom-in-left"
              data-aos-duration="1200">
                 <h2 className='text-end'> أفضل الممارسات <span> 
@@ -98,9 +98,9 @@ const data2 =[
 
             </div>
             {/*  */}
-            <div className="fourth-header mt-5" data-aos="zoom-in-left"
+            <div className="fourth-header mt-5 pt-5" data-aos="zoom-in-left"
              data-aos-duration="1000">
-                <h2 className='text-end'> أفضل الممارسات <span> 
+                <h2 className='text-end mt-5'> أفضل الممارسات <span> 
                      (الحلول)
                </span>
                 </h2>

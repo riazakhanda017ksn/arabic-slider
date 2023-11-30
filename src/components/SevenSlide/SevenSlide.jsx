@@ -112,7 +112,7 @@ const SevenSlide = () => {
                 </div>
             </div> */}
         </div>
-        <div className="container mt-5">
+        <div className="container" style={{paddingTop:'100px', paddingBottom:'70px'}}>
         <div className="fourth-header mb-5" data-aos="zoom-in-left" data-aos-duration="1300">
                 <h2 className='text-end'> تحليل نظام التذاكر <span style={{color:"red"}}> 
                 (التحديات)

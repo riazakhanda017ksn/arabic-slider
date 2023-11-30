@@ -9,6 +9,7 @@ const TwelveSlide = () => {
     return (
         <>
         <TopSlide/>
+        <div style={{paddingBottom:"80px"}}>
         <div className='container'>
                 <div className="fourth-header my-5" data-aos="zoom-in-left" data-aos-duration="1000">
                 <h2 className='text-end'> المتطلبات الأساسية <span style={{color:"#74c23d"}}> 
@@ -229,7 +230,7 @@ const TwelveSlide = () => {
             </div>
         </div>
         {/*  */}
-        </div>
+        </div></div>
         </>
     );
 };

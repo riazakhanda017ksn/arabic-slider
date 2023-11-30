@@ -23,7 +23,7 @@ import gridimg from '../../assets/images/frame/grid-img.svg'
 import svgicon from '../../assets/images/frame/svg.svg'
 const ThirdSlide = () => {
     return (
-        <div className='py-5 my-3'>
+        <div className='py-3' style={{margin:"100px 0"}}>
             <div className="container">
             <div className="third-navbar">
                 <div className="navlink___" data-aos="zoom-in-left"
@@ -301,7 +301,7 @@ const ThirdSlide = () => {
              </div>
              {/* other rows */}
              <div className="other-headline-text" data-aos="zoom-in-left"
-                 data-aos-duration="1100">
+                 data-aos-duration="1100" style={{marginTop:"100px"}}>
                <h1 className="text-end mt-5">
                ملخص المشاريع – <span>(الحلول)</span>
                </h1>

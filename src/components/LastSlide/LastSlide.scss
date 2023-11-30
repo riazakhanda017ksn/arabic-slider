@@ -109,7 +109,7 @@
 
 .last_footer{
 
-    height: 100vh;
+    height: 738px;
     position: relative;
 }
 
@@ -121,7 +121,7 @@
     background-position: top left;
 }
 .last_footer {
-    height: 100vh;
+    height: 738px;
     position: relative;
     background: #e8f2f35c;
     margin-top: 80px;
@@ -144,7 +144,7 @@
 .last-slie-text-heading {
     position: absolute;
     top: 0;
-    height: 100vh;
+    height: 730px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -154,4 +154,28 @@
 .last-slie-text-heading h2 {
     font-size: 90px;
     color: #13baeb;
+}
+
+.fiveSlide {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.logo.text-end img {
+    position: relative;
+    left: -19px;
+}
+.last-slie-text-heading h2 {
+    font-size: 90px;
+    color: #13baeb;
+    text-align: end;
+    padding-right: 130px;
+}
+.tag-line-caption h3 {
+    font-size: 20px;
+    line-height: 35px;
+    color: #314fed;
+    margin: 0;
+    position: relative;
+    top: 6px;
 }

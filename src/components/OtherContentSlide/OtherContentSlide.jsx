@@ -19,9 +19,10 @@ const OtherContentSlide = () => {
     return (
         <>
         <Slider h1={h1} h3={h3}/>
-        <div className='other___slide___image text-center'> 
+        <div className='other___slide___image text-center' > 
         </div>
-        <div className='container mt-5'>
+       <div style={{marginTop:"100px",marginBottom:"40px"}}>
+       <div className='container' >
             <div className="headline-of-other-slide text-end mb-2" data-aos="zoom-in-left" data-aos-duration="1100">
                 <h2>الممارسة الحالية <span>(التحديات)</span></h2>
             </div>
@@ -260,6 +261,7 @@ const OtherContentSlide = () => {
             </div>
             </div>
             </div>
+       </div>
        
         </>
     );
