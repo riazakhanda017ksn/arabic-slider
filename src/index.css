@@ -346,3 +346,25 @@ div#root {
     gap: 10px;
     justify-content: end;
 }
+
+.Custoom-slide {
+    background: black;
+    height: 1000px;
+}
+
+.navbar___item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.___logo___ img {
+    height: 80px;
+    background: white;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+.navbar___item {
+    padding: 24px 0px;
+}
