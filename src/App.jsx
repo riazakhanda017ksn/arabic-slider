@@ -3,7 +3,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from './components/HOME/Home';
-import MainHome from './components/MainHome/MainHome';
 
 const App = () => {
 
@@ -14,8 +13,8 @@ const App = () => {
   <>
         <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<MainHome/>} />
-          <Route path="/home" element={<Home/>} />
+          <Route exact path="/" element={<Home/>} />
+
         </Routes>
         </BrowserRouter>
 
