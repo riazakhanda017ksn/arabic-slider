@@ -21,8 +21,13 @@ import customImg2 from '../../assets/images/frame/2.svg'
 import svg3 from '../../assets/images/frame/3.svg'
 import gridimg from '../../assets/images/frame/grid-img.svg'
 import svgicon from '../../assets/images/frame/svg.svg'
+import Slider from '../Slider/Slider';
 const ThirdSlide = () => {
+   const  h1=`مؤشرات الاداء`
+   const h3=``
     return (
+      <div>
+          <Slider h1={h1} h3={h3} />
         <div className='py-3' style={{margin:"100px 0"}}>
             <div className="container">
             <div className="third-navbar">
@@ -403,6 +408,7 @@ const ThirdSlide = () => {
               </div>
              {/*  */}
             </div>
+        </div>
         </div>
     );
 };

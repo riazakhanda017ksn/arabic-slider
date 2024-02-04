@@ -37,7 +37,7 @@ div#root {
 }
 
 .post-content p {
-    font-size: 14px !important
+    font-size: 13px !important
 }
 
 .paragraph__content p 
@@ -367,4 +367,8 @@ div#root {
 
 .navbar___item {
     padding: 24px 0px;
+}
+
+.post-content h6 {
+    font-size: 18px !important
 }

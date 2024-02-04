@@ -227,9 +227,7 @@ const FiveSlide = () => {
              </div>
             
         </div>
-        <div className="my-5">
-        <Slider h1={h1} h3={h3}/>
-        </div>
+       
         </>
     );
 };

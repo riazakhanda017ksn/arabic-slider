@@ -5,8 +5,7 @@ import img2 from '../../assets/images/banner/logo2.png'
 import img11 from '../../assets/images/banner/banner6.png'
 import Slider from '../Slider/Slider';
 const EighthSlide = () => {
-    const h1 = `موقع البنك`
-    const h3 = ``
+  
     return (
         <div className='eighth-slide'>
             <div className="container">
@@ -154,9 +153,7 @@ const EighthSlide = () => {
              </div>
            
             </div>
-            <div style={{marginTop:"100px"}}>
-            <Slider h1={h1} h3={h3}/>
-            </div>
+          
         </div>
     );
 };

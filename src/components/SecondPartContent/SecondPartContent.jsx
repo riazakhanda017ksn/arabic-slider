@@ -4,8 +4,7 @@ import {  dataContent } from '../../Data/Data';
 import img from '../../assets/images/banner/banner3.jpg'
 import Slider from '../Slider/Slider';
 const SecondPartContent = () => {
-  const  h1=`مؤشرات الاداء`
-  const h3=``
+
     return (
         <>
         <div className='container pb-5 ' style={{marginBottom:"100px"}}>
@@ -98,7 +97,7 @@ const SecondPartContent = () => {
 
             {/*  */}
         </div>
-           <Slider h1={h1} h3={h3} />
+          
         </>
     );
 };

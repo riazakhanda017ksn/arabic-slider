@@ -1,0 +1,24 @@
+
+.transform-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 23px;
+    background: white;
+    width: 43%;
+    margin: 0 auto;
+    border: 1px solid rgba(118, 118, 118, 0.2784313725) !important;
+    position: fixed;
+    top: 46%;
+    left: -246px;
+    z-index: 9999;
+    transform: rotate(-90deg);
+    border-radius: 34px;
+}
+
+.transform-navbar a {
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 13px;
+}

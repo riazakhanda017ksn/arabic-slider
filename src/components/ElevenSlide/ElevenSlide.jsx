@@ -1,9 +1,7 @@
 import React from 'react';
 import './ElevenSlide.scss'
-import Slider from '../Slider/Slider';
 const ElevenSlide = () => {
-    const h1 = `الفروع`
-    const h3 = ``
+
     return (
         <>
         <div className='container' style={{paddingBottom:"100px"}}>
@@ -87,9 +85,7 @@ const ElevenSlide = () => {
           </div>
         {/*  */}
         </div>
-        <div className="my-5">
-            <Slider h1={h1} h3={h3}/>
-        </div>
+     
         </>
     );
 };
