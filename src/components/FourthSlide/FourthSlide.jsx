@@ -13,7 +13,10 @@ import logo22 from '../../assets/images/FourthSlide/22.png'
 import logo33 from '../../assets/images/FourthSlide/33.png'
 import circle from '../../assets/images/FourthSlide/circle.svg'
 import img11 from '../../assets/images/banner/111.png'
-import img22 from '../../assets/images/banner/111.png'
+import img22 from '../../assets/images/banner/222.png'
+import img33 from '../../assets/images/banner/333.png'
+import img44 from '../../assets/images/banner/444.png'
+
 
 const FourthSlide = () => {
     const data =[
@@ -40,18 +43,25 @@ const FourthSlide = () => {
     {
         id:1,
         img:img11,
+        time:"1200"
     },
     {
         id:2,
         img:img22,
+        time:"1300"
+
     },
     {
         id:3,
         img:img33,
+        time:"1400"
+
     },
     {
         id:1,
         img:img44,
+        time:"1500"
+
     }
  ]
 
@@ -122,9 +132,16 @@ const data2 =[
            {/*  */}
            <div className="relative___part___image">
            <div className="row mt-5">
-        
-             <div className="col-lg-6" data-aos="zoom-in-left"
-             data-aos-duration="1200"></div>
+           {
+            images.map(item=>{
+                return <div key={item.id} className="col-lg-6 mt-3" data-aos="zoom-in-left" data-aos-duration={item.time}>
+                     <div className="fourth-slide-image">
+                     <img src={item.img} alt="" />
+
+                     </div>
+                     </div>
+            })
+           }
            </div>
            {/*  */}
            <div className="position-absolute-image-resize" data-aos="zoom-in"
