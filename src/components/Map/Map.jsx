@@ -33,6 +33,7 @@ const Map = () => {
             height: "60px",
             width: "auto",
           }}
+          
         />
 
         {/* Hardcoded location icons */}
