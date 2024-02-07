@@ -5,7 +5,7 @@ import img from '../../assets/images/banner/slide6.jpg'
 const SixthSlideManagement = () => {
     const h1 = `موقع البنك`
     const h3 = ``
-    const bg = '#000000d1'
+    const bg = '#feaea9bd'
     return (
         <div>
             <div>

@@ -27,7 +27,7 @@ const EighthSlide = () => {
                         <h5>السبب الأولي/ الهدف من رفع البلاغ</h5>
                     </div>
                     {/*  */}
-                     <div className="eighth-content" >
+                     <div className="eighth-content height-adjust">
                      <div className="list-style-container">
                        <span>تأخير</span>
                        <span>عطل تقني</span>
@@ -43,7 +43,7 @@ const EighthSlide = () => {
                      </div>
                      </div>
 
-                     <div className="eighth-content " data-aos="zoom-in-left" data-aos-duration="1200">
+                     <div className="eighth-content height-adjust " data-aos="zoom-in-left" data-aos-duration="1200">
                         <div className="more-class">
                         <span>طلب مستندات متعلقة بـ (منتج/خدمة)</span>
                          <span>طلب تمديد (منتج/خدمة)</span>
@@ -54,7 +54,7 @@ const EighthSlide = () => {
                          </div>
                      </div>
 
-                     <div className="eighth-content" data-aos="zoom-in-left" data-aos-duration="1500">
+                     <div className="eighth-content height-adjust" data-aos="zoom-in-left" data-aos-duration="1500">
                      <div className="text-end-side__">
                        <span>استفسار عن آلية طلب <br />(منتج / خدمة)</span>
                      </div>

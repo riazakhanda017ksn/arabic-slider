@@ -14,26 +14,20 @@ import emoji from "../../assets/images/frame/emoji.svg";
 import imgs from "../../assets/images/frame/3.jpg";
 import Slider from "../Slider/Slider";
 const OtherContentSlide = () => {
-  const h1 = `صوت العميل`;
-  const h3 = ``;
-  const bg = `#0000008e`;
-  return (
-    <>
-      <Slider h1={h1} h3={h3} img={imgs} bg={bg} />
-      <div className="other___slide___image text-center"></div>
-      <div style={{ marginTop: "100px", marginBottom: "40px" }}>
-        <div className="container">
-          <div
-            className="headline-of-other-slide text-end mb-2"
-            data-aos="zoom-in-left"
-            data-aos-duration="1100"
-          >
-            <h2 className="semi-bold">
-              الممارسة الحالية{" "}
-              <span style={{ color: "#0a9ba5" }}>(التحديات)</span>
-            </h2>
-          </div>
-          <div>
+    const h1 =`صوت العميل`
+    const h3 =``
+    const bg = `#0a9ba5c7`
+    return (
+        <>
+        <Slider h1={h1} h3={h3} img={imgs} bg={bg}/>
+        <div className='other___slide___image text-center' > 
+        </div>
+       <div style={{marginTop:"100px",marginBottom:"40px"}}>
+       <div className='container' >
+            <div className="headline-of-other-slide text-end mb-2" data-aos="zoom-in-left" data-aos-duration="1100">
+                <h2 className='semi-bold'>الممارسة الحالية <span style={{color:"#0a9ba5"}}>(التحديات)</span></h2>
+            </div>
+            <div >
             <div className="row">
               <div className="col-lg-8">
                 <div

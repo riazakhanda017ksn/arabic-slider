@@ -92,10 +92,7 @@
     gap: 7px;
 }
 
-.chart-headline____ p {
-    font-size: 14px;
-    font-weight: bold;
-}
+
 
 .fourth-flex-text___ p {
     margin: 0;
@@ -103,9 +100,20 @@
     font-size: 13px;
     line-height: 21px;
 }
+.cardparent p {
+    color: #767676;
+}
+.cardparent span {
+
+    color: #767676;
+}
 .fourth-flex-text___ p {
     font-size: 15px !important;
     font-weight: bold;
+    color: #767676;
+}
+.fourth-flex-text___ span{
+    color: #767676;
 }
 .fourth-slide-img{
     text-align: center;
@@ -221,7 +229,33 @@
 
     .table-image img {
         width: 100%;
-        margin-top: 18px;
+        margin-top: 18px !important
+    }
+    .flex-column-title p {
+        color: #767676;
+    }
+    .flex-column-title span {
+        color: #767676;
+    }
+    .cards___flex___div p {
+        color: #767676;
+    }
+
+    .card___content___left_side h6 {
+        font-size: 14px !important
+    }
+    .flex-column-title span {
+        font-size: 14px !important
+    }
+    .flex-column-title span {
+        font-size: 14px !important
+    }
+    .card___content___left_side h6 {
+        color: #767676;
+    }
+    .single-card-contents h6 {
+        font-size: 18px !important;
+        color: #767676 !important;
     }
 
     .last-fourth-image-item img {

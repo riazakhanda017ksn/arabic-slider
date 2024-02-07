@@ -7,7 +7,7 @@ import imgs from '../../assets/images/banner/10.jpg'
 const FifteenSlide = () => {
     const h1 = `المشاركة المجتمعية`
     const h3 = ``
-    const bg = '#0000008e'
+    const bg = '#19e3bcc7'
 
     return (
         <>

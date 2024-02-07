@@ -11,7 +11,7 @@ import banner from '../../assets/images/banner/last.jpg'
 const SixteenSlide = () => {
     const h1 = `برنامج ولاء العميل`
     const h3 = ``
-    const bg = `#000000be`
+    const bg = `#469c09cc`
     return (
         <div style={{marginBottom:"100px"}}>
         <Slider h1={h1} h3={h3} img={banner} bg={bg} />

@@ -45,9 +45,10 @@
   
 
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body{
-    font-family: 'Arimo', sans-serif !important;
-    margin: 0;
+    font-family: 'Noto Sans Arabic', sans-serif !important;
+     margin: 0;
 }
 
 div#root {
@@ -65,10 +66,18 @@ div#root {
 
 
 .blog-item p {
-    font-size: 13px !important
+    font-size: 11px !important
 
 }
+.blog-headline___ h6 {
+    margin-bottom: 0;
+    font-size: 18px !important;
+    text-align: end !important;
+}
 
+.green-headline-flex h2 {
+    font-size: 18px !important
+}
 
 
 .first-grid-box- p {
@@ -114,24 +123,19 @@ div#root {
     background: #FAFBFF !important;
 }
 
-.ninth-number-box p {
-
-    font-size: 15px;
-  
-}
 
 .white______box p {
     margin: 0;
 }
 
 .ninth_col_6 p {
-    font-size: 19px;
+    font-size: 17px;
     position: relative;
     top: 8px;
 }
 
 .new-element-with-img h6 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     position: relative;
     top: 4px;
@@ -147,7 +151,7 @@ div#root {
 
 
 .single____item h3 {
-    font-size: 45px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -163,7 +167,7 @@ div#root {
 }
 
 .flex-box-column_______ p {
-    font-size: 15px;
+    font-size: 13px;
     line-height: 23px;
     font-weight: bold;
     color: #767676;
@@ -172,7 +176,7 @@ div#root {
 
 
 .flex-column-title p {
-    font-size: 17px;
+    font-size: 15px;
     margin-bottom: 12px;
     width: 95%;
     line-height: 30px;
@@ -198,16 +202,20 @@ div#root {
 }
 
 .col-lg-side-content__ p {
-    font-size: 14px;
+    font-size: 14px !important;
+    font-weight: bold;
+    color: #767676;
 }
-
+.bottom__side__arrow img {
+    width: 11px;
+}
 
 
 .col-lg-2-box p {
     font-size: 14px;
     font-weight: bold;
+    color: #767676;
 }
-
 .dashboard_card p {
 
     font-size: 15px;
@@ -222,7 +230,8 @@ div#root {
 
 
 .chart-headline____ p {
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: bold;
 }
 .chart-headline____ span {
     font-weight: bold;
@@ -269,7 +278,6 @@ div#root {
 }
 .table-image img {
     width: 100%;
-    margin-top: 2px !important
 }
 
 .sidebar____text___bg h6 {
@@ -316,12 +324,12 @@ div#root {
     height: 250px;
 }
 .headline h4 {
-    font-size: 23px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 .ninth-number-box p {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 31px;
     font-weight: bold;
     color: #767676;
@@ -410,7 +418,7 @@ div#root {
 }
 
 .slider h1 {
-    font-size: 110px;
+    font-size: 95px;
     margin: 45px 0;
     font-weight: 700;
 }

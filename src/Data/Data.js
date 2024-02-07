@@ -232,7 +232,7 @@ export const data =[
  
         ],
         parcentageTagline:`%نسبة التقدم 90`,
-        parent:90,
+        parent:100,
         dataAos:"zoom-in-left",
         time:"1400"
     },
@@ -306,7 +306,7 @@ export const dataContent =[
       
         ],
         parcentageTagline:"%نسبة التقدم10",
-        parent:10,
+        parent:100,
         dataAos:"zoom-out-down",
         time:"1400"
     },
@@ -346,7 +346,7 @@ export const dataContent =[
  
         ],
         parcentageTagline:"%نسبة التقدم 10",
-        parent:10,
+        parent:100,
         dataAos:"zoom-out-right",
         time:"1100"
     },
@@ -375,7 +375,7 @@ export const dataContent =[
             },
         ],
         parcentageTagline:`%نسبة التقدم 10`,
-        parent:10,
+        parent:100,
         dataAos:"fade-up",
         time:"1400"
     },
@@ -418,7 +418,7 @@ export const dataContent =[
  
         ],
         parcentageTagline:`%نسبة التقدم 10`,
-        parent:10,
+        parent:100,
         dataAos:"fade-right",
         time:"1400"
     },
