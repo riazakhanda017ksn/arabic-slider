@@ -7,67 +7,67 @@ const Header = (handleToggleMinimize) => {
     {
       id: 1,
       to: "/slide-1",
-      label: "Slide1",
+      text: "تقرير إدارة تجربة العميل",
       src: "/public/banner/1.jpg",
     },
     {
       id: 2,
       to: "/slide-2",
-      label: "Slide2",
+      text: "`مؤشرات الاداء`",
       src: "/public/banner/2nd.jpg",
     },
     {
       id: 3,
       to: "/slide-3",
-      label: "Slide3",
+      text: "صوت العميل",
       src: "/public/frame/3.jpg",
     },
     {
       id: 4,
       to: "/slide-4",
-      label: "Slide4",
+      text: "إدارة المنتجات`",
       src: "/public/banner/online-marketing.jpg",
     },
     {
       id: 5,
       to: "/slide-5",
-      label: "Slide5",
+      text: "`المهام التشغيلية`",
       src: "/public/banner/slide5.jpg",
     },
     {
       id: 6,
       to: "/slide-6",
-      label: "Slide6",
+      text: "موقع البنك",
       src: "/public/banner/slide6.jpg",
     },
     {
       id: 7,
       to: "/slide-7",
-      label: "Slide7",
+      text: "المتسوق الخفي",
       src: "/public/banner/slide7.jpg",
     },
     {
       id: 8,
       to: "/slide-8",
-      label: "Slide8",
+      text: "الفروع",
       src: "/public/banner/slide8.jpg",
     },
     {
       id: 9,
       to: "/slide-9",
-      label: "Slide9",
+      text: "التواصل",
       src: "/public/banner/banner9.jpg",
     },
     {
       id: 10,
       to: "/slide-10",
-      label: "Slide10",
+      text: " المشاركة المجتمعية",
       src: "/public/banner/10.jpg",
     },
     {
       id: 11,
       to: "/slide-11",
-      label: "Slide11",
+      text: "`برنامج ولاء العميل`",
       src: "/public/banner/last.jpg",
     },
   ];
@@ -83,7 +83,7 @@ const Header = (handleToggleMinimize) => {
             onClick={handleToggleMinimize}
           >
             <img src={location.src} alt={location.label} />
-            <p>{location.label}</p>
+            <p>{location.text}</p>
           </Link>
         ))}
         <Link
