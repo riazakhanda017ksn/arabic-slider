@@ -13,7 +13,6 @@ import close from "../../assets/images/frame/close.svg";
 import emoji from "../../assets/images/frame/emoji.svg";
 import imgs from "../../assets/images/frame/3.jpg";
 import Slider from "../Slider/Slider";
-import Lightbox from "../../components/lightbox/lightbox";
 const OtherContentSlide = () => {
   const h1 = `صوت العميل`;
   const h3 = ``;
@@ -43,120 +42,117 @@ const OtherContentSlide = () => {
                   data-aos-duration="1300"
                 >
                   <div className="custom-min-height">
-                    <Lightbox>
-                      <div className="right-slide-background bottom-side-spacing ">
-                        <h3>
-                          <span> عناصر صوت العميل </span>
-                        </h3>
-                        <div className="parent___">
-                          <div className="left__side___column______">
-                            <h3>الوضع المستقبلي</h3>
-                          </div>
-                          <div className="col-center-division">
-                            <img src={img} alt="" />
-                          </div>
-                          <div className="left__side___column______">
-                            <h3>الوضع الحالي</h3>
-                          </div>
+                    <div className="right-slide-background bottom-side-spacing ">
+                      <h3>
+                        <span> عناصر صوت العميل </span>
+                      </h3>
+                      <div className="parent___">
+                        <div className="left__side___column______">
+                          <h3>الوضع المستقبلي</h3>
                         </div>
-                        <div className="parent___">
-                          <div className="left-side-column-content text-end">
-                            <h3>نوع الاستبيان</h3>
-                            <p>
-                              استبيان موحد على كافة المنصات لمراقبة نقاط التواصل
-                              مع العميل
-                            </p>
-                          </div>
-                          <div className="column-image-center">
-                            <img src={img2} alt="" />
-                          </div>
-                          <div className="left-side-column-content text-left">
-                            <h3 className="text___left">نوع الاستبيان</h3>
-                            <p>استبيان غير موحد حول نقاط الاتصال</p>
-                          </div>
+                        <div className="col-center-division">
+                          <img src={img} alt="" />
                         </div>
-                        <div className="parent___">
-                          <div className="left-side-column-content text-end">
-                            <h3 className="Line___height">
-                              مؤشر رضا العملاء <br />
-                              (Top-two Boxes)
-                            </h3>
-                          </div>
-                          <div className="column-image-center">
-                            <img src={img3} alt="" />
-                          </div>
-                          <div className="left-side-column-content text-left">
-                            <h3 className="text___left">طريقة الحساب</h3>
-                            <p>
-                              مختلفة وغير موحدة للأنواع المختلفة من الاستبيانات
-                            </p>
-                          </div>
-                        </div>
-                        <div className="parent___">
-                          <div className="left-side-column-content text-end">
-                            <h3>الدقة</h3>
-                            <p>توحيد صوت العميل وتسييره رقمياً</p>
-                          </div>
-                          <div className="column-image-center">
-                            <img src={img4} alt="" />
-                          </div>
-                          <div className="left-side-column-content text-left">
-                            <h3 className="text___left">الدقة</h3>
-                            <p>
-                              نتيجة تحليل الاستبيان الهاتفي من خلال مراكز
-                              الاتصال
-                            </p>
-                          </div>
-                        </div>
-                        <div className="parent___">
-                          <div className="left-side-column-content text-end">
-                            <h3>اغلاق حلقة التغذية الراجعة</h3>
-                            <p>
-                              تحليل السبب الجذري من خلال بناءLoss tree ضمن
-                              استبيان الرضا
-                            </p>
-                          </div>
-                          <div className="column-image-center">
-                            <img src={img5} alt="" />
-                          </div>
-                          <div className="left-side-column-content text-left">
-                            <h3 className="text___left">
-                              اغلاق حلقة التغذية الراجعة
-                            </h3>
-                            <p>لا يوجد</p>
-                          </div>
-                        </div>
-                        <div className="parent___">
-                          <div className="left-side-column-content text-end">
-                            <h3>معدل الاستجابة</h3>
-                            <p>
-                              مراقبة عدد الاستبيانات المرسلة مقابل الاستبيانات
-                              التي تم تقييمها
-                            </p>
-                          </div>
-                          <div className="column-image-center">
-                            <img src={img6} alt="" />
-                          </div>
-                          <div className="left-side-column-content text-left">
-                            <h3 className="text___left">معدل الاستجابة</h3>
-                            <p>غير مراقب</p>
-                          </div>
-                        </div>
-                        <div className="parent___">
-                          <div className="left-side-column-content text-end">
-                            <h3>التدقيق والجودة</h3>
-                            <p>إنشاء مصفوفة التدقيق والجودة</p>
-                          </div>
-                          <div className="column-image-center">
-                            <img src={img7} alt="" />
-                          </div>
-                          <div className="left-side-column-content text-left">
-                            <h3 className="text___left">التدقيق والجودة</h3>
-                            <p>غير مراقب</p>
-                          </div>
+                        <div className="left__side___column______">
+                          <h3>الوضع الحالي</h3>
                         </div>
                       </div>
-                    </Lightbox>
+                      <div className="parent___">
+                        <div className="left-side-column-content text-end">
+                          <h3>نوع الاستبيان</h3>
+                          <p>
+                            استبيان موحد على كافة المنصات لمراقبة نقاط التواصل
+                            مع العميل
+                          </p>
+                        </div>
+                        <div className="column-image-center">
+                          <img src={img2} alt="" />
+                        </div>
+                        <div className="left-side-column-content text-left">
+                          <h3 className="text___left">نوع الاستبيان</h3>
+                          <p>استبيان غير موحد حول نقاط الاتصال</p>
+                        </div>
+                      </div>
+                      <div className="parent___">
+                        <div className="left-side-column-content text-end">
+                          <h3 className="Line___height">
+                            مؤشر رضا العملاء <br />
+                            (Top-two Boxes)
+                          </h3>
+                        </div>
+                        <div className="column-image-center">
+                          <img src={img3} alt="" />
+                        </div>
+                        <div className="left-side-column-content text-left">
+                          <h3 className="text___left">طريقة الحساب</h3>
+                          <p>
+                            مختلفة وغير موحدة للأنواع المختلفة من الاستبيانات
+                          </p>
+                        </div>
+                      </div>
+                      <div className="parent___">
+                        <div className="left-side-column-content text-end">
+                          <h3>الدقة</h3>
+                          <p>توحيد صوت العميل وتسييره رقمياً</p>
+                        </div>
+                        <div className="column-image-center">
+                          <img src={img4} alt="" />
+                        </div>
+                        <div className="left-side-column-content text-left">
+                          <h3 className="text___left">الدقة</h3>
+                          <p>
+                            نتيجة تحليل الاستبيان الهاتفي من خلال مراكز الاتصال
+                          </p>
+                        </div>
+                      </div>
+                      <div className="parent___">
+                        <div className="left-side-column-content text-end">
+                          <h3>اغلاق حلقة التغذية الراجعة</h3>
+                          <p>
+                            تحليل السبب الجذري من خلال بناءLoss tree ضمن استبيان
+                            الرضا
+                          </p>
+                        </div>
+                        <div className="column-image-center">
+                          <img src={img5} alt="" />
+                        </div>
+                        <div className="left-side-column-content text-left">
+                          <h3 className="text___left">
+                            اغلاق حلقة التغذية الراجعة
+                          </h3>
+                          <p>لا يوجد</p>
+                        </div>
+                      </div>
+                      <div className="parent___">
+                        <div className="left-side-column-content text-end">
+                          <h3>معدل الاستجابة</h3>
+                          <p>
+                            مراقبة عدد الاستبيانات المرسلة مقابل الاستبيانات
+                            التي تم تقييمها
+                          </p>
+                        </div>
+                        <div className="column-image-center">
+                          <img src={img6} alt="" />
+                        </div>
+                        <div className="left-side-column-content text-left">
+                          <h3 className="text___left">معدل الاستجابة</h3>
+                          <p>غير مراقب</p>
+                        </div>
+                      </div>
+                      <div className="parent___">
+                        <div className="left-side-column-content text-end">
+                          <h3>التدقيق والجودة</h3>
+                          <p>إنشاء مصفوفة التدقيق والجودة</p>
+                        </div>
+                        <div className="column-image-center">
+                          <img src={img7} alt="" />
+                        </div>
+                        <div className="left-side-column-content text-left">
+                          <h3 className="text___left">التدقيق والجودة</h3>
+                          <p>غير مراقب</p>
+                        </div>
+                      </div>
+                    </div>
 
                     <div
                       className="right-slide-background"

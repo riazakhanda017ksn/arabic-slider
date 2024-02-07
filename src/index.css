@@ -8,6 +8,10 @@
     transform: translateX(-20%);
     transition: all cubic-bezier(0.55, 0.055, 0.675, 0.19);
   }
+  .x{
+    background-color: red;
+    z-index: 999;
+  }
 .remaining-content{
     /* margin-left: 10%; */
     flex:1;
