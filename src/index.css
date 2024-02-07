@@ -19,9 +19,7 @@
     cursor: pointer;
     font-size: 40px;
   }
-  .root{
-    position: relative;
-  }
+  
   .root .icons {
     position: absolute;
     left: 30px;

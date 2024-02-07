@@ -61,11 +61,7 @@ const data2 =[
         <div className='container py-5'>
             <div className="fourth-header" data-aos="zoom-in-left"
              data-aos-duration="1200">
-<<<<<<< HEAD
-                <h2 className='text-end'> أفضل الممارسات  <span> 
-=======
                 <h2 className='text-end semi-bold'> أفضل الممارسات <span style={{color:"#0a9ba5"}}> 
->>>>>>> 0c772359e61b7a74f2a4476990d51fcb6b6a4be3
                      (الحلول)
                </span>
                 </h2>
