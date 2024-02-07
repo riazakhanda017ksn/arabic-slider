@@ -76,11 +76,25 @@ const Header = (handleToggleMinimize) => {
     <div className={`transform-navbar`}>
       <div className="scroll-container">
         {locations.map((location) => (
-          <Link key={location.id} to={location.to} className="slide-box" onClick={handleToggleMinimize}>
+          <Link
+            key={location.id}
+            to={location.to}
+            className="slide-box"
+            onClick={handleToggleMinimize}
+          >
             <img src={location.src} alt={location.label} />
             <p>{location.label}</p>
           </Link>
         ))}
+        <Link
+          key={12}
+          to={`/slide-12`}
+          className="slide-box"
+          onClick={handleToggleMinimize}
+        >
+          <img src={`/public/banner/last2.jpeg`} alt={`Slide11`} />
+          <p>{`شكراً لكم`}</p>
+        </Link>
       </div>
     </div>
   );

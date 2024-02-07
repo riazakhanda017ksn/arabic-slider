@@ -20,6 +20,7 @@ import {
   ChevronDoubleLeftIcon,
   ChevronDoubleRightIcon,
 } from "@heroicons/react/24/solid";
+import LastLast from "./components/LastSlide/LastLast";
 const App = () => {
   const [isMinimized, setIsMinimized] = useState(true);
 
@@ -58,6 +59,8 @@ const App = () => {
               <Route path="/slide-9" element={<NineSlideManagement />} />
               <Route path="/slide-10" element={<TenthSlideManagement />} />
               <Route path="/slide-11" element={<ElevenSlideManagement />} />
+              <Route path="/slide-12" exact element={<LastLast />} />
+
               <Route path="/" exact element={<Map />} />
             </Routes>
 
