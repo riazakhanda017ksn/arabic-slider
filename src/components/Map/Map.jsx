@@ -2,45 +2,104 @@ import React, { useState } from "react";
 import "./map.css";
 import LocationIcon from "./location"; // Replace with your actual location icon image
 import { Link } from "react-router-dom";
-
 const locations = [
   {
     id: 1,
-    name: "Location 1",
-    top: 100,
-    left: 200,
-    image: "/public/banner/banner.png",
+    name: "Slide1",
+    top: 40,
+    left: 10,
+    image: "/public/banner/1.jpg",
     text: "تقرير إدارة تجربة العميل",
     link: "/slide-1",
   },
   {
     id: 2,
-    name: "Location 2",
-    top: 200,
-    left: 500,
-    image: "/public/banner/banner.png",
-    text: "Description for Location 2",
+    name: "Slide2",
+    top: 32,
+    left: 18,
+    image: "/public/banner/2nd.jpg",
+    text: "`مؤشرات الاداء`",
     link: "/slide-2",
   },
   {
     id: 3,
-    name: "Location 3",
-    top: 300,
-    left: 300,
-    image: "/public/banner/banner.png",
-    text: "Description for Location 3",
+    name: "Slide3",
+    top: -36,
+    left: 27,
+    bottom: 36,
+    image: "/public/frame/3.jpg",
+    text: "صوت العميل",
     link: "/slide-3",
   },
   {
     id: 4,
-    name: "Location 4",
-    top: 600,
-    left: 200,
-    image: "/public/banner/banner.png",
-    text: "Description for Location 4",
+    name: "Slide4",
+    top: 40,
+    left: 35,
+    image: "/public/banner/online-marketing.jpg",
+    text: "إدارة المنتجات`",
     link: "/slide-4",
   },
-  // Add more locations as needed
+  {
+    id: 5,
+    name: "Slide5",
+    top: 87,
+    left: 40,
+    image: "/public/banner/slide5.jpg",
+    text: "`المهام التشغيلية`",
+    link: "/slide-5",
+  },
+  {
+    id: 6,
+    name: "Slide6",
+    left: 25,
+    image: "/public/banner/slide6.jpg",
+    text: "موقع البنك",
+    link: "/slide-6",
+  },
+  {
+    id: 7,
+    name: "Slide7",
+    top: 10,
+    left: 32,
+    image: "/public/banner/slide7.jpg",
+    text: "المتسوق الخفي",
+    link: "/slide-7",
+  },
+  {
+    id: 8,
+    name: "Slide8",
+    top: 32,
+    left: 42,
+    image: "/public/banner/slide8.jpg",
+    text: "الفروع",
+    link: "/slide-8",
+  },
+  {
+    id: 9,
+    name: "Slide9",
+    top: 10,
+    left: 54,
+    image: "/public/banner/banner9.jpg",
+    text: "التواصل",
+    link: "/slide-9",
+  },
+  {
+    id: 10,
+    name: "Slide10",
+    left: 42,
+    image: "/public/banner/10.jpg",
+    text: " المشاركة المجتمعية",
+    link: "/slide-10",
+  },
+  {
+    id: 11,
+    name: "Slide11",
+    left: 63,
+    image: "/public/banner/last.jpg",
+    text: "`برنامج ولاء العميل`",
+    link: "/slide-11",
+  },
 ];
 
 const Map = () => {
@@ -55,7 +114,14 @@ const Map = () => {
       <div
         key={location.id}
         className={` ${hoveredLocation === location.id ? "hovered" : ""} area`}
-        style={{ top: location.top, left: location.left, cursor: "pointer" }}
+        style={{
+          display: "absolute",
+          top: `${location.top}%`,
+          left: `${location.left}%`,
+          right: `${location.right}`,
+          bottom: `${location.bottom}`,
+          cursor: "pointer",
+        }}
         onMouseEnter={() => handleLocationHover(location.id)}
         onMouseLeave={() => handleLocationHover(null)}
       >
@@ -107,8 +173,27 @@ const Map = () => {
   return (
     <>
       <div className="container-map">
-        <img src="/src/assets/images/logo/right.png" style={{position:"fixed",left:"20px",bottom:"20px",height:"60px",width:"auto"}} />
-        <img src="/src/assets/images/logo/left.png" alt="" style={{position:"fixed",top:"20px",left:"20px",height:"60px",width:"auto"}}></img>
+        <img
+          src="/src/assets/images/logo/right.png"
+          style={{
+            position: "fixed",
+            left: "20px",
+            bottom: "20px",
+            height: "60px",
+            width: "auto",
+          }}
+        />
+        <img
+          src="/src/assets/images/logo/left.png"
+          alt=""
+          style={{
+            position: "fixed",
+            top: "20px",
+            left: "20px",
+            height: "60px",
+            width: "auto",
+          }}
+        ></img>
         {renderLocationIcons()}
       </div>
     </>
