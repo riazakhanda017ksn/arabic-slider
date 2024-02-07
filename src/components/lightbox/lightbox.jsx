@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import PropTypes from "prop-types"; // Import PropTypes
 import { Modal } from "antd";
 import "./Lightbox.css"; // Import CSS file for styling
