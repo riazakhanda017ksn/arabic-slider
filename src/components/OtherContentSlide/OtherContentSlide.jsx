@@ -9,7 +9,6 @@ import img6 from '../../assets/images/frame/v5.png'
 import img7 from '../../assets/images/frame/v6.png'
 import banner from '../../assets/images/frame/card-banner.svg'
 import svgbanner from '../../assets/images/frame/1212.png'
-import close from '../../assets/images/frame/close.svg'
 import emoji from '../../assets/images/frame/emoji.svg'
 import imgs from '../../assets/images/frame/3.jpg'
 import Slider from '../Slider/Slider';
@@ -151,16 +150,24 @@ const OtherContentSlide = () => {
                     <div
                       className="right-slide-background"
                       style={{ marginTop: "15px " }}
-                    >
-                      {/*  */}
-                      <div className="____column__container ___span__custom">
-                        <div>
+                    > {/*ss  */}
                           <div className="tag___line___of__column">
                             <h2>
                               <span> عناصر صوت العميل </span>
                             </h2>
                           </div>
                           {/*  */}
+                          <div className="close__icon mt-3">
+                           
+                            <h6>تم إنشاء الحساب بنجاح</h6>
+                          </div>
+                          <div className="right_____side____contents">
+                            <h2 className="text-end">تقيم الخدمة</h2>
+                          </div>
+                      {/*  */}
+                      <div className="____column__container ___span__custom">
+                        <div>
+                         
                           <div>
                             <div className="left-side-box-design mt-5 pt-4">
                               <h4
@@ -199,15 +206,7 @@ const OtherContentSlide = () => {
                           {/*  */}
                         </div>
                         <div>
-                          <div className="close__icon">
-                            <div className="close___icon">
-                              <img src={close} alt="" />
-                            </div>
-                            <h6>تم إنشاء الحساب بنجاح</h6>
-                          </div>
-                          <div className="right_____side____contents">
-                            <h2 className="text-end">تقيم الخدمة</h2>
-                          </div>
+                         
 
                           <div
                             className="white___box__text"
