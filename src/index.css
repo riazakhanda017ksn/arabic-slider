@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body{
-    font-family: 'Arimo', sans-serif !important;
-    margin: 0;
+    font-family: 'Noto Sans Arabic', sans-serif !important;
+     margin: 0;
 }
 
 div#root {
@@ -20,10 +19,18 @@ div#root {
 
 
 .blog-item p {
-    font-size: 13px !important
+    font-size: 11px !important
 
 }
+.blog-headline___ h6 {
+    margin-bottom: 0;
+    font-size: 18px !important;
+    text-align: end !important;
+}
 
+.green-headline-flex h2 {
+    font-size: 18px !important
+}
 
 
 .first-grid-box- p {
@@ -127,7 +134,7 @@ div#root {
 
 
 .flex-column-title p {
-    font-size: 17px;
+    font-size: 15px;
     margin-bottom: 12px;
     width: 95%;
     line-height: 30px;
@@ -177,7 +184,8 @@ div#root {
 
 
 .chart-headline____ p {
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: bold;
 }
 .chart-headline____ span {
     font-weight: bold;
@@ -224,7 +232,6 @@ div#root {
 }
 .table-image img {
     width: 100%;
-    margin-top: 2px !important
 }
 
 .sidebar____text___bg h6 {
@@ -365,7 +372,7 @@ div#root {
 }
 
 .slider h1 {
-    font-size: 110px;
+    font-size: 95px;
     margin: 45px 0;
     font-weight: 700;
 }

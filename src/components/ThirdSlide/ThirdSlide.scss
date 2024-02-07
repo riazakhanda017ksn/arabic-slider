@@ -10,20 +10,28 @@
     gap: 23px;
 }
 
+.grid-item-img img {
+    width: 100%;
+    height: 100%;
+}
+
 .navlink___ a {
     color: black;
     text-decoration: none;
-    font-size: 21px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .active {
     border-bottom: 2px solid #0a0f2685;
     padding-bottom: 4px;
 }
+.lines p {
+    color: #767676;
+}
 
 .nav___logo h2 {
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 700;
 }
 .nav___logo h2 span{
@@ -70,10 +78,10 @@
 .text___ p {
     text-align: end;
     margin-bottom: 12px;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 24px;
-    font-weight: bold;
-    color: #545768;
+    font-weight: 600;
+    color: #767676;
 }
 
 // .box___border___ {
@@ -146,7 +154,7 @@
     padding: 0 16px;
 }
 .box {
-    height: 530px !important;
+    height: 580px !important;
     background: #fafbff;
 }
 
@@ -192,18 +200,19 @@
       
     }
     .grid_box p {
-        font-size: 17px;
-        line-height: 23px;
-        margin-top: 10px;
+        font-size: 14px;
+        line-height: 22px;
         font-weight: 600;
+        color: #767676;
+        margin-top: 14px;
     }
 
     .grid___img {
         position: absolute;
         right: -2px;
-        border: 1px solid #ffcb9e57;
+        border: none;
         padding: 1px 13px;
-        background: white;
+        background: none;
         top: -16px;
         border-radius: 5px;
     }
@@ -216,17 +225,12 @@
         margin-top: 20px;
         border-radius: 10px;
     }
-    .grid_box p {
-        font-size: 17px;
-        line-height: 23px;
-        margin-top: 10px;
-        font-weight: 600;
-    }
+
 
     .grid___img img {
-        width: 70px;
+        width: 90px;
         position: relative;
-        top: 1px;
+        top: -5px;
     }
 
     .position-changing {
@@ -266,18 +270,24 @@
         }
 
         .grid-tag-line h5 {
-            font-size: 21px;
-            color: blue;
+            font-size: 16px; color: blue; 
             padding-top: 8px;
-            padding-bottom: 4px;
-            font-weight: 600;
+           padding-bottom: 4px; 
+           font-weight: bold;}
+
+           .col-lg-grid span {
+            font-size: 16px; color: blue; 
+            padding-top: 8px;
+           padding-bottom: 4px; 
+           font-weight: bold;
         }
 
         .grid-tag-line-paragraph p {
-            font-size: 18px;
+            font-size: 13px;
             margin-bottom: 5px;
             font-weight: 600;
-            line-height: normal;
+            line-height: inherit;
+            color: #767676;
         }
         .grid-tag-line {
             padding: 10px;
@@ -306,10 +316,10 @@
 
 .col-lg-end-side span {
     color: blue;
-    font-weight: 600;
+    font-weight: bold;
     margin-bottom: 18px;
     display: block;
-    font-size: 20px !important;
+    font-size: 16px !important;
 }
 .cols-flex {
     display: flex;
@@ -319,10 +329,10 @@
 
 .col-lg-grid span {
     color: blue;
-    font-weight: 600;
-    margin-bottom: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
     display: block;
-    font-size: 20px !important;
+    font-size: 16px !important;
 }
 .col-one h6 {
     color: red;
@@ -332,7 +342,8 @@
 }
 
 .col-one h3 {
-    font-size: 21px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .col-two h6 {
@@ -342,13 +353,14 @@
     font-weight: 600;
 }
 
-.col-two h3{
-    font-size: 21px;
+.col-two h3 {
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .center-align-div h3{
-    font-size: 21px;
-  
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .center-align-div h5 {
@@ -371,21 +383,17 @@
 .col-lg-end-side h6 {
     font-weight: 600;
 }
-
-.col-lg-end-side span {
-    color: blue;
-    font-weight: 600;
-    margin-bottom: 18px;
-    display: block;
-    font-size: 17px;
+.col-lg-end-side img {
+    width: 100px;
 }
+
 .col-lg-end-side h4 {
     display: flex;
     justify-content: end;
     margin: 12px 0;
-    font-size: 21px;
+    font-size: 16px;
+    font-weight: bold;
 }
-
 .col-lg-end-side h4 span {
     color: gray;
     font-weight: 500;
@@ -420,10 +428,11 @@
 
 .more-grid p {
     text-align: end;
-    font-size: 19px;
+    font-size: 16px;
     margin-top: 17px;
     line-height: 26px;
-    font-weight: 600;
+    font-weight: bold;
+    color: #767676;
 }
 
 .sidebar____text___bg h6 {
@@ -455,9 +464,9 @@
     align-items: center;
     justify-content: end;
     gap: 8px;
-    margin: 16px 0;
-    border: 1px solid #ffa92959;
-    padding: 0 14px;
+    margin: 15px 0;
+    border: 1px solid rgba(255, 169, 41, 0.3490196078);
+    padding: 2px 14px;
     border-radius: 8px;
 }
 
@@ -506,10 +515,7 @@
     height: 673px !important
 }
 
-.more-grid p {
 
-    color: #4c5456 !important
-}
 
 .side__bar {
     border: none !important;
@@ -522,8 +528,11 @@
 }
 
 .border-text__ p {
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 16px !important;
+    position: relative;
+    top: 6px;
+    color: #767676;
+    font-weight: bold;
 }
 
 .border-text__ span {

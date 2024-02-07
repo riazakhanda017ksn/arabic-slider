@@ -12,12 +12,12 @@ const Content = () => {
 
                 <div className="flex_content_container" data-aos="zoom-in-left" data-aos-duration="1300">
                     <div className="flex__content">
-                       <h4 className='semi-bold'>مستوى تقدم</h4>
-                       <h4 className='semi-bold'>الحلول</h4>
+                       <h4 className='semi-bold_'>مستوى تقدم</h4>
+                       <h4 className='semi-bold_'>الحلول</h4>
                     </div>
                     <div className="flex__content">
-                       <h4 className='semi-bold'>المحطات</h4>
-                       <h4 className='semi-bold'>أبرز التحديات</h4>
+                       <h4 className='semi-bold_'>المحطات</h4>
+                       <h4 className='semi-bold_'>أبرز التحديات</h4>
                     </div>
                 </div>
 
