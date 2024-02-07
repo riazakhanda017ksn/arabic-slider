@@ -8,67 +8,67 @@ const Header = (handleToggleMinimize) => {
       id: 1,
       to: "/slide-1",
       text: "تقرير إدارة تجربة العميل",
-      src: "/public/banner/1.jpg",
+      src: " /banner/1.jpg",
     },
     {
       id: 2,
       to: "/slide-2",
       text: "`مؤشرات الاداء`",
-      src: "/public/banner/2nd.jpg",
+      src: " /banner/2nd.jpg",
     },
     {
       id: 3,
       to: "/slide-3",
       text: "صوت العميل",
-      src: "/public/frame/3.jpg",
+      src: " /frame/3.jpg",
     },
     {
       id: 4,
       to: "/slide-4",
       text: "إدارة المنتجات`",
-      src: "/public/banner/online-marketing.jpg",
+      src: " /banner/online-marketing.jpg",
     },
     {
       id: 5,
       to: "/slide-5",
       text: "`المهام التشغيلية`",
-      src: "/public/banner/slide5.jpg",
+      src: " /banner/slide5.jpg",
     },
     {
       id: 6,
       to: "/slide-6",
       text: "موقع البنك",
-      src: "/public/banner/slide6.jpg",
+      src: " /banner/slide6.jpg",
     },
     {
       id: 7,
       to: "/slide-7",
       text: "المتسوق الخفي",
-      src: "/public/banner/slide7.jpg",
+      src: " /banner/slide7.jpg",
     },
     {
       id: 8,
       to: "/slide-8",
       text: "الفروع",
-      src: "/public/banner/slide8.jpg",
+      src: " /banner/slide8.jpg",
     },
     {
       id: 9,
       to: "/slide-9",
       text: "التواصل",
-      src: "/public/banner/banner9.jpg",
+      src: " /banner/banner9.jpg",
     },
     {
       id: 10,
       to: "/slide-10",
       text: " المشاركة المجتمعية",
-      src: "/public/banner/10.jpg",
+      src: " /banner/10.jpg",
     },
     {
       id: 11,
       to: "/slide-11",
       text: "`برنامج ولاء العميل`",
-      src: "/public/banner/last.jpg",
+      src: " /banner/last.jpg",
     },
   ];
 
@@ -102,7 +102,7 @@ const Header = (handleToggleMinimize) => {
           className="slide-box"
           onClick={handleToggleMinimize}
         >
-          <img src={`/public/banner/last-bg.jpg`} alt={`Slide11`} />
+          <img src={` /banner/last-bg.jpg`} alt={`Slide11`} />
           <p>{`شكراً لكم`}</p>
         </Link>
       </div>

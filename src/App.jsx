@@ -60,11 +60,8 @@ const App = () => {
               <Route path="/slide-10" element={<TenthSlideManagement />} />
               <Route path="/slide-11" element={<ElevenSlideManagement />} />
               <Route path="/slide-12" exact element={<LastLast />} />
-
               <Route path="/" exact element={<Map />} />
-            </Routes>
-
-            
+            </Routes>    
           </div>
         </div>
       </BrowserRouter>

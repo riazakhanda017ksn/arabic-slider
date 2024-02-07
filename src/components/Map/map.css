@@ -1,6 +1,6 @@
 .container-map {
   min-height: 100vh;
-  background-image: url("/public/map4.png");
+  background-image: url("/map4.png");
   background-repeat: no-repeat;
   background-size: cover; /* or 'contain' depending on your preference */
   background-position: right right; /* Center the image */
