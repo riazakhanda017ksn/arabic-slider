@@ -3,7 +3,7 @@ import ThirdSlide from '../ThirdSlide/ThirdSlide';
 
 const SecondSlideManagement = () => {
     return (
-        <div>
+        <div >
        <ThirdSlide/>
         </div>
     );

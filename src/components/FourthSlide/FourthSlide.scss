@@ -10,10 +10,21 @@
 }
 
 .headline-sixth-column {
+    background: #f7752c;
+    border: 1px solid #f7752c;
+    color: white !important;
+}
+
+.headline-sixth-column h5 span {
+    color: white !important
+}
+
+
+
+.headline-sixth-column {
     display: flex;
     align-items: center;
     margin-top: 25px;
-    border: 1px solid #80808054;
     padding: 7px 17px;
     justify-content: end;
     gap: 15px;
@@ -22,7 +33,8 @@
 
 .headline-sixth-column h5 {
     margin: 0;
-    font-size: 17px;
+    font-size: 21px;
+    font-weight: bold;
 }
 
 .fourth-image-slide img {
@@ -59,15 +71,14 @@
     font-size: 16px;
     font-weight: 400;
 }
+
 .chart-headline____ h5 {
     margin: 0;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 16px;
 }
 
-.fourth-flex-text___ p {
-    margin: 0;
-}
+
 
 .fourth-flex-text___ {
     display: flex;
@@ -82,7 +93,8 @@
 }
 
 .chart-headline____ p {
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .fourth-flex-text___ p {
@@ -90,6 +102,10 @@
     text-align: end;
     font-size: 13px;
     line-height: 21px;
+}
+.fourth-flex-text___ p {
+    font-size: 15px !important;
+    font-weight: bold;
 }
 .fourth-slide-img{
     text-align: center;
@@ -113,8 +129,8 @@
 }
 
 .past-color-headline___ p {
-    font-size: 17px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: bold;
     line-height: 30px;
 }
 
@@ -127,10 +143,11 @@
 }
 
 .chart-containers__ small {
-    font-size: 13px;
+    font-size: 14px;
     width: 100%;
     text-align: end;
     display: block;
+    font-weight: bold;
 }
 
 .chart-headline-box {
@@ -143,10 +160,54 @@
     }
 
     .cardparent p {
-        font-size: 12px;
+        font-size: 13px;
         margin: 0;
         text-align: end;
-        margin-right: 2px;
+        margin-right: 3px;
+        font-weight: bold;
+    }
+    .cardparent span {
+        font-weight: bold;
+    }
+    .table-image img {
+
+        margin-top: 20px !important;
+        height: 100% !important;
+    }
+    .border-shap-for-fourth-slide {
+
+        background: #fafbff;
+    }
+
+    .______sidebar {
+        background: #fafbff;
+    }
+    .navbar-container {
+        z-index: 999;
+        position: relative;
+    }
+    .position-changing-those-item h5 {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .dashboard_card p {
+        position: relative;
+        top: 17px;
+    }
+
+    .dashboard_card {
+        background: #fafbff;
+    }
+
+    .side-bar-text-containers-flex p {
+        margin: 0;
+        font-size: 16px !important;
+        color: #767676;
+        font-weight: bold;
+    }
+    .dashboard__headline h6 {
+        font-weight: bold;
+        font-size: 22px;
     }
     .cardparent {
         border: 1px solid #36c4ee;

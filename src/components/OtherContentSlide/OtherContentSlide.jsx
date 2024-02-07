@@ -8,23 +8,24 @@ import img5 from '../../assets/images/frame/v4.png'
 import img6 from '../../assets/images/frame/v5.png'
 import img7 from '../../assets/images/frame/v6.png'
 import banner from '../../assets/images/frame/card-banner.svg'
-import svgbanner from '../../assets/images/frame/svg-banner.svg'
+import svgbanner from '../../assets/images/frame/1212.png'
 import close from '../../assets/images/frame/close.svg'
 import emoji from '../../assets/images/frame/emoji.svg'
-import imgs from '../../assets/images/banner/banner4.svg'
+import imgs from '../../assets/images/frame/3.jpg'
 import Slider from '../Slider/Slider';
 const OtherContentSlide = () => {
     const h1 =`صوت العميل`
     const h3 =``
+    const bg = `#0000008e`
     return (
         <>
-        <Slider h1={h1} h3={h3}/>
+        <Slider h1={h1} h3={h3} img={imgs} bg={bg}/>
         <div className='other___slide___image text-center' > 
         </div>
        <div style={{marginTop:"100px",marginBottom:"40px"}}>
        <div className='container' >
             <div className="headline-of-other-slide text-end mb-2" data-aos="zoom-in-left" data-aos-duration="1100">
-                <h2>الممارسة الحالية <span>(التحديات)</span></h2>
+                <h2 className='semi-bold'>الممارسة الحالية <span style={{color:"#0a9ba5"}}>(التحديات)</span></h2>
             </div>
             <div >
             <div className="row">
@@ -133,14 +134,22 @@ const OtherContentSlide = () => {
 
                 <div className="right-slide-background" style={{marginTop:'15px '}}>
                     {/*  */}
-                    <div className="____column__container ___span__custom">
-                    <div>
-                    <div className="tag___line___of__column">
+                     <div className="text-end">
+                     <div className="tag___line___of__column">
                     <h2><span> عناصر صوت العميل </span></h2>
                     </div>
+                    <div className="right_____side____contents">
+                      <h6>تم إنشاء الحساب بنجاح</h6>
+                      <h2 className='text-end'>تقيم الخدمة</h2>
+                    </div>
+                     </div>
+                    {/*  */}
+                    <div className="____column__container ___span__custom">
+                    <div>
+                   
                       {/*  */}
-                      <div>
-                      <div className="left-side-box-design mt-5 pt-4">
+                      <div className='need-space'>
+                      <div className="left-side-box-design">
                         <h4 style={{border:"1px solid rgb(211 211 211)"}}>المنصات</h4>
                         <div className="box-sizing-design">
                          <p>على الموقع الإلكتروني (CSAT) تُجرى استطلاعات رضا العملاء(IVR) بعد تقديم الطلب ومن خلال الرد الآلي التفاعلي</p>
@@ -158,16 +167,8 @@ const OtherContentSlide = () => {
                       
                     </div>
                      <div>
-                    <div className="close__icon">
-                        <div className="close___icon">
-                            <img src={close} alt="" />
-                        </div>
-                        <h6>تم إنشاء الحساب بنجاح</h6>
-                        
-                    </div>
-                    <div className="right_____side____contents">
-                      <h2 className='text-end'>تقيم الخدمة</h2>
-                    </div>
+                    
+                    
 
                     <div className="white___box__text" style={{marginTop:"35px"}}>
                         <p className='text-end'>ما مدى رضائك عن توفر المعلومات علىالمنصه؟</p>

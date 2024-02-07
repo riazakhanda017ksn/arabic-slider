@@ -1,7 +1,7 @@
 import React from 'react';
 import './SevenSlide.scss'
 import logo from '../../assets/images/sevenSlide/logo.svg'
-import photo from '../../assets/images/banner/banner5.svg'
+import photo from '../../assets/images/banner/slide5.jpg'
 import Slider from '../Slider/Slider';
 const SevenSlide = () => {
     const blogs =[
@@ -93,9 +93,10 @@ const SevenSlide = () => {
     ]
     const h1 =`المهام التشغيلية`
    const h3 = ``
+   const bg = `#000000c9`
     return (
         <>
-        <Slider h1={h1} h3={h3}/>
+        <Slider h1={h1} h3={h3} bg={bg} img={photo}/>
         <div className='sevenSlide'>
             {/* <div className="container">
                 <div className="row">
@@ -114,7 +115,7 @@ const SevenSlide = () => {
         </div>
         <div className="container" style={{paddingTop:'100px', paddingBottom:'70px'}}>
         <div className="fourth-header mb-5" data-aos="zoom-in-left" data-aos-duration="1300">
-                <h2 className='text-end'> تحليل نظام التذاكر <span style={{color:"red"}}> 
+                <h2 className='text-end semi-bold'> تحليل نظام التذاكر <span style={{color:"#9735c7"}}> 
                 (التحديات)
                </span>
                 </h2>

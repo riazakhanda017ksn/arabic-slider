@@ -1,9 +1,11 @@
 import React from 'react';
 import './TenthSlide.scss'
 import Slider from '../Slider/Slider';
+import img from '../../assets/images/banner/slide7.jpg'
 const TenthSlide = () => {
     const h1 = `المتسوق الخفي`
     const h3 = ``
+    const bg = `#000000bd`
     const data =[
         {
             id:"04",
@@ -41,10 +43,10 @@ const TenthSlide = () => {
     ]
     return (
         <div>
-            <Slider h1={h1} h3={h3}/>
+            <Slider h1={h1} h3={h3} bg={bg} img={img}/>
             <div className="container" style={{padding:"100px 0"}}>
             <div className="fourth-header my-5" data-aos="zoom-in-left" data-aos-duration="1200" >
-                <h2 className='text-end'> أبرز المشاكل في الفروع  <span style={{color:"red"}}> 
+                <h2 className='text-end semi-bold'> أبرز المشاكل في الفروع  <span style={{color:"#13baeb"}}> 
                 (التحديات)
                </span>
                 </h2>

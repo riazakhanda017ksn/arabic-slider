@@ -16,19 +16,30 @@
     margin-top: 60px;
     border-radius: 8px;
 }
-
+.right-slide-background {
+    height: 94.6% !important;
+}
 .right-slide-background h3 span {
-    background: #f7752c;
+    background: #0a9ba5;
     text-align: right;
     color: white;
-    padding: 11px;
-    font-size: 18px;
-    font-weight: 400;
+    padding: 11px 17px;
+    font-size: 26px;
+    font-weight: 600;
     border-radius: 11px;
     display: inline-block;
-    width: 300px;
+    width: 100%;
 }
 
+.left__side___column______ h3 {
+    font-size: 26px;
+    text-align: end;
+    border: 1px solid rgba(128, 128, 128, 0.1294117647);
+    padding: 11px;
+    margin-top: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
 
 .parent___ {
     display: grid;
@@ -39,9 +50,9 @@
     }
 
     .left__side___column______ h3 {
-        font-size: 18px;
+        font-size: 24px;
         text-align: end;
-        border: 1px solid #80808021;
+        border: 1px solid rgba(128, 128, 128, 0.1294117647);
         padding: 11px;
         margin-top: 12px;
         border-radius: 8px;
@@ -68,12 +79,26 @@
     }
 
     .left-side-column-content p {
-        width: 90%;
-        font-size: 13px;
-        line-height: 22px;
+        width: 96%;
+        font-size: 15px;
         position: relative;
         bottom: 8px;
         margin: 0 auto;
+        line-height: 25px;
+        padding-top: 9px;
+        font-weight: bold;
+        color: #767676;
+    }
+    .right-slide-background h2 span {
+        background: #0a9ba5;
+        text-align: right;
+        color: white;
+        padding: 11px 17px;
+        font-size: 26px;
+        font-weight: 600;
+        border-radius: 11px;
+        display: inline-block;
+        width: 100%;
     }
 
     .text___left {
@@ -84,13 +109,14 @@
         line-height: 30px;
     }
     .left-side-column-content h3 {
-        font-size: 18px;
+        font-size: 22px;
         text-align: end;
         padding: 11px;
         margin-top: 0px;
         border-radius: 8px;
         padding-bottom: 0px;
-        margin-bottom: 12px;
+        font-weight: bold;
+        margin-bottom: 10px;
     }
 
     .right-slide-background {
@@ -106,7 +132,8 @@
         }
 
         .font-size-small h3 {
-            font-size: 16px;
+            font-size: 23px;
+            font-weight: bold;
         }
 
         .left-side-column-content.text-end.mt-3 p {
@@ -146,17 +173,7 @@ grid-column-gap: 7px;
 grid-row-gap: 0px;
             }
 
-            .right-slide-background h2 span {
-                background: #f7752c;
-                text-align: right;
-                color: white;
-                padding: 11px;
-                font-size: 18px;
-                font-weight: 400;
-                border-radius: 11px;
-                display: inline-block;
-                width: 100%
-            }
+          
 
             .close__icon {
                 display: flex;
@@ -182,14 +199,16 @@ grid-row-gap: 0px;
                 text-align: end;
                 font-size: 14px;
                 line-height: 25px;
-                font-weight: 400;
+                font-weight: bold;
+                color: #6e6e6e;
             }
 
             .left-side-box-design h4 {
                 border: 1px solid #00000047;
                 padding: 12px 37px;
-                font-size: 20px;
+                font-size: 24px;
                 border-radius: 6px;
+                font-weight: 500;
             }
 
             .left-side-box-design {
@@ -202,13 +221,6 @@ grid-row-gap: 0px;
                 border-radius: 8px;
             }
 
-            .right_____side____contents h2 {
-                font-size: 24px;
-                position: relative;
-                top: 14px;
-                font-weight: 500;
-            }
-
             .white___box__text {
                 background: white;
                 margin-left: 20px;
@@ -218,11 +230,12 @@ grid-row-gap: 0px;
             }
 
             .white___box__text p {
-                font-size: 12px;
+                font-size: 17px !important;
                 width: 100% !important;
-                line-height: 28px;
+                line-height: 24px;
                 letter-spacing: 1px;
-                margin: 0;
+                font-weight: bold;
+                color: #767676;
             }
 
             .white___box__text img {
@@ -280,4 +293,28 @@ grid-row-gap: 0px;
                 z-index: 99;
                 text-align: end;
                 width: 100%;
+            }
+
+            .right_____side____contents h6 {
+                width: 96%;
+                font-size: 15px;
+                position: relative;
+                margin: 0 auto;
+                line-height: 25px;
+                font-weight: bold;
+                color: #767676;
+                padding-top: 6px;
+            }
+            .right_____side____contents h2 {
+                font-size: 26px;
+                padding: 11px;
+                margin-top: 0px;
+                border-radius: 8px;
+                padding-bottom: 0px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+
+            .need-space {
+                padding-top: 6px;
             }

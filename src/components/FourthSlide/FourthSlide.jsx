@@ -15,7 +15,7 @@ import logo11 from '../../assets/images/FourthSlide/11.svg'
 import logo22 from '../../assets/images/FourthSlide/22.png'
 import logo33 from '../../assets/images/FourthSlide/33.png'
 import frame from '../../assets/images/FourthSlide/frame.svg'
-import frame2 from '../../assets/images/FourthSlide/frame2.svg'
+import frame2 from '../../assets/images/FourthSlide/frame2.png'
 import f1 from '../../assets/images/FourthSlide/chart1.png'
 import f2 from '../../assets/images/FourthSlide/chart2.png'
 import circle from '../../assets/images/FourthSlide/circle.svg'
@@ -61,7 +61,7 @@ const data2 =[
         <div className='container py-5'>
             <div className="fourth-header" data-aos="zoom-in-left"
              data-aos-duration="1200">
-                <h2 className='text-end'> أفضل الممارسات <span> 
+                <h2 className='text-end semi-bold'> أفضل الممارسات <span style={{color:"#0a9ba5"}}> 
                      (الحلول)
                </span>
                 </h2>
@@ -100,7 +100,7 @@ const data2 =[
             {/*  */}
             <div className="fourth-header mt-5 pt-5" data-aos="zoom-in-left"
              data-aos-duration="1000">
-                <h2 className='text-end mt-5'> أفضل الممارسات <span> 
+                <h2 className='text-end mt-5 semi-bold'> أفضل الممارسات <span style={{color:"#0a9ba5"}}> 
                      (الحلول)
                </span>
                 </h2>

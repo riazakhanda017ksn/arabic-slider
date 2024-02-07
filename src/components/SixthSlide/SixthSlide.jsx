@@ -77,7 +77,7 @@ const SixthSlide = () => {
         <div className='SixthSlide'>
                  <div className="fourth-header" data-aos="zoom-in-left"
                   data-aos-duration="1200">
-                <h2 className='text-end'> أفضل الممارسات <span style={{color:"red"}}> 
+                <h2 className='text-end semi-bold'> أفضل الممارسات <span style={{color:"#f7752c"}}> 
                      (الحلول)
                </span>
                 </h2>
@@ -221,7 +221,7 @@ const SixthSlide = () => {
          
          {/* second section start here */}
          <div className="fourth-header" data-aos="zoom-in-left" data-aos-duration="1000" style={{marginTop:"120px"}}>
-                <h2 className='text-end'>سياسات إدارة المنتجات <span style={{color:"red"}}> 
+                <h2 className='text-end semi-bold'>سياسات إدارة المنتجات <span style={{color:"#F7752C"}}> 
                 (الحلول)
                </span>
                 </h2>

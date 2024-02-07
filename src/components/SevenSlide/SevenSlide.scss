@@ -10,29 +10,33 @@
 
 // }
 .pest-banner-title {
-    background: #30c8f5;
+    background: #9735c7;
     padding: 23px;
     text-align: end;
     line-height: 27px;
     color: white;
     border-radius: 11px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: end;
 }
 
+
 .pest-banner-title p {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 36px;
-    font-weight: 400;
+    font-weight: bold;
+    width: 90%;
 }
 
 .pest-bg-card-container {
-    background: #ecfbff;
+    background: #fafbff !important;
     padding: 0;
-    border: 1px solid #91e8ff85;
+    border: 1px solid #ebdaf3 !important;
     border-radius: 8px;
     margin-bottom: 60px;
+    height: 950px;
 }
-
 .big-blog-headline {
     display: flex;
     gap: 20px;
@@ -41,9 +45,9 @@
 
 .big-blog-headline h6 {
     text-align: end;
-    font-size: 21px;
-    font-weight: 400;
-    width: 88%;
+    font-size: 20px;
+    font-weight: bold;
+    width: 85%;
     line-height: 28px;
 }
 
@@ -53,7 +57,7 @@
 
 .big-blog-headline {
     padding: 17px;
-    border-bottom: 1px solid #c4f3ff;
+    border-bottom: 1px solid #EBDAF3;
     padding-bottom: 10px;
     margin-bottom: 8px;
 }
@@ -62,13 +66,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
-    margin: 0 10px;
+    padding: 6px;
+    margin: 0 16px;
+    border-bottom: 1px solid #EBDAF3 !important;
+    margin-bottom: 7px;
 }
-
 .blogs span {
     height: 8px;
-    background: #314fed;
+    background: #9735C7;
 }
 
 .blog______text {
@@ -78,7 +83,9 @@
 
 .blog______text p {
     margin: 0;
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #767676;
 }
 
 .blogs {
@@ -130,7 +137,17 @@
     border: 1px solid rgba(145, 232, 255, 0.5215686275);
     border-radius: 8px;
     margin-bottom: 60px;
-    height: 900px;
+    height: 930px;
+}
+.parcentaze-content p {
+    font-weight: bold;
+}
+.paragraph__content p {
+    font-weight: bold !important;
+    color: #767676;
+}
+.parcentaze-content span {
+    font-weight: bold;
 }
 
 .seven-slide-content {
@@ -164,16 +181,17 @@
 
 .more-class span {
     background: white;
-    margin: 6px 0;
+    margin: 5px 0;
     display: flex;
     align-items: center;
     border-radius: 6px;
-    padding: 8px;
-    font-size: 13px;
+    padding: 4px 8px;
+    font-size: 14px;
     text-align: end;
     line-height: 20px;
+    font-weight: bold;
 }
 
 .eighth-content {
-    height: 73.8%;
+    height: 73.2%;
 }

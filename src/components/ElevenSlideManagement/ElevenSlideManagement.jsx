@@ -6,7 +6,7 @@ const ElevenSlideManagement = () => {
     return (
         <div>
             
-<SixteenSlide/>
+      <SixteenSlide/>
       <LastSlide/>
         </div>
     );

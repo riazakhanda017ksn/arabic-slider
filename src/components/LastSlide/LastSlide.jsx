@@ -59,8 +59,8 @@ const LastSlide = () => {
               <div className='SixthSlide' data-aos="zoom-in-left"
                  data-aos-duration="1000">
                  <div className="fourth-header" >
-                <h2 className='text-end'>
-                المتطلبات الأساسية <span style={{color:"#13baeb"}}> 
+                <h2 className='text-end semi-bold'>
+                المتطلبات الأساسية <span style={{color:"#469C09"}}> 
                      (الحلول)
                </span>
                 </h2>

@@ -2,33 +2,26 @@ import React from 'react';
 import './ThirdSlide.scss'
 import frame from '../../assets/images/logo/frame.png'
 import frame11 from '../../assets/images/frame/logo.png'
-import leftLogo from '../../assets/images/logo/left-logo.png'
-import rightLogo from '../../assets/images/logo/right-logo.png'
-import frame1 from '../../assets/images/frame/1.png'
-import frame2 from '../../assets/images/frame/2.png'
-import frame3 from '../../assets/images/frame/3.png'
+import leftLogo from '../../assets/images/frame/table.png'
 import mainFrame from '../../assets/images/frame/frame.png'
 import mainFrame2 from '../../assets/images/frame/frame2.png'
-import mainFrame3 from '../../assets/images/frame/slide.png'
-import img1 from '../../assets/images/frame/11.png'
-import img2 from '../../assets/images/frame/22.png'
-import img3 from '../../assets/images/frame/33.png'
-import img4 from '../../assets/images/frame/44.png'
-import img5 from '../../assets/images/frame/55.png'
-import img6 from '../../assets/images/frame/66.png'
-import customImg from '../../assets/images/frame/1.svg'
-import customImg2 from '../../assets/images/frame/2.svg'
-import svg3 from '../../assets/images/frame/3.svg'
 import gridimg from '../../assets/images/frame/grid-img.svg'
 import svgicon from '../../assets/images/frame/svg.svg'
 import Slider from '../Slider/Slider';
+import img from '../../assets/images/banner/2nd.jpg'
+import img1212 from '../../assets/images/banner/1.png'
+import ui from '../../assets/images/frame/ui.png'
+import ui2 from '../../assets/images/frame/ui2.png'
+import ui3 from '../../assets/images/frame/ui3.png'
+
 const ThirdSlide = () => {
    const  h1=`مؤشرات الاداء`
    const h3=``
+   const bg = '#0000008e'
     return (
       <div>
-          <Slider h1={h1} h3={h3} />
-        <div className='py-3' style={{margin:"100px 0"}}>
+          <Slider h1={h1} h3={h3} bg={bg} img={img} />
+        <div className='py-3' style={{margin:"100px 0",fontFamily:"Arimo"}}>
             <div className="container">
             <div className="third-navbar">
                 <div className="navlink___" data-aos="zoom-in-left"
@@ -40,7 +33,7 @@ const ThirdSlide = () => {
                 </div>
                 <div className="nav___logo" data-aos="zoom-in-left"
                  data-aos-duration="1400">
-               <h2> ملخص مؤشرات تجربة العملاء – <span>(التحديات)</span></h2>
+               <h2> ملخص مؤشرات تجربة العملاء – <span style={{color:"#314FED"}}>(التحديات)</span></h2>
                 </div>
             </div>
              <div className="row mt-5 pt-4">
@@ -61,22 +54,8 @@ const ThirdSlide = () => {
                             </div>
                             </div>
                          </div>
-                         <div className="flex____img_____">
-                            <div className="text-left___">
-                            <img src={leftLogo} alt="" />
-                            </div>
-                            <div className="text-end_____">
-                            <img src={rightLogo} alt="" />
-                            </div>
-                         </div>
-                         <div className="large___size___image text-center">
-                            <img src={frame1} alt="" />
-                         </div>
-                         <div className="large___size___image text-center">
-                            <img src={frame2} alt="" />
-                         </div>
-                         <div className="large___size___image text-center">
-                            <img src={frame3} alt="" />
+                         <div className="left__right__image__changing">
+                           <img src={img1212} alt="" />
                          </div>
                     </div>
                 </div>
@@ -121,44 +100,94 @@ const ThirdSlide = () => {
                             </div>
                             </div>
                          </div>
-                         <div className="flex____img______ text-center ">
-                           <img src={mainFrame3} alt="" />
-                         </div>
-                         <div className="large___size___image text-center fleximg_____________">
-                            <img src={img1} alt="" />
-                         </div>
-                         <div className="large___size___image text-center fleximg_____________">
-                            <img src={img2} alt="" />
-                         </div>
-                         <div className="large___size___image text-center fleximg_____________">
-                            <img src={img3} alt="" />
-                         </div>
-                         <div className="large___size___image text-center fleximg_____________">
-                            <img src={img4} alt="" />
-                         </div>
-                         <div className="large___size___image text-center fleximg_____________">
-                            <img src={img5} alt="" />
-                         </div>
-                         <div className="large___size___image text-center fleximg_____________">
-                            <img src={img6} alt="" />
-                         </div>
+                       
+                           {/*  */}
+                           <div className="third-card-image bottom-side-images">
+                              <img src={leftLogo} alt="" />
+                           </div>
+                           {/*  */}
                     </div>
                 </div>
-                <div className="col-lg-4">
-                  <div className="custom__card" data-aos='zoom-in-left' data-aos-duration="1100">
-                     <img src={customImg} alt="" />
-                  </div>
+
+                {/*  */}
+                <div className="col-lg-4 mt-5 pt-3">
+                    <div className="box box-editable" data-aos='zoom-in-left' data-aos-duration="1200">
+                        <div className="box-caption">
+                           <h6>الرموز الأكثر استخداما</h6>
+                        </div>
+                          <div className="box___border___">
+                         <div className="box__content__flex">
+                            <div className="text___">
+                              <p>. تعد إحصائيات الرموز من الأمور الجديدة المضافة لتحليل مشاعل العملاء، كم يتضح لنا استمرارية استخدام التفاعل الإيجابي من الرموز من قبل العملاء مع انخفاض ملحوظ في استخدام الرموز السلبية.</p>
+                            </div>
+                            <div className="icons___">
+                             <img src={frame11} alt="" />
+                            </div>
+                            </div>
+                         </div>
+                       
+                           {/*  */}
+                           <div className="third-card-image">
+                              <img src={ui} alt="" />
+                           </div>
+                           {/*  */}
+                    </div>
                 </div>
-                <div className="col-lg-4">
-                  <div className="custom__card" data-aos='zoom-in-left' data-aos-duration="1200">
-                     <img src={customImg2} alt="" />
-                  </div>
+
+                {/*  */}
+
+                 {/*  */}
+                 <div className="col-lg-4 mt-5 pt-3">
+                    <div className="box box-editable" data-aos='zoom-in-left' data-aos-duration="1200">
+                        <div className="box-caption">
+                           <h6>مؤشر قياس الرضى</h6>
+                        </div>
+                          <div className="box___border___">
+                         <div className="box__content__flex">
+                            <div className="text___">
+                             <p>. معادلة المؤشر الحالي تعتمد على أوزان متساوية للخدمات فقط، وهو ما سيتم تعديله بالتعاون مع الإدارات المعنية.</p>
+                             <p>. هناك خلل تقني أدى إلى حجب ظهور بعض المؤشرات لبعض الخدمات في النظام السابق، مع خلل تقني في النظام الجديد بأرقام وقراءات مختلفة تماماً جاري العمل على دراستها مع الإدارة المعنية لوضع سياساتها الخاصة.</p>
+                            </div>
+                            <div className="icons___">
+                             <img src={frame11} alt="" />
+                            </div>
+                            </div>
+                         </div>
+                       
+                           {/*  */}
+                           <div className="third-card-image close-position">
+                              <img src={ui2} alt="" />
+                           </div>
+                           {/*  */}
+                    </div>
                 </div>
-                <div className="col-lg-4">
-                  <div className="custom__card" data-aos='zoom-in-left' data-aos-duration="1300">
-                     <img src={svg3} alt="" />
-                  </div>
+                <div className="col-lg-4 mt-5 pt-3">
+                    <div className="box box-editable" data-aos='zoom-in-left' data-aos-duration="1200">
+                        <div className="box-caption">
+                           <h6>مؤشر قياس الرضى</h6>
+                        </div>
+                          <div className="box___border___">
+                         <div className="box__content__flex">
+                            <div className="text___">
+                            <p>. تأثرت نسب الإقراض سلبًا لتزامن هذا الربع مع عطلتين رسميتين</p>
+                            <p>. ملاحظة: الوقت شامل أيام العطل</p>
+                            </div>
+                            <div className="icons___">
+                             <img src={frame11} alt="" />
+                            </div>
+                            </div>
+                         </div>
+                       
+                           {/*  */}
+                           <div className="third-card-image flex-end-item">
+                              <img src={ui3} alt="" />
+                           </div>
+                           {/*  */}
+                    </div>
                 </div>
+
+                {/*  */}
+            
 
                 <div className="col-lg-4">
                     <div className="box spacing need-more-height" data-aos='zoom-in-left' data-aos-duration="1100">
@@ -307,14 +336,14 @@ const ThirdSlide = () => {
              {/* other rows */}
              <div className="other-headline-text" data-aos="zoom-in-left"
                  data-aos-duration="1100" style={{marginTop:"100px"}}>
-               <h1 className="text-end mt-5">
+               <h1 className="text-end mt-5 semi-bold">
                ملخص المشاريع – <span>(الحلول)</span>
                </h1>
              </div>
              {/*  */}
               <div className="row mt-5">
                <div className="col-lg-4" >
-                  <div className="more-grid" data-aos="zoom-in-left"
+                  <div className="more-grid height-cusstomization" data-aos="zoom-in-left"
                  data-aos-duration="1200">
                      <h6>الحلول</h6>
                      <p>. إضافة أدوات تتبع العميل داخل الموقع لمعرفة الخرائط الحرارية وطبيعة سلوكه داخل الموقع.</p>
@@ -329,7 +358,7 @@ const ThirdSlide = () => {
                <div className="col-lg-4">
                   <div className="more-grid" data-aos="zoom-in-left"
                  data-aos-duration="1200">
-                  <h6 style={{background:"red"}} >نقاط الألم</h6>
+                  <h6 style={{background:"blue"}} >نقاط الألم</h6>
                   <p>. صعوبات تقنية في النظام تعيق تجربة العملاء.</p>
                   <p>. تحديات في التعامل مع استفسارات العملاء.</p>
                   <p>. التأخر في الإجراءات.</p>

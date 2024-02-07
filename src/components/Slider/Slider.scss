@@ -1,13 +1,9 @@
-.slider h1{
-        font-size: 90px;
-        margin-bottom: 45px;
-    
-}
+
 
 .slider h5 {
-    font-size: 28px;
+    font-size: 42px;
+    font-weight: 600;
 }
-
 
 .slider{
     position: relative;
@@ -15,5 +11,11 @@
 
 .relative {
     position: relative;
+}
+
+
+.semi-bold{
+    font-weight: 700 !important;
+    font-size: 34px !important;
 }
 
