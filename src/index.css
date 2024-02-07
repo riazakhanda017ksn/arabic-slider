@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
   .app {
     justify-content: center;
     padding: 0;
@@ -45,26 +39,22 @@
 
 
 body{
-    /* font-family: 'Montserrat', sans-serif !important; */
+    font-family: 'Arimo', sans-serif !important;
     margin: 0;
 }
 
 div#root {
     overflow: hidden;
 }
-
-.white___box__text p {
-    font-size: 14px !important
-}
-.fourth-flex-text___ p {
-    font-size: 14px !important;
+.dashboard_card p {
+    font-size: 16px;
+    font-weight: bold;
 }
 
 
-.blog-item small {
-   
-    font-size: 14px !important
-}
+
+
+
 
 
 .blog-item p {
@@ -72,10 +62,7 @@ div#root {
 
 }
 
-.left-side-blog-content p {
-    font-size: 15px !important
 
-}
 
 .first-grid-box- p {
     font-size: 15px !important;
@@ -117,7 +104,7 @@ div#root {
 }
 
 .box-for-some-content {
-    background: #e7e5fe59;
+    background: #FAFBFF !important;
 }
 
 .ninth-number-box p {
@@ -131,31 +118,35 @@ div#root {
 }
 
 .ninth_col_6 p {
-    font-size: 15px;
+    font-size: 19px;
+    position: relative;
+    top: 8px;
 }
 
 .new-element-with-img h6 {
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 4px;
+    left: -5px;
 }
 
 .single____item {
-    border: 1px solid #f5c3ff;
+    border: 1px solid #13baebb8;
     height: 260px;
-    background: #fcefff;
+    background: #fafbff;
 }
 
 
-.single____item p {
-    font-size: 15px;
-    line-height: 23px;
-}
 
 .single____item h3 {
-    font-size: 26px;
+    font-size: 45px;
+    font-weight: bold;
 }
 
 .div1 p {
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .div1 span {
@@ -167,38 +158,32 @@ div#root {
 .flex-box-column_______ p {
     font-size: 15px;
     line-height: 23px;
+    font-weight: bold;
+    color: #767676;
 }
 
-.orange-headline__ h6 {
-    font-size: 19px;
-}
 
-.arrow-text-flex p {
-    margin: 0;
-    font-size: 15px !important;
-}
 
 .flex-column-title p {
-    font-size: 16px;
+    font-size: 17px;
     margin-bottom: 12px;
     width: 95%;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .flex-column-title span {
-    font-size: 17px;
+    font-size: 18px;
     letter-spacing: 4px;
+    font-weight: bold;
 }
 
 .border-bottom-left-side.aos-init.aos-animate p {
-    font-size: 21px;
+    font-size: 27px;
+    color: black;
+    font-weight: bold;
 }
 
-.headline-sixth-column h5 {
-    margin: 0;
-    font-size: 20px;
-}
 
 .classes strong {
     font-size: 16px;
@@ -209,17 +194,11 @@ div#root {
     font-size: 14px;
 }
 
-.column-item____ p {
-    margin: 0;
-    font-size: 14px;
-}
 
-.last-box p {
-    font-size: 16px;
-}
 
 .col-lg-2-box p {
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .dashboard_card p {
@@ -234,21 +213,24 @@ div#root {
     height: 160px;
 }
 
-.chart-headline____ h5 {
-    margin: 0;
-    font-weight: 400;
-    font-size: 16px;
-}
 
 .chart-headline____ p {
     font-size: 13px;
 }
-
+.chart-headline____ span {
+    font-weight: bold;
+    display: inline-block;
+}
+.fourth-flex-text___ span {
+    font-weight: bold;
+}
+ 
 .cardparent p {
-    font-size: 15px;
+    font-size: 13px;
     margin: 0;
     text-align: end;
     margin-right: 3px;
+    font-weight: bold;
 }
 
 .cardparent {
@@ -262,22 +244,22 @@ div#root {
 }
 
 .chart-containers__ small {
-    font-size: 13px;
+    font-size: 14px;
     width: 100%;
     text-align: end;
     display: block;
+    font-weight: bold;
 }
 .more-grid h6 {
     background: blue;
     text-align: center;
     color: white;
     padding: 11px;
-    font-size: 19px;
-    font-weight: 400;
+    font-size: 24px;
+    font-weight: 700;
     border-radius: 11px;
-    margin: 0;
+    text-align: end;
 }
-
 .table-image img {
     width: 100%;
     margin-top: 2px !important
@@ -288,8 +270,8 @@ div#root {
     background: blue;
     color: white;
     padding: 11px;
-    font-weight: 400;
-    font-size: 19px;
+    font-weight: 700;
+    font-size: 24px;
     border-radius: 10px;
     margin: 0;
 }
@@ -301,14 +283,21 @@ div#root {
 }
 
 .headline-of-eighthSlide p {
-    font-size: 20px;
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: bold;
+    width: 90%;
 }
 .eighth-item h6 {
     margin-bottom: 20px;
-    font-size: 21px;
+    font-size: 19px;
     margin-bottom: 14px;
+    text-align: end;
+    font-weight: bold;
 }
-
+.white-border-design h4 {
+    font-weight: bold;
+}
 
 .number span {
     font-size: 21px;
@@ -319,18 +308,16 @@ div#root {
 
     height: 250px;
 }
+.headline h4 {
+    font-size: 23px;
+    font-weight: bold;
+}
 
 .ninth-number-box p {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 31px;
-}
-.headline h4 {
-    font-size: 19px;
-   
-}
-
-.right-slide-background {
-    height: 94% !important;
+    font-weight: bold;
+    color: #767676;
 }
 
 .single__blog___card___item___ {
@@ -338,53 +325,49 @@ div#root {
 }
 
 .headline-of-eighthSlide {
-    background: #670099 !important
+    background: #9735C7!important;
+    display: flex;
+    justify-content: end;
 }
 
 .eighth-headline {
-    background: #670099;
-
+    background: #9735C7 !important;
+    display: flex;
+    justify-content: end;
 }
 
 .eighth-content {
-    background: #e7e5fe59;
-
+    background: #fafbff !important;
+    border: 1px solid #9635c758;
 }
 
-.eighth-content {
-    border: 1px solid #670099;
-}
 
 .list-style-container span {
-    border: 1px solid #670099 !important;
+    border: 1px solid #9635c758 !important
 }
-
 .parent span {
-    border: 1px solid #670099 !important;
+    border: 1px solid #9635c758 !important
 }
 
 .text-end-side__ span {
-    border: 1px solid #670099 !important;
+    border: 1px solid #9635c758 !important
 }
 .more-class span {
-    border: 1px solid #670099 !important
+    border: 1px solid #9635c758 !important
 }
 
 .white-border-design {
-    border: 1px solid #670099 !important
+    border: 1px solid #9635c758 !important
 }
 
 .box-for-some-content {
-    border: 1px solid #670099 !important;
+    border: 1px solid #9635c758 !important
+}
+.box-for-some-content h4 {
+    font-size: 22px !important;
+    font-weight: bold;
 }
 
-.eighth-content {
-    background: #fff4ff !important;
-}
-
-.box-for-some-content {
-    background: #fff4ff !important;
-}
 
 .numbers {
     display: flex;
@@ -417,4 +400,10 @@ div#root {
 
 .post-content h6 {
     font-size: 18px !important
+}
+
+.slider h1 {
+    font-size: 110px;
+    margin: 45px 0;
+    font-weight: 700;
 }

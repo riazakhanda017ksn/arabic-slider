@@ -6,18 +6,20 @@ import logo from '../../assets/images/fifteenSlide/logo.svg'
 import logo1 from '../../assets/images/fifteenSlide/logo1.svg'
 import chart from '../../assets/images/common-img/chart.png'
 import chart1 from '../../assets/images/common-img/chart2.png'
+import banner from '../../assets/images/banner/last.jpg'
 
 const SixteenSlide = () => {
     const h1 = `برنامج ولاء العميل`
     const h3 = ``
+    const bg = `#000000be`
     return (
         <div style={{marginBottom:"100px"}}>
-        <Slider h1={h1} h3={h3} />
+        <Slider h1={h1} h3={h3} img={banner} bg={bg} />
         <div className="container" style={{marginTop:"100px"}}>
         <div className='SixthSlide' data-aos="zoom-in-left"
-                 data-aos-duration="1000">
+        data-aos-duration="1000">
                  <div className="fourth-header" >
-                <h2 className='text-end'>تحليل الوضع الراهن <span style={{color:"red"}}> 
+                <h2 className='text-end semi-bold'>تحليل الوضع الراهن <span style={{color:"#469c09"}}> 
                 (التحديات)
                </span>
                 </h2>
@@ -111,7 +113,7 @@ const SixteenSlide = () => {
                           </div>
                           <div className="charts " style={{border:"2px solid white"}}>
                             <div className="inside-headline">
-                                <h6 style={{color:"black"}}>صافي نقاط الترويج NPS</h6>
+                                <h5 style={{color:"black"}}>معدل الرضا (تويتر)</h5>
                             </div>
                         </div>
                           </div>
@@ -148,7 +150,7 @@ const SixteenSlide = () => {
                                 </div>
                                 <div className="col-lg-4" style={{padding:"0"}}>
                                       <div className="inside-headline">
-                                <h6 style={{color:"black",fontSize:"13px"}}>
+                                <h6 style={{color:"black",fontSize:"17px"}}>
                                 الحوافز حسب النوع                                    
                                     </h6>
                                 </div>
@@ -202,9 +204,9 @@ const SixteenSlide = () => {
                           </div>
                           <div className="charts " style={{border:"2px solid white"}}>
                             <div className="inside-headline">
-                                <h6 style={{color:"black"}}>
-                                تحليل الوضع الراهن <span style={{color:"red"}}>(التحديات)  </span>
-                                  </h6>
+                                <h5 style={{color:"black"}}>
+                                تحليل الوضع الراهن <span >(التحديات)  </span>
+                                  </h5>
                                 
                             </div>
                             <div className="text-center mt-2 image-resiing">
@@ -213,7 +215,7 @@ const SixteenSlide = () => {
 
                                   <div className="inside-headline " style={{display:"flex",alignItems:"center",gap:"10px",justifyContent:"end"}}>
                                 <h6 style={{color:"black"}}>
-                               <span style={{color:"red"}}>
+                               <span style={{color:"black"}}>
                                أهم أسباب الشكاوى
                                  </span>
                                   </h6>

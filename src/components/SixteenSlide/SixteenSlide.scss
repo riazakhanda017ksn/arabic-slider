@@ -1,33 +1,43 @@
-.sixteen-headline {
-    border: 1px solid #13baeb;
-    padding: 16px;
-    margin-top: 13px;
-    border-radius: 7px;
-}
+
 
 .headline_______ {
-    background: #13baeb;
-    padding: 5px 10px;
-    text-align: end;
-}
-
-.headline_______  p{
-    margin: 0;
-}
-
-.headline_______ {
-    background: #13baeb;
+    background: #469c09 !important;
     padding: 8px 10px;
     text-align: end;
     color: white;
     border-radius: 6px;
 }
 
-.headline_______ p {
-    font-size: 20px;
-    font-weight: 400;
+.headline_______  p{
+    margin: 0;
 }
 
+
+
+.headline_______ p {
+    text-align: right;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 11px;
+    display: inline-block;
+    width: 100%;
+}
+.inside-headline h6 {
+    color: #469C09 !important;
+    font-weight: bold;
+    font-size: 18px;
+}
+.little-small-headline h5 {
+    color: #469C09 !important;
+    font-weight: bold;
+    font-size: 18px;
+}
+.little-small-headline img {
+    width: 26px;
+    position: relative;
+    bottom: 6px;
+}
 .inside-headline {
     text-align: end;
     margin-top: 18px;
@@ -60,7 +70,8 @@
 }
 
 .dote1 p {
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .chart__image img {
@@ -73,7 +84,7 @@
 
 .charts {
     padding-right: 17px;
-    border-right: 2px solid #10a9f5;
+    border-right: 1px solid #D4E7CB;
 }
 .little-small-headline {
     display: flex;
@@ -91,7 +102,12 @@
     justify-content: end;
     text-align: end;
     gap: 4px;
-    margin-top: 6px;
+    margin-top: 8px;
+    border: 1px solid #469c0936;
+    padding: 5px;
+    border-radius: 5px;
+    height: 50px;
+    align-items: center;
 }
 
 .number-and-text-item p{
@@ -100,42 +116,22 @@
 .number-and-text-item p {
     font-size: 13px;
     line-height: 18px;
+    font-weight: bold;
 }
 
-.number-and-text-item {
-    display: flex;
-    justify-content: end;
-    text-align: end;
-    gap: 4px;
-    margin-top: 8px;
-    border: 1px solid #10a9f5;
-    padding: 5px;
-    border-radius: 5px;
-}
 
 .number-and-text-item span {
     font-size: 15px;
 }
 
-.number-and-text-item {
-    display: flex;
-    justify-content: end;
-    text-align: end;
-    gap: 4px;
-    margin-top: 8px;
-    border: 1px solid #10a9f5;
-    padding: 5px;
-    border-radius: 5px;
-    height: 50px;
-    align-items: center;
-}
+
 
 .sixteen-headline {
-    border: 1px solid #13baeb;
+    border: 1px solid #469c09ba;
     padding: 16px;
     margin-top: 13px;
     border-radius: 7px;
-    background: #f6fdff;
+    background: #fafbff;
 }
 
 .some-of-important-content {
@@ -148,6 +144,7 @@
 .some-of-important-content p {
     margin: 0;
     font-size: 14px;
+    font-weight: bold;
 }
 
 .some-of-important-content span {
@@ -164,10 +161,9 @@
 }
 
 .some-of-important-content-border {
-    border-right: 1px solid #13BAEB;
+    border-right: 1px solid #d4e7cb;
     padding-right: 14px;
 }
-
 .chart________image img {
     height: 102px;
     margin-top: 18px;
@@ -214,11 +210,20 @@
 }
 
 .black____shape p {
-    font-size: 11px;
+    font-size: 13px;
     position: relative;
     left: -2px;
     margin: 0;
+    font-weight: bold;
 }
+.inside-headline h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.inside-headline h5 span {
+   color: #469C09;
+}
+
 
 .image-resiing img {
     height: 160px;
@@ -226,23 +231,26 @@
 }
 
 .image-resiing {
-    border-bottom: 1px solid #13baeb;
+    border-bottom: 1px solid #d4e7cb;
     padding-bottom: 25px;
 }
 
-.col-lg-side-content__{
+.col-lg-side-content__ {
     display: flex;
     justify-content: end;
     text-align: end;
     gap: 4px;
     margin-top: 8px;
-    border: 1px solid #10a9f5;
+    border: 1px solid #D4E7CB;
     padding: 5px;
     border-radius: 5px;
     height: 75px;
     align-items: center;
 }
-
+.col-lg-side-content__ p {
+    font-size: 14px !important;
+    font-weight: bold;
+}
 .col-lg-side-content__ p {
     font-size: 13px;
     line-height: 18px;

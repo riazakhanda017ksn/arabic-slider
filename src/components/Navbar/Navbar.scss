@@ -1,7 +1,7 @@
-.navbar_{
-    background: #e8f2f3;
+// .navbar_{
+//     background: #e8f2f3;
 
-}
+// }
 
 .flex-item {
     display: flex;
@@ -12,14 +12,17 @@
 }
 
 .left-logo img {
-    width: 70px;
+    width: 70px !important;
+    height: auto !important;
 }
 .right-logo img {
-    width: 230px;
+    width: 230px !important;
+    height: auto !important;
 }
 
-.slider {
-    background: #e8f2f3;
 
-}
+// .slider {
+//     background: #e8f2f3;
+
+// }
 

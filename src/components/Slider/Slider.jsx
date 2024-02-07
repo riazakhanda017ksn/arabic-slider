@@ -1,28 +1,25 @@
 import React from 'react';
-import banner from '../../assets/images/banner/banner.png'
 import './Slider.scss'
 import Navbar from '../../components/Navbar/Navbar'
-
-const Slider = ({h1,h3}) => {
+const Slider = ({h1,h3,img,bg}) => {
     return (
         <>
-        <Navbar/>
         <div className='slider'>
-            <div className="container">
-            <div className="position_____________relative">
-            <div className="text_position_change">
-            <h1 className='text-end' data-aos="zoom-in-left" data-aos-duration="1200"
-         >{h1}</h1>
-            <h5 className='text-end' data-aos="zoom-in-left" data-aos-duration="1500"
-            >{h3}</h5>
-            </div>
-            <div className="relative">
-             <div className="slide___image text-center" data-aos="fade-down"
-            >
-                <img src={banner} alt="" />
-             </div>
-             </div>
-             </div></div>
+           <img src={img} alt="" />
+           <div className="black-overlay" style={{background:`${bg}`}}>
+           <Navbar/>
+           <div className="center-flex-item">
+           <div className="container">
+            <div className="row">
+            <div className="col-lg-4"></div>
+            <div className="col-lg-8">
+                <div className="content-slide-for-slider">
+                    <h1 data-aos="zoom-in-left" data-aos-duration="1200">{h1}</h1>
+                    <h3 data-aos="zoom-in-left" data-aos-duration="1200">{h3}</h3>
+                </div>
+            </div></div>
+           </div></div>
+           </div>
         </div>
         </>
     );

@@ -10,7 +10,7 @@ const EighthSlide = () => {
         <div className='eighth-slide'>
             <div className="container">
             <div className="fourth-header mb-5" data-aos="zoom-in-left" data-aos-duration="1300">
-                <h2 className='text-end'> تحليل نظام التذاكر <span style={{color:"#13e0b8"}}> 
+                <h2 className='text-end semi-bold'> تحليل نظام التذاكر <span style={{color:"#9735C7"}}> 
                 (الحلول)
                </span>
                 </h2>

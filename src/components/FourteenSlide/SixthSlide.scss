@@ -24,7 +24,6 @@
     }
 
     .sixth-card-content h5 {
-        color: red;
         margin-bottom: 28px;
     }
 
@@ -47,14 +46,17 @@
         line-height: 27px;
         position: relative;
         top: 7px;
+        font-weight: bold;
+        width: 54%;
+        padding-right: 11px;
     }
 
     .sixth-card-content h5 {
-        color: red;
+        color: #f7752c;
         margin-bottom: 20px;
-        line-height: 32px;
-        font-weight: 500;
-        font-size: 18px;
+        line-height: 35px;
+        font-weight: bold;
+        font-size: 23px;
     }
 
     .flex-column-title {
@@ -64,11 +66,11 @@
     }
 
     .flex-column-title p {
-        font-size: 13px;
+        font-size: 17px;
         margin-bottom: 12px;
         width: 95%;
-        line-height: 23px;
-        font-weight: 400;
+        line-height: 30px;
+        font-weight: bold;
     }
     .sixth-card-content {
 
@@ -94,34 +96,20 @@
         }
 
         .green-headline-flex h2 {
-            font-size: 20px;
-            font-weight: 400;
-        }
-
-        .green-headline-flex h2 {
-            font-size: 20px;
-            font-weight: 400;
-        }
-
-     
-
-        .green-headline-flex h2 {
-            text-align: end;
-            color: white;
-        }
-
-     
-
-        .green-headline-flex h2 {
             font-size: 22px;
-            font-weight: 300;
+            font-weight: bold;
             line-height: 28px;
+            text-align: end;
         }
         .green-headline-flex {
-            background: #74c23d;
+            background: #f7752c;
             height: 76px;
             padding: 4px 31px;
             border-radius: 13px;
+            color: white;
+        }
+        .blog-item h3 {
+            font-weight: bold;
         }
 
         .green-headline-flex img {
@@ -143,8 +131,10 @@
         .blog-item small {
             display: inline-block;
             margin-bottom: 11px;
-            margin-top: 7px;
+            margin-top: 7px; font-size: 17px !important;
+            font-weight: bold;
         }
+      
 
         .blog-item p {
             font-size: 12px;
@@ -169,6 +159,11 @@
             line-height: 26px;
             letter-spacing: 0.2px;
         }
+        .left-side-blog-content p {
+            font-size: 16px !important;
+            font-weight: 600;
+            color: #767676;
+        }
 
         .left-side-blog-content img {
             height: 45px;
@@ -191,7 +186,7 @@
             display: flex;
             align-items: center;
             justify-content: end;
-            background: #74c23d;
+            background: #F7752C;
             padding: 8px 12px;
             gap: 10px;
             border-radius: 6px;
@@ -200,7 +195,8 @@
         .blog-headline___ h6 {
             margin-bottom: 0;
             color: white;
-            font-weight: 400;
+            font-weight: bold;
+            font-size: 22px;
         }
         .content-align {
             display: flex;
@@ -222,9 +218,12 @@
         }
 
         .single-card-contents h6 {
-            font-size: 18px;
-            margin-top: 8px;
+            font-size: 22px;
             line-height: 26px;
+            width: 70%;
+            margin: 0 auto;
+            padding-top: 15px;
+            font-weight: bold;
         }
 
         .three-grid-box{
@@ -240,8 +239,9 @@
         }
 
         .first-grid-box- h6 {
-            font-weight: 600;
+            font-weight: bold;
             margin-bottom: 12px;
+            font-size: 18px;
         }
 
         .first-grid-box- img {
@@ -279,10 +279,20 @@
         }
 
         .red-border___ {
-            border: 1px solid #f48484 !important;
+            border: 1px solid #FC74B5;
+            background: #FC74B5;
         }
 
         .need-min-height {
             border: 1px solid #f48484;
             background: #fff1f0;
+        }
+        .sixth-card-content.main-bg-class.aos-init.aos-animate {
+            background: #fafbff;
+            border: 1px solid #FC74B5 !important;
+        }
+
+        .sixth-card-content.need-min-height.aos-init.aos-animate {
+            background: #fafbff;
+            border: 1px solid #FC74B5 !important;
         }

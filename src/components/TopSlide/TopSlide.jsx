@@ -13,13 +13,13 @@ const TopSlide = () => {
         <div className='TopSlide ' style={{padding:"50px 0"}}>
             <div className='container'>
                 <div className="fourth-header my-5" data-aos="zoom-in-left" data-aos-duration="1200">
-                <h2 data-aos="zoom-in-left" data-aos-duration="1600" className='text-end'> المتطلبات الأساسية <span style={{color:"red"}}> 
+                <h2 data-aos="zoom-in-left" data-aos-duration="1600" className='text-end semi-bold'> المتطلبات الأساسية <span style={{color:"#F09713"}}> 
                 (التحديات)
                </span>
                 </h2>
         </div>
         <div className="orange-headline__" data-aos="zoom-in-left" data-aos-duration="1400" >
-        <h6 >تم اقتراح هذه المبادرات بعد إجراء بحث وتحليل البيانات بناءً على المتطلبات التي يمكن تعديلها في المرحلة الحالية والفجوات في رحلة العميل</h6>
+        <h6 >تم اقتراح هذه المبادرات بعد إجراء بحث وتحليل البيانات بناءً على المتطلبات التي يمكن تعديلها في المرحلة  <br /> الحالية والفجوات في رحلة العميل</h6>
         </div>
         {/*  */}
         <div className="row" data-aos="zoom-in-left" data-aos-duration="1400">
@@ -33,7 +33,7 @@ const TopSlide = () => {
                      <div className="parcentaze-point-div">
                         <div className="child-div-for-parcentaze" style={{width:"70%"}}></div>
                      </div>
-                     <h6 style={{color:"#7cc547"}}>جاري العمل</h6>
+                     <h6 style={{color:"#F09713"}}>جاري العمل</h6>
                  </div>
 
                 </div>
@@ -43,7 +43,7 @@ const TopSlide = () => {
                      <div className="parcentaze-point-div">
                         <div className="child-div-for-parcentaze" style={{width:"100%",borderRadius:"10px"}}></div>
                      </div>
-                     <h6 style={{color:"#83e2c6"}}>
+                     <h6 style={{color:"#f09713"}}>
                      متوفر
                     </h6>
                  </div>
@@ -120,7 +120,7 @@ const TopSlide = () => {
                      <div className="parcentaze-point-div">
                         <div className="child-div-for-parcentaze" style={{width:"70%",}}></div>
                      </div>
-                     <h6 style={{color:"#74C23D"}}>
+                     <h6 style={{color:"#f09713"}}>
                      جاري العمل
                      </h6>
                  </div>

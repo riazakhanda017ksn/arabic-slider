@@ -12,13 +12,13 @@ const TwelveSlide = () => {
         <div style={{paddingBottom:"80px"}}>
         <div className='container'>
                 <div className="fourth-header my-5" data-aos="zoom-in-left" data-aos-duration="1000">
-                <h2 className='text-end'> المتطلبات الأساسية <span style={{color:"#74c23d"}}> 
+                <h2 className='text-end semi-bold'> المتطلبات الأساسية <span style={{color:"#F09713"}}> 
                  (التحديات)
                </span>
                 </h2>
         </div>
         <div className="orange-headline__" data-aos="zoom-in-left" data-aos-duration="1400">
-       <h6 data-aos="zoom-in-left" data-aos-duration="1500">تم اقتراح هذه المبادرات بعد إجراء بحث وتحليل البيانات بناءً على المتطلبات التي يمكن تعديلها في المرحلة الحالية والفجوات في رحلة العميل</h6>
+       <h6 data-aos="zoom-in-left" data-aos-duration="1500">تم اقتراح هذه المبادرات بعد إجراء بحث وتحليل البيانات بناءً على المتطلبات التي يمكن تعديلها في المرحلة <br/>الحالية  والفجوات في رحلة العميل</h6>
         </div>
         {/*  */}
         <div className="row" data-aos="zoom-in-left" data-aos-duration="1400">

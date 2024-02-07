@@ -5,7 +5,7 @@ const TenthSlideManagement = () => {
     return (
         <div>
 
-     <FifteenSlide/>
+         <FifteenSlide/>
 
             
         </div>

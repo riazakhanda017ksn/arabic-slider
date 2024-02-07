@@ -76,9 +76,8 @@ const FourteenSlide = () => {
         <div className='SixthSlide' data-aos="zoom-in-left" data-aos-duration="1100">
                  <div className="fourth-header" data-aos="fade-up"
                   data-aos-duration="1200">
-                <h2 className='text-end'> أفضل الممارسات <span style={{color:"red"}}> 
+                <h2 className='text-end semi-bold'> أفضل الممارسات
                      (الحلول)
-               </span>
                 </h2>
             </div>
         </div>

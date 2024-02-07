@@ -10,17 +10,17 @@ const SecondPartContent = () => {
         <div className='container pb-5 ' style={{marginBottom:"100px"}}>
             <div className="content">
                 <div className="text-end" data-aos="zoom-in-left" data-aos-duration="1200">
-                    <h3>ملخص أبرز التحديات والحلول لمحطات تجربة العميل</h3>
+                    <h3 className='semi-bold'>ملخص أبرز التحديات والحلول لمحطات تجربة العميل</h3>
                 </div>
 
                 <div className="flex_content_container" data-aos="zoom-in-left" data-aos-duration="1400">
                     <div className="flex__content" >
-                     <h4>مستوى تقدم</h4>
-                     <h4>الحلول</h4>
+                     <h4 className='semi-bold'>مستوى تقدم</h4>
+                     <h4 className='semi-bold'>الحلول</h4>
                     </div>
                     <div className="flex__content" >
-                       <h4>المحطات</h4>
-                       <h4>أبرز التحديات</h4>
+                       <h4 className='semi-bold'>المحطات</h4>
+                       <h4 className='semi-bold'>أبرز التحديات</h4>
                     </div>
                 </div>
 
@@ -77,7 +77,7 @@ const SecondPartContent = () => {
                             <div className="tag-line-flex">
                            <div className="tag-line">
                             <div className="tag-line-caption">
-                                <h3>{item.name}</h3>
+                                <h3 className='semi-bold' style={{color:"#5bab22"}}>{item.name}</h3>
                             </div>
                             <div className="number">
                                 <span>{item.id}</span>

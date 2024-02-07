@@ -7,7 +7,7 @@
 .parcentaze-point-div {
     width: 77px;
     height: 17px;
-    background: #e7eafc;
+    background: #ababab2b;
     display: flex;
     border-radius: 14px;
     position: relative;
@@ -15,9 +15,9 @@
 
 .child-div-for-parcentaze {
     position: absolute;
-    background: #314fed;
     height: 100%;
     border-radius: 10px 0px 0px 10px;
+    background: #f09713;
 }
 
 .orange-bg-tagline {
@@ -26,4 +26,29 @@
 
 .arrow-text-flex img {
     height: 37px;
+}
+
+.orange-bg-tagline h6 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.arrow-text-flex h6 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #767676;
+}
+.arrow-text-flex p {
+    margin: 0;
+    font-size: 19px !important;
+    font-weight: bold;
+    color: #767676;
+}
+
+
+.orange-bg-tagline p {
+    margin: 0;
+    font-size: 17px !important;
+    font-weight: bold;
+    color: #767676;
 }

@@ -13,8 +13,25 @@
     border: 1px solid #0a9ba5;
     padding: 5px 10px;
     border-radius: 6px;
+    font-weight: bold;
 }
-
+.__card_height {
+    background: #fafbff;
+}
+.dashboard_cards {
+    background: #fafbff;
+}
+.last-headline_____ h6 {
+    font-weight: bold;
+    font-size: 20px;
+}
+.cards___flex___div p {
+    font-size: 13px;
+    font-weight: bold;
+}
+.cards___flex___div span {
+    font-weight: bold;
+}
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -103,14 +120,13 @@
     }
 
     .dashboard__headline h6 {
-        font-weight: 400;
-        font-size: 17px;
+        font-weight: bold;
+        font-size: 20px;
     }
 
     .dashboard_card p {
-        margin: 0;
-        padding-top: 10px;
-        font-size: 13px;
+        font-size: 16px;
+        font-weight: bold;
     }
 
     .dashboard_card p span{

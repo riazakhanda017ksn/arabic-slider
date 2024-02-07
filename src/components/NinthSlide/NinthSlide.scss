@@ -1,8 +1,10 @@
 .ninth-number-box {
-    background: #ffefee;
+    background: #fafbff;
     padding: 20px;
     border-radius: 6px;
     margin-bottom: 20px;
+    height: 250px;
+    border: 1px solid #FEAEA9;
 }
 
 .headline {
@@ -20,9 +22,16 @@
 .headline img {
     height: 28px;
 }
-
+.numbers {
+    background: #FEAEA9;
+    padding: 9px 10px;
+}
+.numbers h6 {
+    font-size: 25px;
+    font-weight: bold;
+}
 .headline {
-    background: white;
+    background: #FEAEA9;
     padding: 7px 11px;
     border-radius: 6px;
 }
@@ -35,6 +44,8 @@
     height: 130px;
 }
 
+
+
 .numbers {
     display: flex;
     align-items: center;
@@ -46,8 +57,8 @@
 }
 .numbers span {
     display: inline-block;
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 23px;
+    font-weight: bold;
 }
 .numbers h6 {
     margin-bottom: 0;
@@ -60,11 +71,12 @@
 }
 
 .ninth-number-box {
-    background: #ffefee;
+    background: #fafbff;
     padding: 20px;
     border-radius: 6px;
     margin-bottom: 20px;
     height: 250px;
+    border: 1px solid #FEAEA9;
 }
 
 .border-at-the-bottom-side {
@@ -80,32 +92,39 @@
     }
 
     .text__box__caption {
-        background: #24bec8;
-        padding: 20px;
+        background: #FEAEA9;
+        padding:10px 20px;
         color: white;
         border-radius: 6px;
         margin-bottom: 23px;
     }
 
     .text__box__caption h6 {
-        font-size: 21px;
-        font-weight: 400;
+        font-size: 27px;
+        font-weight: bold;
         line-height: 35px;
     }
     .ninth_col_6 {
         text-align: end;
-        background: #edfafb;
+        background: #FAFBFF;
         margin-bottom: 12px;
         padding: 15px 10px;
         border-radius: 7px;
     }
-
-    .ninth_col_6 p {
-        font-size: 13px;
+    .white______box p {
         margin: 0;
-        font-weight: 400;
+        font-weight: bold;
     }
 
+    .ninth_col_6 p {
+        font-size: 17px;
+        font-weight: 600;
+        color: #767676;
+    }
+    .container-headline__________ h6 {
+        font-weight: bold;
+        font-size: 20px;
+    }
     .col-7-container {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -151,4 +170,10 @@
         left: 24px;
         gap: 9px;
         color: white;
+    }
+
+    .numbers {
+        background: #FEAEA9;
+        padding: 10px 10px;
+        border-radius: 7px;
     }

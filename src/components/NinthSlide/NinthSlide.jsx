@@ -16,7 +16,7 @@ const NinthSlide = () => {
         <div style={{margin:"100px 0"}}>
         <div className='container' >
             <div className="fourth-header mb-5"  data-aos="zoom-in-left" data-aos-duration="1300">
-                <h2 className='text-end'> الموقع الإلكتروني  <span style={{color:"red"}}> 
+                <h2 className='text-end semi-bold'> الموقع الإلكتروني  <span style={{color:"#feaea9"}}> 
                  (التحديات)
                </span>
                 </h2>
@@ -74,8 +74,8 @@ const NinthSlide = () => {
           </div>
 
           <div className="fourth-header" data-aos="zoom-in-left" data-aos-duration="1200" style={{paddingTop:"100px"}}>
-                <h2 className='text-end'>
-                الملاحظات الواردة من الإدارات <span style={{color:"#24bec8"}}> (الحلول)
+                <h2 className='text-end semi-bold'>
+                الملاحظات الواردة من الإدارات <span style={{color:"#FEAEA9"}}> (الحلول)
                </span>
                 </h2>
           </div>
@@ -214,19 +214,19 @@ const NinthSlide = () => {
                     <div className="container-headline__________" style={{background:"#74c23d", opacity:"0"}}>
                         <h6>عدد الملاحظات</h6>
                     </div>
-                    <div className="white______box" style={{background:"#24bec8",border:"none"}}>
+                    <div className="white______box" style={{background:"#FEAEA9",border:"none"}}>
                        <div className="new-element-with-img">
                         <h6>محتوى</h6>
                         <img src={logo9} alt="" />
                        </div>
                     </div>
-                    <div className="white______box" style={{background:"#24bec8",border:"none"}}>
+                    <div className="white______box" style={{background:"#FEAEA9",border:"none"}}>
                     <div className="new-element-with-img">
                         <h6>تقني</h6>
                         <img src={logo10} alt="" />
                        </div>
                     </div>
-                    <div className="white______box" style={{background:"#24bec8",border:"none"}}>
+                    <div className="white______box" style={{background:"#FEAEA9",border:"none"}}>
                     <div className="new-element-with-img">
                         <h6>تصميم</h6>
                         <img src={logo11} alt="" />
