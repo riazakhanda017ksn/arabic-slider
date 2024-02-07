@@ -68,7 +68,7 @@ const App = () => {
           </div>
         </div>
       </BrowserRouter>
-      {!isMapRoute && (
+      {isMapRoute !=="/" && (
         <div className="header-toggle">
           <div className="toggle-button" onClick={handleToggleMinimize}>
             {isMinimized ? (
