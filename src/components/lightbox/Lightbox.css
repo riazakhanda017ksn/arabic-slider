@@ -13,16 +13,4 @@
     padding: 20px;
   }
   
-  @media (min-width: 768px) { /* Medium screens */
-    .custom-modal .ant-modal {
-      width: 80%;
-      max-width: 800px; /* Optional: Set maximum width */
-    }
-  }
-  
-  @media (max-width: 767px) { /* Small screens */
-    .custom-modal .ant-modal {
-      width: 100%;
-    }
-  }
-  
+ 

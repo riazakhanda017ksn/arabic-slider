@@ -73,7 +73,7 @@ const Header = () => {
   ];
 
   return (
-    <div className={`transform-navbar `}>
+    <div className={`transform-navbar header`}>
       <div className="scroll-container">
         {locations.map((location) => (
           <Link key={location.id} to={location.to} className="slide-box">

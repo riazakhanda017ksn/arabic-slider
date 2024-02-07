@@ -36,12 +36,9 @@ const App = () => {
     <div className="root">
       <BrowserRouter>
         <ScrollToTop />
+        
         <div className={`app ${isMinimized ? "minimized" : ""}`}>
-          {!isMapRoute && (
-            <div className="header">
-              <Header />
-            </div>
-          )}
+          {!isMapRoute && <Header />}
 
           <div className="remaining-content">
             <Routes>
@@ -57,6 +54,7 @@ const App = () => {
               <Route path="/slide-10" element={<TenthSlideManagement />} />
               <Route path="/slide-11" element={<ElevenSlideManagement />} />
             </Routes>
+
             {!isMapRoute && (
               <div className="toggle-container">
                 <div className="toggle-button" onClick={handleToggleMinimize}>
