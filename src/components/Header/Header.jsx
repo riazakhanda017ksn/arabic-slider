@@ -1,6 +1,18 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.scss";
+import banner1 from '../../assets/images/banner/young-man-using-laptop-computer-phone.jpg'
+import banner2 from '../../assets/images/banner/2nd.jpg'
+import banner3 from '../../assets/images/banner/banner/3.jpg'
+import banner4 from '../../assets/images/banner/banner/online-marketing.jpg'
+import banner5 from '../../assets/images/banner/banner/slide5.jpg'
+import banner6 from '../../assets/images/banner/banner/slide6.jpg'
+import banner7 from '../../assets/images/banner/banner/slide7.jpg'
+import banner8 from '../../assets/images/banner/banner/slide8.jpg'
+import banner9 from '../../assets/images/banner/banner/banner9.jpg'
+import banner10 from '../../assets/images/banner/banner/10.jpg'
+import banner11 from '../../assets/images/banner/banner/last.jpg'
+
 
 const Header = (handleToggleMinimize) => {
   const locations = [
@@ -8,67 +20,67 @@ const Header = (handleToggleMinimize) => {
       id: 1,
       to: "/slide-1",
       text: "تقرير إدارة تجربة العميل",
-      src: "/public/banner/1.jpg",
+      src: banner1,
     },
     {
       id: 2,
       to: "/slide-2",
       text: "`مؤشرات الاداء`",
-      src: "/public/banner/2nd.jpg",
+      src: banner2,
     },
     {
       id: 3,
       to: "/slide-3",
       text: "صوت العميل",
-      src: "/public/frame/3.jpg",
+      src: banner3,
     },
     {
       id: 4,
       to: "/slide-4",
       text: "إدارة المنتجات`",
-      src: "/public/banner/online-marketing.jpg",
+      src: banner4,
     },
     {
       id: 5,
       to: "/slide-5",
       text: "`المهام التشغيلية`",
-      src: "/public/banner/slide5.jpg",
+      src: banner5,
     },
     {
       id: 6,
       to: "/slide-6",
       text: "موقع البنك",
-      src: "/public/banner/slide6.jpg",
+      src: banner6,
     },
     {
       id: 7,
       to: "/slide-7",
       text: "المتسوق الخفي",
-      src: "/public/banner/slide7.jpg",
+      src: banner7,
     },
     {
       id: 8,
       to: "/slide-8",
       text: "الفروع",
-      src: "/public/banner/slide8.jpg",
+      src: banner8,
     },
     {
       id: 9,
       to: "/slide-9",
       text: "التواصل",
-      src: "/public/banner/banner9.jpg",
+      src: banner9,
     },
     {
       id: 10,
       to: "/slide-10",
       text: " المشاركة المجتمعية",
-      src: "/public/banner/10.jpg",
+      src: banner10,
     },
     {
       id: 11,
       to: "/slide-11",
       text: "`برنامج ولاء العميل`",
-      src: "/public/banner/last.jpg",
+      src: banner11,
     },
   ];
 
