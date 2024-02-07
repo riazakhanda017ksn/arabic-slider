@@ -19,7 +19,7 @@
   position: relative;
 }
 
-.area > img {
+.map-icon {
   animation: bounce 1.5s cubic-bezier(0.55, 0.055, 0.675, 0.19) infinite;
 }
 
@@ -79,22 +79,23 @@
 }
 
 .location-info-box {
-  /* Your existing styles */
   position: relative;
-  transition: visibility 0.3s ease-in-out, transform 0.3s ease-in-out; /* Add transform to the transition */
-  visibility: hidden; /* Hide initially */
-  transform: scale(0.8); /* Set initial scale to 0.8 (or any value you prefer) */
+  transition: visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+  visibility: hidden;
+  transform: scale(0.8);
 }
 
 .location-text {
-  /* Your existing styles */
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.8); /* Add background color with transparency */
-  padding: 8px; /* Add padding for spacing */
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 8px;
   direction: rtl;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .hovered .location-info-box {

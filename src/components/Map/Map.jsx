@@ -10,8 +10,8 @@ const locations = [
     top: 100,
     left: 200,
     image: "/public/banner/banner.png",
-    text: "تقرير إدارة تجربة العميل  ",
-    link: "/",
+    text: "تقرير إدارة تجربة العميل",
+    link: "/slide-1",
   },
   {
     id: 2,
@@ -64,6 +64,7 @@ const Map = () => {
             src="/map-icon.png"
             alt="map-icon"
             style={{ height: "30px", width: "auto" }}
+            className="map-icon"
           />
 
           <div
@@ -73,7 +74,7 @@ const Map = () => {
             style={{
               top: "100%",
               left: 0,
-              transform: "translateX(-43%)",
+              transform: "translateX(-40%)",
               height: "140px",
               width: "200px",
               borderRadius: "5px",
@@ -106,7 +107,8 @@ const Map = () => {
   return (
     <>
       <div className="container-map">
-        <img src="" />
+        <img src="/src/assets/images/logo/right.png" style={{position:"fixed",left:"20px",bottom:"20px",height:"60px",width:"auto"}} />
+        <img src="/src/assets/images/logo/left.png" alt="" style={{position:"fixed",top:"20px",left:"20px",height:"60px",width:"auto"}}></img>
         {renderLocationIcons()}
       </div>
     </>
