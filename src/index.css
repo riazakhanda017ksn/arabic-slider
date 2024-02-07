@@ -1,4 +1,10 @@
-
+body {
+    font-family: "Noto Sans Arabic", sans-serif !important;
+    margin: 0;
+   }
+   
+   
+   
   .app {
     padding: 0;
     width: 100%;

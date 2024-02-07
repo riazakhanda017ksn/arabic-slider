@@ -83,6 +83,16 @@ const Header = (handleToggleMinimize) => {
             onClick={handleToggleMinimize}
           >
             <img src={location.src} alt={location.label} />
+            <div
+              style={{
+                backgroundColor: "rgba(0,0,0,.3)",
+                position: "absolute",
+                top: "0",
+                left: "0",
+                width: "100%",
+                height: "100%",
+              }}
+            ></div>
             <p>{location.text}</p>
           </Link>
         ))}
@@ -92,7 +102,7 @@ const Header = (handleToggleMinimize) => {
           className="slide-box"
           onClick={handleToggleMinimize}
         >
-          <img src={`/public/banner/last2.jpeg`} alt={`Slide11`} />
+          <img src={`/public/banner/last-bg.jpg`} alt={`Slide11`} />
           <p>{`شكراً لكم`}</p>
         </Link>
       </div>
