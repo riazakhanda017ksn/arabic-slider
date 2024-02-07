@@ -33,7 +33,6 @@ const Map = () => {
             height: "60px",
             width: "auto",
           }}
-          
         />
 
         {/* Hardcoded location icons */}
@@ -41,7 +40,7 @@ const Map = () => {
           className={` ${hoveredLocation === 1 ? "hovered" : ""} area`}
           style={{
             position: "absolute",
-            top: "47%",
+            top: "42%",
             left: "38%",
             cursor: "pointer",
           }}
@@ -53,7 +52,7 @@ const Map = () => {
               src="/map-icon.png"
               alt="map-icon"
               style={{ height: "30px", width: "auto" }}
-              className="map-icon"
+              className="map-icon  "
             />
             <div
               className={`location-info-box ${
@@ -77,7 +76,7 @@ const Map = () => {
               <img
                 src="/public/banner/1.jpg"
                 alt="Location 1"
-                style={{ objectFit: "contain", height: "100%", width: "100%" }}
+                style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
               <p
                 className="location-text"
@@ -94,7 +93,7 @@ const Map = () => {
           className={` ${hoveredLocation === 2 ? "hovered" : ""} area`}
           style={{
             position: "absolute",
-            top: "24%",
+            top: "21%",
             left: "40%",
             cursor: "pointer",
           }}
@@ -106,7 +105,7 @@ const Map = () => {
               src="/map-icon.png"
               alt="map-icon"
               style={{ height: "30px", width: "auto" }}
-              className="map-icon"
+              className="map-icon  "
             />
             <div
               className={`location-info-box ${
@@ -130,7 +129,7 @@ const Map = () => {
               <img
                 src="/public/banner/2nd.jpg"
                 alt="Location 2"
-                style={{ objectFit: "contain", height: "100%", width: "100%" }}
+                style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
               <p
                 className="location-text"
@@ -147,8 +146,8 @@ const Map = () => {
           className={` ${hoveredLocation === 3 ? "hovered" : ""} area`}
           style={{
             position: "absolute",
-            left: "47%",
-            top: "26%",
+            left: "46.5%",
+            top: "22.5%",
             cursor: "pointer",
           }}
           onMouseEnter={() => handleLocationHover(3)}
@@ -159,7 +158,7 @@ const Map = () => {
               src="/map-icon.png"
               alt="map-icon"
               style={{ height: "30px", width: "auto" }}
-              className="map-icon"
+              className="map-icon  "
             />
             <div
               className={`location-info-box ${
@@ -183,7 +182,7 @@ const Map = () => {
               <img
                 src="/public/frame/3.jpg"
                 alt="Location 3"
-                style={{ objectFit: "contain", height: "100%", width: "100%" }}
+                style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
               <p
                 className="location-text"
@@ -199,7 +198,7 @@ const Map = () => {
           className={` ${hoveredLocation === 4 ? "hovered" : ""} area`}
           style={{
             position: "absolute",
-            top: "70%",
+            top: "62%",
             left: "45%",
             cursor: "pointer",
           }}
@@ -211,7 +210,7 @@ const Map = () => {
               src="/map-icon.png"
               alt="map-icon"
               style={{ height: "30px", width: "auto" }}
-              className="map-icon"
+              className="map-icon  "
             />
             <div
               className={`location-info-box ${
@@ -235,7 +234,7 @@ const Map = () => {
               <img
                 src="/public/banner/online-marketing.jpg"
                 alt="Location 4"
-                style={{ objectFit: "contain", height: "100%", width: "100%" }}
+                style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
               <p
                 className="location-text"
@@ -252,7 +251,7 @@ const Map = () => {
           className={` ${hoveredLocation === 5 ? "hovered" : ""} area`}
           style={{
             position: "absolute",
-            top: "42%",
+            top: "37%",
             left: "53%",
             cursor: "pointer",
           }}
@@ -264,7 +263,7 @@ const Map = () => {
               src="/map-icon.png"
               alt="map-icon"
               style={{ height: "30px", width: "auto" }}
-              className="map-icon"
+              className="map-icon  "
             />
             <div
               className={`location-info-box ${
@@ -288,7 +287,7 @@ const Map = () => {
               <img
                 src="/public/banner/slide5.jpg"
                 alt="Location 5"
-                style={{ objectFit: "contain", height: "100%", width: "100%" }}
+                style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
               <p
                 className="location-text"
@@ -306,7 +305,7 @@ const Map = () => {
           style={{
             position: "absolute",
             left: "76%",
-            top: "28%",
+            top: "24.5%",
             cursor: "pointer",
           }}
           onMouseEnter={() => handleLocationHover(6)}
@@ -317,7 +316,7 @@ const Map = () => {
               src="/map-icon.png"
               alt="map-icon"
               style={{ height: "30px", width: "auto" }}
-              className="map-icon"
+              className="map-icon  "
             />
             <div
               className={`location-info-box ${
@@ -341,7 +340,7 @@ const Map = () => {
               <img
                 src="/public/banner/slide6.jpg"
                 alt="Location 6"
-                style={{ objectFit: "contain", height: "100%", width: "100%" }}
+                style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
               <p
                 className="location-text"
@@ -357,7 +356,7 @@ const Map = () => {
           className={` ${hoveredLocation === 7 ? "hovered" : ""} area`}
           style={{
             position: "absolute",
-            top: "62%",
+            top: "55%",
             left: "53%",
             cursor: "pointer",
           }}
@@ -369,7 +368,7 @@ const Map = () => {
               src="/map-icon.png"
               alt="map-icon"
               style={{ height: "30px", width: "auto" }}
-              className="map-icon"
+              className="map-icon  "
             />
             <div
               className={`location-info-box ${
@@ -393,7 +392,7 @@ const Map = () => {
               <img
                 src="/public/banner/slide7.jpg"
                 alt="Location 7"
-                style={{ objectFit: "contain", height: "100%", width: "100%" }}
+                style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
               <p
                 className="location-text"
@@ -410,8 +409,8 @@ const Map = () => {
           className={` ${hoveredLocation === 8 ? "hovered" : ""} area`}
           style={{
             position: "absolute",
-            top: "52%",
-            left: "60%",
+            top: "54%",
+            left: "67%",
             cursor: "pointer",
           }}
           onMouseEnter={() => handleLocationHover(8)}
@@ -422,7 +421,7 @@ const Map = () => {
               src="/map-icon.png"
               alt="map-icon"
               style={{ height: "30px", width: "auto" }}
-              className="map-icon"
+              className="map-icon  "
             />
             <div
               className={`location-info-box ${
@@ -446,7 +445,7 @@ const Map = () => {
               <img
                 src="/public/banner/slide8.jpg"
                 alt="Location 8"
-                style={{ objectFit: "contain", height: "100%", width: "100%" }}
+                style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
               <p
                 className="location-text"
@@ -463,7 +462,7 @@ const Map = () => {
           className={` ${hoveredLocation === 9 ? "hovered" : ""} area`}
           style={{
             position: "absolute",
-            top: "15%",
+            top: "14%",
             left: "62%",
             cursor: "pointer",
           }}
@@ -475,7 +474,7 @@ const Map = () => {
               src="/map-icon.png"
               alt="map-icon"
               style={{ height: "30px", width: "auto" }}
-              className="map-icon"
+              className="map-icon  "
             />
             <div
               className={`location-info-box ${
@@ -499,7 +498,7 @@ const Map = () => {
               <img
                 src="/public/banner/banner9.jpg"
                 alt="Location 9"
-                style={{ objectFit: "contain", height: "100%", width: "100%" }}
+                style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
               <p
                 className="location-text"
@@ -516,8 +515,8 @@ const Map = () => {
           className={` ${hoveredLocation === 10 ? "hovered" : ""} area`}
           style={{
             position: "absolute",
-            left: "78%",
-            bottom: "85%",
+            left: "78.3%",
+            bottom: "87%",
             cursor: "pointer",
           }}
           onMouseEnter={() => handleLocationHover(10)}
@@ -528,7 +527,7 @@ const Map = () => {
               src="/map-icon.png"
               alt="map-icon"
               style={{ height: "30px", width: "auto" }}
-              className="map-icon"
+              className="map-icon  "
             />
             <div
               className={`location-info-box ${
@@ -552,7 +551,7 @@ const Map = () => {
               <img
                 src="/public/banner/10.jpg"
                 alt="Location 10"
-                style={{ objectFit: "contain", height: "100%", width: "100%" }}
+                style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
               <p
                 className="location-text"
@@ -569,7 +568,7 @@ const Map = () => {
           className={` ${hoveredLocation === 11 ? "hovered" : ""} area`}
           style={{
             position: "absolute",
-            bottom: "28%",
+            bottom: "36%",
             left: "80%",
             cursor: "pointer",
           }}
@@ -581,7 +580,7 @@ const Map = () => {
               src="/map-icon.png"
               alt="map-icon"
               style={{ height: "30px", width: "auto" }}
-              className="map-icon"
+              className="map-icon  "
             />
             <div
               className={`location-info-box ${
@@ -605,7 +604,7 @@ const Map = () => {
               <img
                 src="/public/banner/last.jpg"
                 alt="Location 11"
-                style={{ objectFit: "contain", height: "100%", width: "100%" }}
+                style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
               <p
                 className="location-text"
