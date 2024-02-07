@@ -371,7 +371,12 @@ div#root {
 }
 
 .slider h1 {
-    font-size: 95px;
+    font-size: 90px !important;
     margin: 45px 0;
     font-weight: 700;
+}
+
+.text_position_change {
+    padding: 30px 80px;
+    background: linear-gradient(45deg, #5bab22db, #5bab2281);
 }
