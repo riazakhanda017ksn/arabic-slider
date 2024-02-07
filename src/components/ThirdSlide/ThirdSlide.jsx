@@ -27,17 +27,29 @@ const ThirdSlide = () => {
         <div className='py-3' style={{margin:"100px 0",}}>
             <div className="container">
             <div className="third-navbar">
-                <div className="navlink___" data-aos="zoom-in-left"
-                 data-aos-duration="1100">
-                    <a href="">إدارة العمليات</a>
-                    <a href="">بيئة تحليلية – مكعب طلبات</a>
-                    <a href="">نظام رضى العميل</a>
-                    <a href="" className='active'>المصادر:</a>
-                </div>
-                <div className="nav___logo" data-aos="zoom-in-left"
-                 data-aos-duration="1400">
-               <h2> ملخص مؤشرات تجربة العملاء – <span style={{color:"#314FED"}}>(التحديات)</span></h2>
-                </div>
+               <div
+               className="navlink___"
+               data-aos="zoom-in-left"
+               data-aos-duration="1100"
+               >
+               <a href="">إدارة العمليات</a>
+               <a href="">بيئة تحليلية – مكعب طلبات</a>
+               <a href="">نظام رضى العميل</a>
+               <a href="" className="active">
+                  المصادر:
+               </a>
+               </div>
+               <div
+               className="nav___logo"
+               data-aos="zoom-in-left"
+               data-aos-duration="1400"
+               >
+               <h2>
+                  {" "}
+                  ملخص مؤشرات تجربة العملاء –{" "}
+                  <span style={{ color: "#314FED" }}>(التحديات)</span>
+               </h2>
+               </div>
             </div>
              <div className="row mt-5 pt-4">
                 <div className="col-lg-4">
@@ -231,107 +243,131 @@ const ThirdSlide = () => {
                <h1 className="text-end mt-5 semi-bold">
                ملخص المشاريع – <span>(الحلول)</span>
                </h1>
-             </div>
-             {/*  */}
-              <div className="row mt-5">
-               <div className="col-lg-4" >
-                  <div className="more-grid height-cusstomization" data-aos="zoom-in-left"
-                 data-aos-duration="1200">
-                     <h6>الحلول</h6>
-                     <p>. إضافة أدوات تتبع العميل داخل الموقع لمعرفة الخرائط الحرارية وطبيعة سلوكه داخل الموقع.</p>
-                     <p>. يجري العمل على وضع سياسة تحسين رحلة العميل وسد الفجوات.</p>
-                     <p>. تجري مراقبة الصعوبات بشكل يومي.</p>
-                     <p>. إعادة النظر والحساب لنظام قياس تجربة العملاء باستبانات تقييم تغطي جميع مراحل المنتجات والخدمات.</p>
-                     <p>. توحيد طريقة الرد على العملاء في منصة تويتر بحيث يتم إعطاء معلومات وافية لهم إن أمكن</p>
-                     <p>. معالجة التأخر التشغيلية وتسهيلها على العملاء.</p>
-                     <div className="padding-bottom____"></div>
-                  </div>
+            </div>
+            {/*  */}
+            <div className="row mt-5">
+               <div className="col-lg-4">
+               <div
+                  className="more-grid height-cusstomization"
+                  data-aos="zoom-in-left"
+                  data-aos-duration="1200"
+               >
+                  <h6>الحلول</h6>
+                  <p>
+                     . إضافة أدوات تتبع العميل داخل الموقع لمعرفة الخرائط الحرارية
+                     وطبيعة سلوكه داخل الموقع.
+                  </p>
+                  <p>. يجري العمل على وضع سياسة تحسين رحلة العميل وسد الفجوات.</p>
+                  <p>. تجري مراقبة الصعوبات بشكل يومي.</p>
+                  <p>
+                     . إعادة النظر والحساب لنظام قياس تجربة العملاء باستبانات تقييم
+                     تغطي جميع مراحل المنتجات والخدمات.
+                  </p>
+                  <p>
+                     . توحيد طريقة الرد على العملاء في منصة تويتر بحيث يتم إعطاء
+                     معلومات وافية لهم إن أمكن
+                  </p>
+                  <p>. معالجة التأخر التشغيلية وتسهيلها على العملاء.</p>
+                  <div className="padding-bottom____"></div>
+               </div>
                </div>
                <div className="col-lg-4">
-                  <div className="more-grid" data-aos="zoom-in-left"
-                 data-aos-duration="1200">
-                  <h6 style={{background:"blue"}} >نقاط الألم</h6>
+               <div
+                  className="more-grid"
+                  data-aos="zoom-in-left"
+                  data-aos-duration="1200"
+               >
+                  <h6 style={{ background: "blue" }}>نقاط الألم</h6>
                   <p>. صعوبات تقنية في النظام تعيق تجربة العملاء.</p>
                   <p>. تحديات في التعامل مع استفسارات العملاء.</p>
                   <p>. التأخر في الإجراءات.</p>
-                  </div>
-                  <div className="more-grid mt-3" data-aos="zoom-in-left"
-                 data-aos-duration="1400">
-                  <h6 >الانجازات</h6>
-                  <p>. إطلاق موقع البنك بحلته الجديدة وبتجربة مستخدمين مازالت تحت الرصد.</p>
+               </div>
+               <div
+                  className="more-grid mt-3"
+                  data-aos="zoom-in-left"
+                  data-aos-duration="1400"
+               >
+                  <h6>الانجازات</h6>
+                  <p>
+                     . إطلاق موقع البنك بحلته الجديدة وبتجربة مستخدمين مازالت تحت
+                     الرصد.
+                  </p>
                   <p>. وضوح المحتوى، مع الترجمة الكاملة للموقع.</p>
                   <p>. زيادة سرعة تحميل الصفحة عن الربع السابق.</p>
                   <p>. ارتفاع مؤشر الرضى في خدمتين.</p>
-                  <p>. إطلاق صفحة FAQ في الموقع الجديد لتكون مرجعاً للعملاء يغذي نقاط التواصل للخدمات والمنتجات.</p>
+                  <p>
+                     . إطلاق صفحة FAQ في الموقع الجديد لتكون مرجعاً للعملاء يغذي
+                     نقاط التواصل للخدمات والمنتجات.
+                  </p>
                   <p>. رسائل إتمام الخدمة.</p>
+               </div>
+               </div>
+               <div
+               className="col-lg-4"
+               data-aos="fade-left"
+               data-aos-duration="1400"
+               >
+               <div className="side__bar">
+                  <div className="sidebar____text___bg">
+                     <h6>المشاريع والبرامج</h6>
                   </div>
                </div>
-               <div className="col-lg-4" data-aos="fade-left"
-                 data-aos-duration="1400">
-                  <div className="side__bar" >
-                     <div className="sidebar____text___bg" >
-                        <h6>المشاريع والبرامج</h6>
-                     </div>
-                   
-                  </div>
-                  <div className="border-text__">
-                        <p>التجهيز لمنصة الأسر المنتجة</p>
-                        <span></span>
-                     </div>
-                   
-                     <div className="border-text__">
-                        <p>برنامج ولاء العملاء</p>
-                        <span></span>
-                     </div>
-
-                       
-                     <div className="border-text__">
-                        <p>تحسين رحلة العملاء بالفروع</p>
-                        <span></span>
-                     </div>
-                    
-                     <div className="border-text__">
-                        <p>برنامج المشاركة الالكترونية</p>
-                        <span></span>
-                     </div>
-
-                     <div className="border-text__">
-                        <p>تحسين تطبيق البنك</p>
-                        <span></span>
-                     </div>
-
-                     <div className="border-text__">
-                        <p>برنامج مجموعات التركيز</p>
-                        <span></span>
-                     </div>
-
-                     <div className="border-text__">
-                        <p>مشروع رحلات العميل</p>
-                        <span></span>
-                     </div>
-
-                     <div className="border-text__">
-                        <p>NPS خطة تنفيذية لدراسة نسبة العملاء المروجين</p>
-                        <span></span>
-                     </div>
-
-                     <div className="border-text__">
-                        <p>الانضمام لجائزة تجربة العميل السعودية</p>
-                        <span></span>
-                     </div>
-
-                     <div className="border-text__">
-                        <p>الاستعداد لليوم العالمي لتجربة العميل</p>
-                        <span></span>
-                     </div>
-
+               <div className="border-text__">
+                  <p>التجهيز لمنصة الأسر المنتجة</p>
+                  <span></span>
                </div>
-              </div>
-             {/*  */}
+
+               <div className="border-text__">
+                  <p>برنامج ولاء العملاء</p>
+                  <span></span>
+               </div>
+
+               <div className="border-text__">
+                  <p>تحسين رحلة العملاء بالفروع</p>
+                  <span></span>
+               </div>
+
+               <div className="border-text__">
+                  <p>برنامج المشاركة الالكترونية</p>
+                  <span></span>
+               </div>
+
+               <div className="border-text__">
+                  <p>تحسين تطبيق البنك</p>
+                  <span></span>
+               </div>
+
+               <div className="border-text__">
+                  <p>برنامج مجموعات التركيز</p>
+                  <span></span>
+               </div>
+
+               <div className="border-text__">
+                  <p>مشروع رحلات العميل</p>
+                  <span></span>
+               </div>
+
+               <div className="border-text__">
+                  <p>NPS خطة تنفيذية لدراسة نسبة العملاء المروجين</p>
+                  <span></span>
+               </div>
+
+               <div className="border-text__">
+                  <p>الانضمام لجائزة تجربة العميل السعودية</p>
+                  <span></span>
+               </div>
+
+               <div className="border-text__">
+                  <p>الاستعداد لليوم العالمي لتجربة العميل</p>
+                  <span></span>
+               </div>
+               </div>
             </div>
-        </div>
-        </div>
-    );
-};
+            {/*  */}
+         </div>
+         </div>
+      </div>
+   );
+   };
 
-export default ThirdSlide;
+   export default ThirdSlide;
