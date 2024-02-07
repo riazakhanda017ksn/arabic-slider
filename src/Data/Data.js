@@ -305,7 +305,7 @@ export const dataContent =[
             },
       
         ],
-        parcentageTagline:"%نسبة التقدم10",
+        parcentageTagline:"%نسبة التقدم100",
         parent:100,
         dataAos:"zoom-out-down",
         time:"1400"
@@ -345,7 +345,7 @@ export const dataContent =[
             },
  
         ],
-        parcentageTagline:"%نسبة التقدم 10",
+        parcentageTagline:"%نسبة التقدم 100",
         parent:100,
         dataAos:"zoom-out-right",
         time:"1100"
@@ -374,7 +374,7 @@ export const dataContent =[
                 الأهداف المرجوة`,
             },
         ],
-        parcentageTagline:`%نسبة التقدم 10`,
+        parcentageTagline:`%نسبة التقدم 100`,
         parent:100,
         dataAos:"fade-up",
         time:"1400"
@@ -417,7 +417,7 @@ export const dataContent =[
             },
  
         ],
-        parcentageTagline:`%نسبة التقدم 10`,
+        parcentageTagline:`%نسبة التقدم 100`,
         parent:100,
         dataAos:"fade-right",
         time:"1400"

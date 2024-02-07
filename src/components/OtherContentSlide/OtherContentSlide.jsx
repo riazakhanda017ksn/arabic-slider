@@ -19,7 +19,7 @@ const OtherContentSlide = () => {
     const bg = `#0a9ba5c7`
     return (
         <>
-        <Slider h1={h1} h3={h3} img={imgs} bg={bg}/>
+        <Slider h1={h1} h3={h3} img={imgs} bg={bg} />
         <div className='other___slide___image text-center' > 
         </div>
        <div style={{marginTop:"100px",marginBottom:"40px"}}>
