@@ -6,7 +6,7 @@ const Slider = ({h1,h3,img,bg}) => {
         <>
         <div className='slider'>
            <img src={img} alt="" />
-           <div className="black-overlay">
+           <div className="black-overlay" style={{background:"#0000003a"}}>
            <Navbar/>
            <div className="center-flex-item">
            <div className="container">
