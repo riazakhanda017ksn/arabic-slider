@@ -1,0 +1,104 @@
+.container-map {
+    min-height: 100vh;
+    background-image: url("/public/map4.png");
+    background-repeat: no-repeat;
+    background-size: cover; /* or 'contain' depending on your preference */
+    background-position: right right; /* Center the image */
+    background-color: red;
+    z-index:999999999;
+}
+.area {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    position: relative;
+  }
+  
+  .area::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border: 2px solid white;
+    border-radius: inherit;
+    animation: spinBorder 2s linear infinite; /* Add a spinning animation to the border */
+  }
+  
+  @keyframes spinBorder {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+.container-map {
+    position: relative;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  .title{
+    text-align: right;
+    font-size: large;
+    padding-top: 20px;
+  }
+  .location-icon {
+    position: absolute;
+    cursor: pointer;
+  }
+  
+  .location-icon img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .location-info-box {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none;
+    max-width: 150px;
+  }
+  
+  .location-info-box img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .location-info-box.open {
+    display: block;
+  }
+  
+  .location-info-box::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent white;
+  }
+  /* Add this CSS to your stylesheet */
+
+.IconMapLocationDot {
+    color: red;
+    animation: pulse 2s infinite; /* Add a pulsating animation */
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
+  

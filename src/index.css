@@ -1,3 +1,49 @@
+
+
+
+
+
+
+
+  .app {
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .minimized .header {
+    display: none;
+  }
+.remaining-content{
+    margin-left: 10%;
+}
+.minimized .remaining-content{
+    margin-left: 0%;
+}
+
+  .toggle-button {
+    cursor: pointer;
+    font-size: 40px;
+  }
+  .root{
+    position: relative;
+  }
+  .root .icons {
+    position: absolute;
+    left: 30px;
+    top: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    background-color: gray;
+    z-index: 10;
+  }
+  
+
+  
+
+
 body{
     /* font-family: 'Montserrat', sans-serif !important; */
     margin: 0;

@@ -1,0 +1,28 @@
+.lightbox-child {
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .lightbox-child:hover {
+    transform: scale(1.01);
+
+  }
+  
+  .custom-modal .ant-modal-content {
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  @media (min-width: 768px) { /* Medium screens */
+    .custom-modal .ant-modal {
+      width: 80%;
+      max-width: 800px; /* Optional: Set maximum width */
+    }
+  }
+  
+  @media (max-width: 767px) { /* Small screens */
+    .custom-modal .ant-modal {
+      width: 100%;
+    }
+  }
+  

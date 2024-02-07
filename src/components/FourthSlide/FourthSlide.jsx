@@ -61,7 +61,7 @@ const data2 =[
         <div className='container py-5'>
             <div className="fourth-header" data-aos="zoom-in-left"
              data-aos-duration="1200">
-                <h2 className='text-end'> أفضل الممارسات <span> 
+                <h2 className='text-end'> أفضل الممارسات  <span> 
                      (الحلول)
                </span>
                 </h2>
