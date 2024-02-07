@@ -5,7 +5,7 @@ import img from '../../assets/images/banner/slide7.jpg'
 const TenthSlide = () => {
     const h1 = `المتسوق الخفي`
     const h3 = ``
-    const bg = `#000000bd`
+    const bg = `#13baebab`
     const data =[
         {
             id:"04",

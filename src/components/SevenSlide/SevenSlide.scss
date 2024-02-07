@@ -83,11 +83,13 @@
 
 .blog______text p {
     margin: 0;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     color: #767676;
 }
-
+.eighth-content span {
+    font-size: 12px !important;
+}
 .blogs {
     display: flex;
     justify-content: space-between;
@@ -193,5 +195,5 @@
 }
 
 .eighth-content {
-    height: 73.2%;
+    height: 76.5%;
 }

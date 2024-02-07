@@ -16,7 +16,7 @@ import Slider from '../Slider/Slider';
 const OtherContentSlide = () => {
     const h1 =`صوت العميل`
     const h3 =``
-    const bg = `#0000008e`
+    const bg = `#0a9ba5c7`
     return (
         <>
         <Slider h1={h1} h3={h3} img={imgs} bg={bg}/>

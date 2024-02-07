@@ -5,7 +5,7 @@ import img from '../../assets/images/banner/slide8.jpg'
 const EightSlideManagement = () => {
     const h1 = `الفروع`
     const h3 = ``
-    const bg = `#000000bd`
+    const bg = `#f09713cf`
     return (
         <div>
        

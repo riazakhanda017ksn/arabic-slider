@@ -93,7 +93,7 @@ const SevenSlide = () => {
     ]
     const h1 =`المهام التشغيلية`
    const h3 = ``
-   const bg = `#000000c9`
+   const bg = `#9735c7ad`
     return (
         <>
         <Slider h1={h1} h3={h3} bg={bg} img={photo}/>

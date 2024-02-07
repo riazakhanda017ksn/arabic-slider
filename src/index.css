@@ -76,24 +76,19 @@ div#root {
     background: #FAFBFF !important;
 }
 
-.ninth-number-box p {
-
-    font-size: 15px;
-  
-}
 
 .white______box p {
     margin: 0;
 }
 
 .ninth_col_6 p {
-    font-size: 19px;
+    font-size: 17px;
     position: relative;
     top: 8px;
 }
 
 .new-element-with-img h6 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     position: relative;
     top: 4px;
@@ -109,7 +104,7 @@ div#root {
 
 
 .single____item h3 {
-    font-size: 45px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -125,7 +120,7 @@ div#root {
 }
 
 .flex-box-column_______ p {
-    font-size: 15px;
+    font-size: 13px;
     line-height: 23px;
     font-weight: bold;
     color: #767676;
@@ -160,16 +155,20 @@ div#root {
 }
 
 .col-lg-side-content__ p {
-    font-size: 14px;
+    font-size: 14px !important;
+    font-weight: bold;
+    color: #767676;
 }
-
+.bottom__side__arrow img {
+    width: 11px;
+}
 
 
 .col-lg-2-box p {
     font-size: 14px;
     font-weight: bold;
+    color: #767676;
 }
-
 .dashboard_card p {
 
     font-size: 15px;
@@ -278,12 +277,12 @@ div#root {
     height: 250px;
 }
 .headline h4 {
-    font-size: 23px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 .ninth-number-box p {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 31px;
     font-weight: bold;
     color: #767676;

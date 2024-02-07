@@ -70,10 +70,18 @@
 }
 
 .dote1 p {
+    color: #767676;
     font-size: 12px;
     font-weight: bold;
 }
-
+.number-and-text-item p {
+    color: #767676;
+}
+.number-and-text-item span {
+    font-size: 17px !important;
+    font-weight: bold;
+    color: #767676;
+}
 .chart__image img {
     height: 140px;
     margin-top: 15px;
@@ -143,13 +151,16 @@
 
 .some-of-important-content p {
     margin: 0;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
+    color: #767676;
 }
 
 .some-of-important-content span {
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 1px;
+    font-weight: bold;
+    color: #767676;
 }
 
 .some-of-important-content {
@@ -210,11 +221,12 @@
 }
 
 .black____shape p {
-    font-size: 13px;
+    font-size: 12px;
     position: relative;
     left: -2px;
     margin: 0;
     font-weight: bold;
+    color: #767676;
 }
 .inside-headline h5 {
     font-size: 18px;
@@ -250,16 +262,21 @@
 .col-lg-side-content__ p {
     font-size: 14px !important;
     font-weight: bold;
+    color: #767676;
 }
 .col-lg-side-content__ p {
-    font-size: 13px;
-    line-height: 18px;
-    margin: 0;
+    font-size: 14px !important;
+    font-weight: bold;
+    color: #767676;
 }
 .min-hight-calcuate {
     height: 390px;
 }
 
 .min-hight-calcuates {
-    height: 715px;
+    height: 728px;
+}
+.col-lg-side-content__ span {
+    font-size: 15px;
+    font-weight: 600;
 }

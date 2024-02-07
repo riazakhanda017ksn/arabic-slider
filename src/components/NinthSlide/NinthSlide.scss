@@ -27,8 +27,9 @@
     padding: 9px 10px;
 }
 .numbers h6 {
-    font-size: 25px;
+    font-size: 17px;
     font-weight: bold;
+    text-align: end;
 }
 .headline {
     background: #FEAEA9;
@@ -57,7 +58,7 @@
 }
 .numbers span {
     display: inline-block;
-    font-size: 23px;
+    font-size: 18px;
     font-weight: bold;
 }
 .numbers h6 {
@@ -100,7 +101,7 @@
     }
 
     .text__box__caption h6 {
-        font-size: 27px;
+        font-size: 19px;
         font-weight: bold;
         line-height: 35px;
     }
@@ -118,12 +119,12 @@
 
     .ninth_col_6 p {
         font-size: 17px;
-        font-weight: 600;
-        color: #767676;
+        position: relative;
+        top: 8px;
     }
     .container-headline__________ h6 {
         font-weight: bold;
-        font-size: 20px;
+        font-size: 18px;
     }
     .col-7-container {
         display: grid;
