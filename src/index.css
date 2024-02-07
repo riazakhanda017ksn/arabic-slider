@@ -2,11 +2,11 @@
   .app {
     padding: 0;
     width: 100%;
-    display: flex;
-  }
   
+  }
   .minimized .header {
-    display: none;
+    transform: translateX(-20%);
+    transition: all cubic-bezier(0.55, 0.055, 0.675, 0.19);
   }
 .remaining-content{
     /* margin-left: 10%; */
@@ -16,17 +16,21 @@
     margin-left: 0%;
 }
 
+.header-toggle{
+    padding: 20px;
+}
+
   .toggle-button {
     cursor: pointer;
     font-size: 40px;
   }
   
   .root .icons {
-    position: absolute;
-    left: 30px;
-    top: 0;
-    height: 30px;
-    width: 30px;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
     color: white;
     background-color: gray;

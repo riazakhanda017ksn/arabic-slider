@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.scss";
 
-const Header = () => {
+const Header = (handleToggleMinimize) => {
   const locations = [
     {
       id: 1,
@@ -73,10 +73,10 @@ const Header = () => {
   ];
 
   return (
-    <div className={`transform-navbar header`}>
+    <div className={`transform-navbar`}>
       <div className="scroll-container">
         {locations.map((location) => (
-          <Link key={location.id} to={location.to} className="slide-box">
+          <Link key={location.id} to={location.to} className="slide-box" onClick={handleToggleMinimize}>
             <img src={location.src} alt={location.label} />
             <p>{location.label}</p>
           </Link>

@@ -5,7 +5,7 @@ import SecondPartContent from "../SecondPartContent/SecondPartContent";
 
 const Home = () => {
   return (
-    <div className="hero">
+    <div className="">
       <HomeSlider />
       <Content />
       <SecondPartContent />

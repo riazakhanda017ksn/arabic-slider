@@ -9,6 +9,7 @@
     align-items: center;
     background: white;
     margin: 0 auto;
+    position: fixed;
     border: 1px solid rgba(118, 118, 118, 0.2784313725) !important;
     overflow-y: hidden; /* Hide scrollbar initially */
     overflow-x: hidden;
@@ -50,8 +51,18 @@
     line-height: 50px;
     border-radius: 5px;
     position: relative;
-    border: 1px solid gray;
+    border: 3px solid transparent;
     cursor: pointer;
+  }
+
+  .slide-box:hover{
+    transform: scale(1.03);
+    border:3px solid #18AFC5;
+    transition: all .33s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+
+  .slide-box img{
+    border-radius: 3px;
   }
   
   .slide-box.selected {

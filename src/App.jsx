@@ -21,7 +21,7 @@ import {
   ChevronDoubleRightIcon,
 } from "@heroicons/react/24/solid";
 const App = () => {
-  const [isMinimized, setIsMinimized] = useState(false);
+  const [isMinimized, setIsMinimized] = useState(true);
 
   const handleToggleMinimize = () => {
     setIsMinimized(!isMinimized);
@@ -30,15 +30,20 @@ const App = () => {
   useEffect(() => {
     AOS.init();
   }, []);
-  const isMapRoute = location.pathname === "/map";
+  const isMapRoute = location.pathname === "/";
 
   return (
     <div className="root">
       <BrowserRouter>
         <ScrollToTop />
-        
+
         <div className={`app ${isMinimized ? "minimized" : ""}`}>
-          {!isMapRoute && <Header />}
+          {isMapRoute !=="/" && (
+            <div className="header" >
+              {" "}
+              <Header toggle={handleToggleMinimize}/>{" "}
+            </div>
+          )}
 
           <div className="remaining-content">
             <Routes>
@@ -53,25 +58,24 @@ const App = () => {
               <Route path="/slide-9" element={<NineSlideManagement />} />
               <Route path="/slide-10" element={<TenthSlideManagement />} />
               <Route path="/slide-11" element={<ElevenSlideManagement />} />
+              <Route path="/" exact element={<Map />} />
             </Routes>
 
-            {!isMapRoute && (
-              <div className="toggle-container">
-                <div className="toggle-button" onClick={handleToggleMinimize}>
-                  {isMinimized ? (
-                    <ChevronDoubleRightIcon className="icons" />
-                  ) : (
-                    <ChevronDoubleLeftIcon className="icons" />
-                  )}
-                </div>
-              </div>
-            )}
+            
           </div>
-          <Routes>
-            <Route path="/" element={<Map />} />
-          </Routes>
         </div>
       </BrowserRouter>
+      {!isMapRoute && (
+        <div className="header-toggle">
+          <div className="toggle-button" onClick={handleToggleMinimize}>
+            {isMinimized ? (
+              <ChevronDoubleRightIcon className="icons" />
+            ) : (
+              <ChevronDoubleLeftIcon className="icons" />
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 };

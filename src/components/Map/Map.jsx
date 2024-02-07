@@ -44,52 +44,70 @@ const locations = [
 ];
 
 const Map = () => {
-  const [selectedLocation, setSelectedLocation] = useState(null);
+  const [hoveredLocation, setHoveredLocation] = useState(null);
 
-  const handleLocationClick = (location) => {
-    setSelectedLocation(location.id === selectedLocation ? null : location.id);
+  const handleLocationHover = (locationId) => {
+    setHoveredLocation(locationId);
   };
 
   const renderLocationIcons = () => {
     return locations.map((location) => (
       <div
         key={location.id}
-        className={`location-icon ${
-          selectedLocation === location.id ? "selected" : ""
-        } area`}
-        style={{ top: location.top, left: location.left }}
-        onClick={() => handleLocationClick(location)}
+        className={` ${hoveredLocation === location.id ? "hovered" : ""} area`}
+        style={{ top: location.top, left: location.left, cursor: "pointer" }}
+        onMouseEnter={() => handleLocationHover(location.id)}
+        onMouseLeave={() => handleLocationHover(null)}
       >
-        <LocationIcon />
-      </div>
-    ));
-  };
+        <Link key={location.id} to={location.link}>
+          <img
+            src="/map-icon.png"
+            alt="map-icon"
+            style={{ height: "30px", width: "auto" }}
+          />
 
-  const renderLocationInfoBoxes = () => {
-    return locations.map((location) => (
-      <Link key={location.id} to={location.link}>
-        <div
-          className={`location-info-box ${
-            selectedLocation === location.id ? "open" : ""
-          }`}
-          style={{
-            top: location.top,
-            left:
-              selectedLocation === location.id ? location.left + 40 : "auto",
-          }}
-        >
-          <img src={location.image} alt={`Location ${location.id}`} />
-          <p className="title">{location.text}</p>
-        </div>
-      </Link>
+          <div
+            className={`location-info-box ${
+              hoveredLocation === location.id ? "open" : ""
+            }`}
+            style={{
+              top: "100%",
+              left: 0,
+              transform: "translateX(-43%)",
+              height: "140px",
+              width: "200px",
+              borderRadius: "5px",
+              overflow: "hidden",
+              border: "2px solid #3F8BC5",
+              background: "white",
+              visibility:
+                hoveredLocation === location.id ? "visible" : "hidden",
+              position: "absolute",
+              zIndex: 999, // Ensure it appears on top of other elements
+            }}
+          >
+            <img
+              src={location.image}
+              alt={`Location ${location.id}`}
+              style={{ objectFit: "contain", height: "100%", width: "100%" }}
+            />
+            <p
+              className="location-text"
+              style={{ position: "absolute", color: "black" }}
+            >
+              {location.text}
+            </p>
+          </div>
+        </Link>
+      </div>
     ));
   };
 
   return (
     <>
       <div className="container-map">
+        <img src="" />
         {renderLocationIcons()}
-        {renderLocationInfoBoxes()}
       </div>
     </>
   );

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import PropTypes from "prop-types"; // Import PropTypes
+import PropTypes from "prop-types";
 import { Modal } from "antd";
-import "./Lightbox.css"; // Import CSS file for styling
+import "./Lightbox.css";
 
 const Lightbox = ({ children }) => {
   const [visible, setVisible] = useState(false);
