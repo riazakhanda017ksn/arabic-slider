@@ -9,7 +9,6 @@ import img6 from '../../assets/images/frame/v5.png'
 import img7 from '../../assets/images/frame/v6.png'
 import banner from '../../assets/images/frame/card-banner.svg'
 import svgbanner from '../../assets/images/frame/1212.png'
-import close from '../../assets/images/frame/close.svg'
 import emoji from '../../assets/images/frame/emoji.svg'
 import imgs from '../../assets/images/frame/3.jpg'
 import Slider from '../Slider/Slider';
