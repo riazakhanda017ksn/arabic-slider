@@ -14,7 +14,7 @@ const Map = () => {
     <>
       <div className="container-map">
         <img
-          src="/map1.jpeg"
+          src="/src/assets/images/logo/right.png"
           style={{
             position: "fixed",
             left: "20px",
@@ -24,7 +24,7 @@ const Map = () => {
           }}
         />
         <img
-          src="/map1.jpeg"
+          src="/src/assets/images/logo/left.png"
           alt=""
           style={{
             position: "fixed",
