@@ -14,7 +14,7 @@ const Map = () => {
     <>
       <div className="container-map">
         <img
-          src="/src/assets/images/logo/right.png"
+          src="/map1.jpeg"
           style={{
             position: "fixed",
             left: "20px",
@@ -24,7 +24,7 @@ const Map = () => {
           }}
         />
         <img
-          src="/src/assets/images/logo/left.png"
+          src="/map1.jpeg"
           alt=""
           style={{
             position: "fixed",
@@ -74,7 +74,7 @@ const Map = () => {
               }}
             >
               <img
-                src="  /banner/1.jpg"
+                src="/banner/1.jpg"
                 alt="Location 1"
                 style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
@@ -127,7 +127,7 @@ const Map = () => {
               }}
             >
               <img
-                src="  /banner/2nd.jpg"
+                src=" /banner/2nd.jpg"
                 alt="Location 2"
                 style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
@@ -180,7 +180,7 @@ const Map = () => {
               }}
             >
               <img
-                src="  /frame/3.jpg"
+                src=" /frame/3.jpg"
                 alt="Location 3"
                 style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
@@ -232,7 +232,7 @@ const Map = () => {
               }}
             >
               <img
-                src="  /banner/online-marketing.jpg"
+                src=" /banner/online-marketing.jpg"
                 alt="Location 4"
                 style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
@@ -285,7 +285,7 @@ const Map = () => {
               }}
             >
               <img
-                src="  /banner/slide5.jpg"
+                src=" /banner/slide5.jpg"
                 alt="Location 5"
                 style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
@@ -338,7 +338,7 @@ const Map = () => {
               }}
             >
               <img
-                src="  /banner/slide6.jpg"
+                src=" /banner/slide6.jpg"
                 alt="Location 6"
                 style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
@@ -390,7 +390,7 @@ const Map = () => {
               }}
             >
               <img
-                src="  /banner/slide7.jpg"
+                src=" /banner/slide7.jpg"
                 alt="Location 7"
                 style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
@@ -443,7 +443,7 @@ const Map = () => {
               }}
             >
               <img
-                src="  /banner/slide8.jpg"
+                src=" /banner/slide8.jpg"
                 alt="Location 8"
                 style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
@@ -496,7 +496,7 @@ const Map = () => {
               }}
             >
               <img
-                src="  /banner/banner9.jpg"
+                src=" /banner/banner9.jpg"
                 alt="Location 9"
                 style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
@@ -549,7 +549,7 @@ const Map = () => {
               }}
             >
               <img
-                src="  /banner/10.jpg"
+                src=" /banner/10.jpg"
                 alt="Location 10"
                 style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
@@ -602,7 +602,7 @@ const Map = () => {
               }}
             >
               <img
-                src="  /banner/last.jpg"
+                src=" /banner/last.jpg"
                 alt="Location 11"
                 style={{ objectFit: "cover", height: "100%", width: "100%" }}
               />
